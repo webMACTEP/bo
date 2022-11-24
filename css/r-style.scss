@@ -6,7 +6,7 @@
       margin: 0px 0px 90px 0px;
    }
    .btn {
-      padding: 13px 26px;
+      padding: 12px 26px;
       color: #1c306f;
    }
    ul {
@@ -53,7 +53,34 @@
    padding: 90px 0px 0px 0px;
    background: #1c306f;
 }
+.capabilities-section {
+   padding: 120px 0 81px;
+}
 .shahmatka {
+   .img {
+      margin: 6px 0px 0px -29px;
+   }
+   .info {
+      padding: 0px 34px 0px 0px;
+   }
+   ul {
+      margin: 42px 0px 0px 0px;
+      list-style-type: none;
+      li {
+         position: relative;
+         margin: 0px 0px 20px 24px;
+         &::before {
+            content: "";
+            width: 14px;
+            height: 14px;
+            background: #fc6733;
+            position: absolute;
+            left: -24px;
+            top: 2px;
+            clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+         }
+      }
+   }
    p {
       max-width: 525px;
       font-weight: 400;
@@ -62,10 +89,12 @@
       color: #222222;
    }
    h2 {
+      margin: 0px 0px 32px 0px;
       font-weight: 500;
       font-size: 35px;
       line-height: 45px;
       span {
+         display: block;
          color: #fc6733;
       }
    }
@@ -73,6 +102,142 @@
       display: flex;
       justify-content: space-between;
    }
-   padding: 170px 0px;
+   padding: 170px 0px 95px 0px;
    background: #fff;
+}
+.support {
+   .info {
+      padding: 42px 0px 0px 0px;
+   }
+   ul {
+      margin: 42px 0px 0px 0px;
+      list-style-type: none;
+      li {
+         position: relative;
+         margin: 0px 0px 20px 25px;
+         &::before {
+            content: "";
+            width: 14px;
+            height: 14px;
+            background: #2655ff;
+            position: absolute;
+            left: -24px;
+            top: 2px;
+            clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+         }
+      }
+   }
+   p {
+      max-width: 508px;
+      line-height: 24px;
+   }
+   h2 {
+      margin: 0px 0px 32px 0px;
+      font-weight: 500;
+      font-size: 35px;
+      line-height: 45px;
+      span {
+         display: block;
+         color: #2655ff;
+      }
+   }
+   .img {
+      margin: -3px 119px 0px 0px;
+   }
+   img {
+      min-width: 469px;
+   }
+   .wrapp {
+      display: flex;
+      justify-content: space-between;
+   }
+   padding: 140px 0px 132px 0px;
+   background: #deefff;
+}
+.statistics {
+   ul {
+      margin: 42px 0px 0px 5px;
+      list-style-type: none;
+      li {
+         margin: 0px 0px 20px 20px;
+         position: relative;
+         &::before {
+            content: "";
+            width: 14px;
+            height: 14px;
+            background: #fc6733;
+            position: absolute;
+            left: -24px;
+            top: 2px;
+            clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+         }
+      }
+   }
+   p {
+      max-width: 495px;
+      line-height: 24px;
+   }
+
+   h2 {
+      margin: 0px 0px 32px 0px;
+      font-weight: 500;
+      font-size: 35px;
+      line-height: 45px;
+      span {
+         color: #fc6733;
+      }
+   }
+
+   .info {
+      margin: 30px 18px 0px 0px;
+      max-width: 570px;
+   }
+   .wrapp {
+      display: flex;
+      justify-content: space-between;
+   }
+   padding: 128px 0px 122px 0px;
+   background: #fff;
+}
+.modul {
+   .butt {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 26px;
+      color: #1c306f;
+      padding: 16px 25px;
+      background: #ffffff;
+      border-radius: 100px;
+   }
+   .info {
+      max-width: 580px;
+   }
+   p {
+      margin: 0px 0px 44px 0px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: rgba(255, 255, 255, 0.8);
+   }
+   h2 {
+      margin: 55px 0px 16px 0px;
+      max-width: 503px;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 40px;
+   }
+   .img {
+      margin: 0px 22px -5px 0px;
+      align-self: flex-end;
+   }
+   .wrapp {
+      display: flex;
+      justify-content: space-between;
+   }
+   color: #ffffff;
+   padding: 35px 0px 0px 0px;
+   background: url("/svg/modul-bg.svg"), linear-gradient(97.27deg, #1c306f 49.09%, rgba(20, 51, 163, 0.7) 88.39%);
+   background-repeat: no-repeat;
+   background-position-x: right;
+   background-size: contain;
 }

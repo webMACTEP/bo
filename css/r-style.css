@@ -12,7 +12,7 @@
 }
 
 .intro .btn {
-  padding: 13px 26px;
+  padding: 12px 26px;
   color: #1c306f;
 }
 
@@ -72,9 +72,43 @@
           justify-content: space-between;
 }
 
+.capabilities-section {
+  padding: 120px 0 81px;
+}
+
 .shahmatka {
-  padding: 170px 0px;
+  padding: 170px 0px 95px 0px;
   background: #fff;
+}
+
+.shahmatka .img {
+  margin: 6px 0px 0px -29px;
+}
+
+.shahmatka .info {
+  padding: 0px 34px 0px 0px;
+}
+
+.shahmatka ul {
+  margin: 42px 0px 0px 0px;
+  list-style-type: none;
+}
+
+.shahmatka ul li {
+  position: relative;
+  margin: 0px 0px 20px 24px;
+}
+
+.shahmatka ul li::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: #fc6733;
+  position: absolute;
+  left: -24px;
+  top: 2px;
+  -webkit-clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+          clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
 }
 
 .shahmatka p {
@@ -86,16 +120,194 @@
 }
 
 .shahmatka h2 {
+  margin: 0px 0px 32px 0px;
   font-weight: 500;
   font-size: 35px;
   line-height: 45px;
 }
 
 .shahmatka h2 span {
+  display: block;
   color: #fc6733;
 }
 
 .shahmatka .wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.support {
+  padding: 140px 0px 132px 0px;
+  background: #deefff;
+}
+
+.support .info {
+  padding: 42px 0px 0px 0px;
+}
+
+.support ul {
+  margin: 42px 0px 0px 0px;
+  list-style-type: none;
+}
+
+.support ul li {
+  position: relative;
+  margin: 0px 0px 20px 25px;
+}
+
+.support ul li::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: #2655ff;
+  position: absolute;
+  left: -24px;
+  top: 2px;
+  -webkit-clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+          clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+}
+
+.support p {
+  max-width: 508px;
+  line-height: 24px;
+}
+
+.support h2 {
+  margin: 0px 0px 32px 0px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+}
+
+.support h2 span {
+  display: block;
+  color: #2655ff;
+}
+
+.support .img {
+  margin: -3px 119px 0px 0px;
+}
+
+.support img {
+  min-width: 469px;
+}
+
+.support .wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.statistics {
+  padding: 128px 0px 122px 0px;
+  background: #fff;
+}
+
+.statistics ul {
+  margin: 42px 0px 0px 5px;
+  list-style-type: none;
+}
+
+.statistics ul li {
+  margin: 0px 0px 20px 20px;
+  position: relative;
+}
+
+.statistics ul li::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: #fc6733;
+  position: absolute;
+  left: -24px;
+  top: 2px;
+  -webkit-clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+          clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+}
+
+.statistics p {
+  max-width: 495px;
+  line-height: 24px;
+}
+
+.statistics h2 {
+  margin: 0px 0px 32px 0px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+}
+
+.statistics h2 span {
+  color: #fc6733;
+}
+
+.statistics .info {
+  margin: 30px 18px 0px 0px;
+  max-width: 570px;
+}
+
+.statistics .wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.modul {
+  color: #ffffff;
+  padding: 35px 0px 0px 0px;
+  background: url("/svg/modul-bg.svg"), linear-gradient(97.27deg, #1c306f 49.09%, rgba(20, 51, 163, 0.7) 88.39%);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: contain;
+}
+
+.modul .butt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #1c306f;
+  padding: 16px 25px;
+  background: #ffffff;
+  border-radius: 100px;
+}
+
+.modul .info {
+  max-width: 580px;
+}
+
+.modul p {
+  margin: 0px 0px 44px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.modul h2 {
+  margin: 55px 0px 16px 0px;
+  max-width: 503px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.modul .img {
+  margin: 0px 22px -5px 0px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.modul .wrapp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
