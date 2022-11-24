@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Бронируй онлайн - шахматка</title>
+
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body class="checkerboard-page">
+	<div class="page-wrapper">
+		<header class="header header--chesker checkerboard-page__header">
+			<div class="header__container container">
+				<div class="header__logo">
+					<a href="/">
+						<img src="/images/logo.svg" alt="logo-img" />
+					</a>
+				</div>
+				<div class="header__buttons">
+					<a href="#acces-popup" class="btn btn--orange js-popup-show">Получить демо-доступ</a>
+				</div>
+				<ul class="header__menu menu-block js-nav-menu">
+					<li class="menu-block__link hidden visible-xs"><a href="#acces-popup"
+							class="js-popup-show">Демо-доступ</a></li>
+
+					<li class="menu-block__link hidden visible-xs"><a class="js-popup-show"
+							href="#support-popup">Поддержка</a></li>
+					<li class="menu-block__link"><a href="tel:8 800 999 99 99">8 800 999 99 99</a></li>
+				</ul>
+				<a href="#" class="header__user">
+					<div class="header__user-icon">
+						<svg>
+							<use xlink:href="/images/sprite-svg.svg#user"></use>
+						</svg>
+					</div>
+					<div class="header__user-title">Вход</div>
+				</a>
+				<div class="header__burger-menu burger-menu js-burger-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</header>
+
+		<section class="about-section about-section--slider-img">
+			<div class="about-section__container container">
+				<div class="about-section__info">
+					<h1 class="about-section__title">
+						Шахматка <br>
+						для управления<br>
+						бронированиями
+						<div class="site-title__sub-wrap" id="rotate">
+							<span class="site-title__sub js-text-1 is-active">отелей</span>
+							<span class="site-title__sub js-text-2">глэмпингов</span>
+							<span class="site-title__sub js-text-3">гостевых домов</span>
+							<span class="site-title__sub js-text-4">баз отдыха</span>
+							<span class="site-title__sub js-text-5">эко-отелей</span>
+							<span class="site-title__sub js-text-6">мини-отелей</span>
+						</div>
+					</h1>
+					<!-- <div class="about-section__info-img">
+						<img src="/images/about.svg" />
+					</div> -->
+					<div class="about-section__btn">
+						<a href="#acces-popup" class="btn btn--white js-popup-show">Получить демо-доступ</a>
+					</div>
+				</div>
+				<div class="about-section__img">
+					<img src="/images/about-section-slider-bg.svg" alt="" class="about-section__img-bg">
+					<div class="about-section__img-wrap" id="rotate-img">
+						<img src="/images/about-section-slider-img-1.jpg" class="js-img-1 is-active" />
+						<img src="/images/about-section-slider-img-2.jpg" class="js-img-2" />
+						<img src="/images/about-section-slider-img-1.jpg" class="js-img-3" />
+						<img src="/images/about-section-slider-img-2.jpg" class="js-img-4" />
+						<img src="/images/about-section-slider-img-1.jpg" class="js-img-5" />
+						<img src="/images/about-section-slider-img-2.jpg" class="js-img-6" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="default-section">
+			<div class="default-section__container container">
+				<div class="default-section__row row row--middle">
+					<div class="default-section__img col-6 col-sm-12 order-sm-2">
+						<img src="/images/default-section-img.png" alt="">
+
+						<div class="default-section__buttons-xs">
+							<a href="#" class="btn btn--orange">Попробовать 15 дней бесплатно</a>
+						</div>
+					</div>
+					<div class="default-section__info col-6 col-sm-12 order-sm-1">
+						<div class="default-section__title">Все процессы вашего отеля в одной системе</div>
+						<div class="default-section__text">Шахматка — это календарь доступности, который отображает
+							основные данные об объекте размещения: статус номеров и оплат, брони со всех каналов продаж,
+							заполняемость, заезды и выезды, а также детальную информацию о бронировании.</div>
+						<div class="default-section__buttons">
+							<a href="#acces-popup" class="btn btn--orange js-popup-show">Попробовать 15 дней
+								бесплатно</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="instruments-section">
+			<div class="instruments-section__container container">
+				<div class="instruments-section__title"><span>50+</span> инструментов <br>
+					для удобной работы</div>
+				<div class="instruments-section__row row">
+					<div class="instruments-section__left col-6 col-sm-12">
+						<div class="instruments-section__nav">
+							<a class="instruments-section__nav-item is-active js-info-show" href="#instrument-1">Быстрое
+								создание и
+								редактирование броней</a>
+							<a class="instruments-section__nav-item js-info-show" href="#instrument-2">Синхронизация со
+								всеми
+								каналами продаж</a>
+							<a class="instruments-section__nav-item js-info-show" href="#instrument-3">Гарантия внесения
+								оплаты</a>
+							<a class="instruments-section__nav-item js-info-show" href="#instrument-4">Контроль чистоты
+								номеров и
+								работы горничных</a>
+							<a class="instruments-section__nav-item js-info-show" href="#instrument-5">Интеграция с
+								WhatsApp и
+								Telegram-bot</a>
+							<a class="instruments-section__nav-item js-info-show" href="#instrument-6">Создание гибких
+								тарифов, акций
+								и скидок</a>
+							<a class="instruments-section__nav-item js-info-show" href="#instrument-7">Отчеты и
+								статистика для
+								эффективной работы</a>
+							<a class="instruments-section__nav-item js-info-show" href="#instrument-8">Бронирование
+								номеров и
+								доп.услуг на вашем сайте</a>
+						</div>
+					</div>
+					<div class="instruments-section__info col-6 col-sm-12">
+						<div class="instruments-section__nav instruments-section__nav--xs">
+							<a class="instruments-section__nav-item is-active js-info-show" href="#instrument-1">Быстрое
+								создание и
+								редактирование броней</a>
+						</div>
+						<div class="instruments-section__body is-active js-info-box" id="instrument-1">
+							<div class="instruments-section__body-title">Быстрое создание и редактирование броней</div>
+							<div class="instruments-section__body-text">Создавайте и редактируйте брони прямо из
+								шахматки одним кликом.
+								Вы можете изменить даты проживания, номер или тариф, переселить гостя в другую комнату,
+								а также отредактировать контактные данные
+								и отправить напоминание о бронировании. </div>
+							<img src="/images/instruments-section-img-1.jpg" alt=""
+								class="instruments-section__body-img">
+						</div>
+
+						<div class="instruments-section__nav instruments-section__nav--xs">
+							<a class="instruments-section__nav-item js-info-show" href="#instrument-2">Синхронизация со
+								всеми
+								каналами продаж</a>
+						</div>
+						<div class="instruments-section__body js-info-box" id="instrument-2">
+							<div class="instruments-section__body-title">Синхронизация со всеми каналами продаж</div>
+							<div class="instruments-section__body-text">Система автоматически отправляет данные о ценах
+								и доступности номеров во все каналы продаж, а поступившие оттуда бронирования попадают
+								прямо в шахматку. </div>
+							<img src="/images/instruments-section-img-2.jpg" alt=""
+								class="instruments-section__body-img">
+						</div>
+
+						<div class="instruments-section__nav instruments-section__nav--xs">
+							<a class="instruments-section__nav-item js-info-show" href="#instrument-3">Гарантия внесения
+								оплаты</a>
+						</div>
+						<div class="instruments-section__body js-info-box" id="instrument-3">
+							<div class="instruments-section__body-title">Гарантия внесения оплаты</div>
+							<div class="instruments-section__body-text">Контролируйте предоплату проживания, даже когда
+								у вас не настроен приём онлайн-платежей. Система сама напомнит гостю
+								о необходимости внести предоплату.
+								А при возникновении задолженности Tелеграм-бот уведомит об этом администратора. </div>
+							<img src="/images/instruments-section-img-3.jpg" alt=""
+								class="instruments-section__body-img">
+						</div>
+
+						<div class="instruments-section__nav instruments-section__nav--xs">
+							<a class="instruments-section__nav-item js-info-show" href="#instrument-4">Контроль чистоты
+								номеров и
+								работы горничных</a>
+						</div>
+						<div class="instruments-section__body js-info-box" id="instrument-4">
+							<div class="instruments-section__body-title">Контроль чистоты номеров и работы горничных
+							</div>
+							<div class="instruments-section__body-text">Отслеживайте статус уборки в удобном модуле, а
+								также с легкостью контролируйте в нем работу персонала.</div>
+							<img src="/images/instruments-section-img-4.jpg" alt=""
+								class="instruments-section__body-img">
+						</div>
+
+						<div class="instruments-section__nav instruments-section__nav--xs">
+							<a class="instruments-section__nav-item js-info-show" href="#instrument-5">Интеграция с
+								WhatsApp и
+								Telegram-bot</a>
+						</div>
+						<div class="instruments-section__body js-info-box" id="instrument-5">
+							<div class="instruments-section__body-title">Интеграция с WhatsApp и Telegram-bot</div>
+							<div class="instruments-section__body-text">Пишите гостю в WhatsApp прямо из системы и
+								отправляйте напоминания об оплате или заезде. Наш Telegram-бот вовремя уведомит вас о
+								новых бронированиях, изменениях или неоплатах.</div>
+							<img src="/images/instruments-section-img-5.jpg" alt=""
+								class="instruments-section__body-img">
+						</div>
+
+						<div class="instruments-section__nav instruments-section__nav--xs">
+							<a class="instruments-section__nav-item js-info-show" href="#instrument-6">Создание гибких
+								тарифов, акций
+								и скидок</a>
+						</div>
+						<div class="instruments-section__body js-info-box" id="instrument-6">
+							<div class="instruments-section__body-title">Создание гибких тарифов, акций и скидок</div>
+							<div class="instruments-section__body-text">Используйте инструменты создания акций и
+								промокодов, чтобы мотивировать гостей забронировать проживание как можно скорее.
+								Например, вы можете установить скидки на тарифы в несезон. </div>
+							<img src="/images/instruments-section-img-6.jpg" alt=""
+								class="instruments-section__body-img">
+						</div>
+
+						<div class="instruments-section__nav instruments-section__nav--xs">
+							<a class="instruments-section__nav-item js-info-show" href="#instrument-7">Отчеты и
+								статистика для
+								эффективной работы</a>
+						</div>
+						<div class="instruments-section__body js-info-box" id="instrument-7">
+							<div class="instruments-section__body-title">Отчеты и статистика для эффективной работы
+							</div>
+							<div class="instruments-section__body-text">Формируйте отчеты по доходу от проживаний и
+								услуг, а также
+								по отдельным категориям номеров в разрезе нужных периодов. </div>
+							<img src="/images/instruments-section-img-7.jpg" alt=""
+								class="instruments-section__body-img">
+						</div>
+
+						<div class="instruments-section__nav instruments-section__nav--xs">
+							<a class="instruments-section__nav-item js-info-show" href="#instrument-8">Бронирование
+								номеров и
+								доп.услуг на вашем сайте</a>
+						</div>
+						<div class="instruments-section__body js-info-box" id="instrument-8">
+							<div class="instruments-section__body-title">Бронирование номеров и доп.услуг на вашем сайте
+							</div>
+							<div class="instruments-section__body-text">Установите модуль онлайн-бронирования на ваш
+								сайт и соц.сети
+								и получайте до 30% больше прямых бронирований. С помощью модуля гость сможет посмотреть
+								свободные даты, цены и забронировать номер и доп. услуги в любое время.</div>
+							<img src="/images/instruments-section-img-8.jpg" alt=""
+								class="instruments-section__body-img">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="checkerboard-page__banner banner-section">
+			<div class="banner-section__container container">
+				<div class="banner-section__title title-h4">С шахматкой работают</div>
+				<div class="banner-section__wrapper">
+					<div class="banner-section__items">
+						<div class="banner-section__item">
+							<div class="banner-section__icon">
+								<svg>
+									<use xlink:href="/images/sprite-svg.svg#banner-item-1"></use>
+								</svg>
+							</div>
+							<div class="banner-section__text">Отели<br class="hidden visible-sm"> и мини-отели</div>
+						</div>
+
+						<div class="banner-section__item">
+							<div class="banner-section__icon banner-section__icon--2">
+								<svg>
+									<use xlink:href="/images/sprite-svg.svg#banner-item-2"></use>
+								</svg>
+							</div>
+							<div class="banner-section__text">Глэмпинги, шатры <br>
+								и эко-отели</div>
+						</div>
+
+						<div class="banner-section__item">
+							<div class="banner-section__icon banner-section__icon--3">
+								<svg>
+									<use xlink:href="/images/sprite-svg.svg#banner-item-3"></use>
+								</svg>
+							</div>
+							<div class="banner-section__text">Загородные дома <br>
+								и другие объекты</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="checkerboard-page__advantages advantages-section advantages-section--checkerboard">
+			<div class="advantages-section__container container">
+
+				<div class="advantages-section__row row row--stretch">
+					<div class="advantages-section__left col-6 col-sm-12 order-sm-2">
+						<div class="advantages-section__item function-block function-block--bg-cube">
+							<div class="function-block__title title-h4">
+								Экономия вашего времени
+							</div>
+							<div class="function-block__text">
+								Система управления полностью <span>автоматизирует работу отеля</span>. У вас
+								появится возможность уделить время самым важным вопросам, а рутинную работу система
+								сделает за вас.
+							</div>
+						</div>
+
+						<div class="advantages-section__item function-block function-block--bg-cube">
+							<div class="function-block__title title-h4">
+								Надежность
+							</div>
+							<div class="function-block__text">
+								Шахматка проконтролирует работу с бронированиями, <span>отправит</span>
+								подтверждение, <span>напомнит</span> о
+								просроченной предоплате, <span>зафиксирует</span> пожелания гостей.
+							</div>
+						</div>
+
+						<div class="advantages-section__item function-block function-block--bg-cube">
+							<div class="function-block__title title-h4">
+								Простота в использовании
+							</div>
+							<div class="function-block__text">
+								Интуитивно понятный и удобный интерфейс и дизайн. Каждый сотрудник <span>с легкостью
+									сможет работать</span> в системе.
+							</div>
+						</div>
+					</div>
+					<div class="advantages-section__right col-6 col-sm-12 order-sm-1">
+						<div class="advantages-section__right-wrap">
+							<div class="advantages-section__title title-h2">Преимущества<br> шахматки</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="calc-section calc-section--type-2">
+			<div class="container">
+				<div class="calc-section__row row row--stretch">
+					<div class="calc-section__left col-6 col-sm-12">
+						<div class="calc-section__left-wrap">
+							<h3 class="calc-section__title title-h2">Стоимость системы управления отелем</h3>
+						</div>
+						<div class="calc-section__desc">*Для получения детального прайс-листа обратитесь к менеджеру или
+							оставьте заявку на сайте.</div>
+					</div>
+					<div class="calc-section__form col-6 col-sm-12">
+
+						<div class="calc-block calc-block--type-2">
+							<div class="calc-block__input">
+								<div class="calc-block__label">Срок подключения</div>
+
+								<input type="text" class="js-range-slider" name="sale" value="" />
+
+							</div>
+
+							<div class="calc-block__input">
+								<div class="calc-block__label">Количество номеров</div>
+								<div class="count-block count-block--cube">
+									<a href="#" class="count-block__minus js-count-minus"></a>
+									<input type="text" value="5" class="count-block__input js-calc-count-input">
+									<a href="#" class="count-block__plus js-count-plus"></a>
+								</div>
+							</div>
+
+							<div class="calc-block__wrapper tabs">
+								<div class="calc-block__wrapper-title">Расчет стоимости</div>
+								<div class="calc-block__wrapper-tabs tabs__nav tabs__nav--cube">
+									<div class="tabs__nav-item is-active"><a class="js-tab-nav"
+											href="#sale-tab-1">Система
+											управления</a>
+									</div>
+									<div class="tabs__nav-item"><a class="js-tab-nav" href="#sale-tab-2">Модуль
+											бронирования</a></div>
+								</div>
+								<div class="calc-block__wrapper-body tabs__body is-active" id="sale-tab-1">
+									<div class="calc-block__result">
+										<div class="calc-block__result-sale"><span class="js-sale-value"></span>
+										</div>
+										<div class="calc-block__result-price"><span class="js-price-value"></span>₽
+										</div>
+										<div class="calc-block__result-label">за месяц</div>
+									</div>
+
+									<div class="calc-block__wrapper-bottom"><a href="#acces-popup"
+											class="js-popup-show">Попробовать сейчас</a></div>
+								</div>
+								<div class="calc-block__wrapper-body tabs__body" id="sale-tab-2">
+									<div class="calc-block__result">
+										<div class="calc-block__result-sale calc-block__result-sale--procent">
+											<span class=" is-active">
+												2%</span>
+										</div>
+										<div class="calc-block__result-price calc-block__result-price--procent">
+											<span>1%</span>
+										</div>
+									</div>
+									<div class="calc-block__wrapper-desc">При подключении модуля до 31.05.2022
+										плата за
+										использование составит 1% от бронирования. Акция действует до
+										31.08.2022.</div>
+
+									<div class="calc-block__wrapper-bottom"><a href="#acces-popup"
+											class="js-popup-show">Попробовать сейчас</a></div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="calc-section__desc-sm">*Для получения детального прайс-листа обратитесь к менеджеру
+							или
+							оставьте заявку на сайте.</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="checkerboard-page__questions questions-section questions-section--checkerboard">
+			<div class="questions-section__container container">
+				<div class="questions-section__title title-h2">Часто задаваемые вопросы</div>
+
+				<div class="questions-section__accardion accardion-block accardion-block--no-bg">
+
+					<div class="accardion-block__head js-accardion-toggle">
+						<div class="accardion-block__title">Что такое система управления отелем?</div>
+						<div class="accardion-block__arrow">
+							<svg>
+								<use xlink:href="/images/sprite-svg.svg#plus">
+							</svg>
+						</div>
+					</div>
+					<div class="accardion-block__body js-accardion-body">
+						<p>Инструмент менеджер каналов автоматически обновляет
+							бронирование номеров, исключая перебронирования, а с помощью удобной шахматки вы сможете
+							контролировать загрузку в вашем комплексе.</p>
+						<p>Инструмент менеджер каналов автоматически обновляет
+							бронирование номеров, исключая перебронирования, а с помощью удобной шахматки вы сможете
+							контролировать загрузку в вашем комплексе.</p>
+						<p>Инструмент менеджер каналов автоматически обновляет
+							бронирование номеров, исключая перебронирования, а с помощью удобной шахматки вы сможете
+							контролировать загрузку в вашем комплексе.</p>
+					</div>
+
+					<div class="accardion-block__head js-accardion-toggle">
+						<div class="accardion-block__title">Что такое система управления отелем?</div>
+						<div class="accardion-block__arrow">
+							<svg>
+								<use xlink:href="/images/sprite-svg.svg#plus">
+							</svg>
+						</div>
+					</div>
+					<div class="accardion-block__body js-accardion-body">
+						<p>Инструмент менеджер каналов автоматически обновляет
+							бронирование номеров, исключая перебронирования, а с помощью удобной шахматки вы сможете
+							контролировать загрузку в вашем комплексе.</p>
+					</div>
+
+					<div class="accardion-block__head js-accardion-toggle">
+						<div class="accardion-block__title">Как с помощью системы управления повысить лояльность
+							клиентов?</div>
+						<div class="accardion-block__arrow">
+							<svg>
+								<use xlink:href="/images/sprite-svg.svg#plus">
+							</svg>
+						</div>
+					</div>
+					<div class="accardion-block__body js-accardion-body">
+						<p>Инструмент менеджер каналов автоматически обновляет
+							бронирование номеров, исключая перебронирования, а с помощью удобной шахматки вы сможете
+							контролировать загрузку в вашем комплексе.</p>
+					</div>
+
+					<div class="accardion-block__head js-accardion-toggle">
+						<div class="accardion-block__title">Контроль оплат – что это?</div>
+						<div class="accardion-block__arrow">
+							<svg>
+								<use xlink:href="/images/sprite-svg.svg#plus">
+							</svg>
+						</div>
+					</div>
+					<div class="accardion-block__body js-accardion-body">
+						<p>Инструмент менеджер каналов автоматически обновляет
+							бронирование номеров, исключая перебронирования, а с помощью удобной шахматки вы сможете
+							контролировать загрузку в вашем комплексе.</p>
+					</div>
+
+					<div class="accardion-block__head js-accardion-toggle">
+						<div class="accardion-block__title">Как происходит оплата с помощью сайта?</div>
+						<div class="accardion-block__arrow">
+							<svg>
+								<use xlink:href="/images/sprite-svg.svg#plus">
+							</svg>
+						</div>
+					</div>
+					<div class="accardion-block__body js-accardion-body">
+						<p>Инструмент менеджер каналов автоматически обновляет
+							бронирование номеров, исключая перебронирования, а с помощью удобной шахматки вы сможете
+							контролировать загрузку в вашем комплексе.</p>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="checkerboard-page__partners partners-section partners-section--checkerboard">
+
+			<div class="partners-section__title title-h2">Наши партнеры</div>
+			<div class="partners-section__slider">
+				<div class="partners-section__contaienr container">
+					<div class="js-comments-slider-2">
+						<div class="partners-section__slide ">
+							<div class="comment-block comment-block--checkerboard">
+								<div class="comment-block__img">
+									<img src="/images/comment-img.jpg" alt="">
+								</div>
+								<div class="comment-block__info ">
+									<div class="comment-block__title">Эко-домики Mökki & Mänty</div>
+									<div class="comment-block__name">Олеся, собственник отеля</div>
+									<div class="comment-block__text js-wrap-text">
+										<p><strong>Хотелось бы дать обратную связь по работе компании ЗнайМеста и модуле
+												бронирования,
+												который нам предоставили.</strong></p>
+										<p>Для меня очень важен человеческий фактор. Менеджер всегда
+											на связи, очень доступно и терпеливо все объясняет, максимально вежливо и
+											профессионально! Это огромное преимущество, т.к после ухода из РФ основных
+											каналов
+											бронирования стали появляться площадки для размещения,
+											НО! В 90% я даже не смогла разобраться, как можно добавить свой объект. И
+											телефонов
+											для связи нет. И никто тебе не поможет.
+											Стоимость услуг и условия очень комфортные. Гость оплачивает напрямую и
+											комиссия
+											минимальная.
+											Есть площадки, которые берут 20-30% и выплаты только через месяц.
+											Максимально
+											неудобно и невыгодно.</p>
+										<p>Я полностью довольна сервисом и рекомендую коллегам!</p>
+									</div>
+									<div class="comment-block__link js-more-text">Читать дальше</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="partners-section__slide ">
+							<div class="comment-block comment-block--checkerboard">
+								<div class="comment-block__img">
+									<img src="/images/comment-img.jpg" alt="">
+								</div>
+								<div class="comment-block__info ">
+									<div class="comment-block__title">Эко-домики Mökki & Mänty</div>
+									<div class="comment-block__name">Олеся, собственник отеля</div>
+									<div class="comment-block__text js-wrap-text">
+										<p><strong>Хотелось бы дать обратную связь по работе компании ЗнайМеста и модуле
+												бронирования,
+												который нам предоставили.</strong></p>
+										<p>Для меня очень важен человеческий фактор. Менеджер всегда
+											на связи, очень доступно и терпеливо все объясняет, максимально вежливо и
+											профессионально! Это огромное преимущество, т.к после ухода из РФ основных
+											каналов
+											бронирования стали появляться площадки для размещения,
+											НО! В 90% я даже не смогла разобраться, как можно добавить свой объект. И
+											телефонов
+											для связи нет. И никто тебе не поможет.
+											Стоимость услуг и условия очень комфортные. Гость оплачивает напрямую и
+											комиссия
+											минимальная.
+											Есть площадки, которые берут 20-30% и выплаты только через месяц.
+											Максимально
+											неудобно и невыгодно.</p>
+										<p>Я полностью довольна сервисом и рекомендую коллегам!</p>
+									</div>
+									<div class="comment-block__link js-more-text">Читать дальше</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="checkerboard-page__request request-section request-section--checkerboard">
+			<div class="request-section__container container">
+				<div class="request-section__title title-h2">Получите до <span>30%</span> больше бронирований!</div>
+				<div class="request-section__subtitle">Оставьте заявку, и всего за <span>10 минут</span> мы поможем вам
+					<span>увеличить количество бронирований.</span>
+				</div>
+				<form action="/final-page.html" class="request-section__form form-block">
+					<div class="form-block__input form-group">
+						<span class="form-group__label">Контактное лицо</span>
+						<input type="text" class="form-control form-block__input js-required" placeholder="Введите имя"
+							name="name" required>
+					</div>
+					<div class="form-block__input form-group">
+						<span class="form-group__label">Номер телефона</span>
+						<input type="tel" class="form-control js-required" placeholder="+7 (999) 999 99 99" name="phone"
+							required>
+					</div>
+					<div class="form-block__input form-group">
+						<span class="form-group__label">Сайт</span>
+						<input type="text" class="form-control js-required" placeholder="Введите ссылку на сайт"
+							name="site" required>
+					</div>
+					<div class="form-block__checkbox checkbox js-police-checkbox">
+						<input type="checkbox" name="police" id="police3" value="1" checked required>
+						<label for="police3">Нажимая “Отправить”, вы принимаете <a href="#">Политику обработки
+								персональных
+								данных</a></label>
+					</div>
+					<div class="form-block__btn">
+						<button type="submit" class="btn btn--orange js-submit">Оставить
+							заявку</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<footer class="checkerboard-page__footer footer footer--type-2">
+			<div class="footer__container container">
+				<div class="footer__info">
+					<a href="/" class="footer__logo">
+						<img src="/images/logo.svg" alt="logo">
+					</a>
+					<div class="footer__group">
+						<a href="tel:+7 (999) 999-99-99" class="footer__item">+7 (999) 999-99-99</a>
+						<a href="mailto::mail@mail.ru" class="footer__item">mail@mail.ru</a>
+					</div>
+					<div class="footer__soc">
+						<div class="footer__soc-label">Присоединяйтесь к нам:</div>
+						<div class="footer__soc-list">
+							<div class="footer__soc-item"><a href="#"><img src="/images/telegram.svg" alt=""></a></div>
+							<div class="footer__soc-item"><a href="#"><img src="/images/vk.svg" alt=""></a></div>
+						</div>
+					</div>
+					<div class="footer__about hidden-xs">Сервис управления бронированиями Бронируй Онлайн</div>
+				</div>
+				<div class="footer__links">
+					<a href="#" class="footer__link">Контакты</a>
+					<a href="#" class="footer__link">Оферта</a>
+					<a href="#" class="footer__link">Способы оплаты</a>
+					<a href="#" class="footer__link">Условия возврата</a>
+					<a href="#" class="footer__link">Согласие на обработку персональных данных</a>
+				</div>
+				<div class="footer__about hidden visible-xs">Сервис управления бронированиями Бронируй
+					Онлайн</div>
+			</div>
+		</footer>
+
+
+
+
+
+
+		<div class="popup" id="acces-popup">
+			<div class="popup__overflow js-popup-hide"></div>
+			<div class="popup__wrapper"><a class="popup__close js-popup-hide">
+					<svg class="icon icon_close">
+						<use xlink:href="images/sprite-svg.svg#close"></use>
+					</svg></a>
+				<div class="popup__title">Доступ на 15 дней бесплатно!</div>
+				<div class="popup__subtitle">Заполните форму ниже и получите доступ к полному функционалу облачной
+					системы
+				</div>
+				<form action="" class="popup__form form-block form-block--popup-mod">
+					<div class="form-block__wrap">
+						<div class="form-block__input form-group">
+							<span class="form-group__label form-group__label--white">Контактное лицо</span>
+							<input type="text" class="form-control form-block__input js-required"
+								placeholder="Введите имя" name="name" required>
+						</div>
+						<div class="form-block__input form-group">
+							<span class="form-group__label form-group__label--white">Номер телефона</span>
+							<input type="tel" class="form-control js-required" placeholder="+7 (999) 999 99 99"
+								name="phone" required>
+						</div>
+						<div class="form-block__input form-group">
+							<span class="form-group__label form-group__label--white">Сайт</span>
+							<input type="text" class="form-control js-required" placeholder="Введите ссылку на сайт"
+								name="site" required>
+						</div>
+					</div>
+					<div class="form-block__checkbox checkbox js-police-checkbox">
+						<input type="checkbox" name="police" id="police" value="1" checked required>
+						<label for="police">Нажимая “Отправить”, вы принимаете <a href="#">Политику обработки
+								персональных
+								данных</a></label>
+					</div>
+					<div class="form-block__btn">
+						<!-- <a href="#acces-send" class="btn btn--orange js-popup-show">Оставить заявку</a> -->
+						<button data-href="#acces-send" class="btn btn--orange js-submit" type="submit">Оставить
+							заявку</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="popup popup--send" id="acces-send">
+			<div class="popup__overflow js-popup-hide"></div>
+			<div class="popup__wrapper"><a class="popup__close js-popup-hide">
+					<svg class="icon icon_close">
+						<use xlink:href="images/sprite-svg.svg#close"></use>
+					</svg></a>
+				<div class="popup__title">Ваша заявка успешно отправлена!</div>
+				<div class="popup__subtitle">В ближайшее время с вами свяжется наш специалист, чтобы обсудить детали.
+				</div>
+				<div class="popup__btn">
+					<a href="#" class="btn btn--orange js-popup-hide">Отлично</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="popup" id="support-popup">
+			<div class="popup__overflow js-popup-hide"></div>
+			<div class="popup__wrapper"><a class="popup__close js-popup-hide">
+					<svg class="icon icon_close">
+						<use xlink:href="images/sprite-svg.svg#close"></use>
+					</svg></a>
+				<div class="popup__title">Поддержка</div>
+				<div class="popup__subtitle">Вы можете отправить нам сообщение, и мы обязательно с вами свяжемся.</div>
+				<form action="" class="popup__form form-block form-block--popup-mod">
+					<div class="form-block__wrap">
+						<div class="form-block__input form-group">
+							<span class="form-group__label form-group__label--white">Контактное лицо</span>
+							<input type="text" class="form-control form-block__input js-required"
+								placeholder="Введите имя" name="name" required>
+						</div>
+						<div class="form-block__input form-group">
+							<span class="form-group__label form-group__label--white">Номер телефона</span>
+							<input type="tel" class="form-control js-required" placeholder="+7 (999) 999 99 99"
+								name="phone" required>
+						</div>
+						<div class="form-block__input form-group">
+							<span class="form-group__label form-group__label--white">Сообщение</span>
+							<input type="text" class="form-control js-required" placeholder="Введите сообщение"
+								name="site" required>
+						</div>
+					</div>
+					<div class="form-block__checkbox checkbox js-police-checkbox">
+						<input type="checkbox" name="police" id="police2" value="1" checked required>
+						<label for="police2">Нажимая “Отправить”, вы принимаете <a href="#">Политику обработки
+								персональных
+								данных</a></label>
+					</div>
+					<div class="form-block__btn">
+						<!-- <a href="#acces-send" class="btn btn--orange js-popup-show">Оставить заявку</a> -->
+						<button type="submit" data-href="#acces-send" class="btn btn--orange js-submit">Оставить
+							заявку</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

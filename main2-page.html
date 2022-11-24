@@ -1,0 +1,1600 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Бронируй онлайн</title>
+
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body class="main">
+	<header class="header main__header">
+		<div class="header__container container">
+			<div class="header__logo">
+				<a href="/">
+					<img src="/images/logo.svg" alt="logo-img" />
+				</a>
+			</div>
+			<ul class="header__menu menu-block js-nav-menu">
+
+				<li class="menu-block__link"><a href="#acces-popup" class="js-popup-show">Демо-доступ</a></li>
+
+				<li class="menu-block__link"><a class="js-popup-show" href="#support-popup">Поддержка</a></li>
+
+				<li class="menu-block__link"><a href="tel:8 800 999 99 99">8 800 999 99 99</a></li>
+			</ul>
+			<a href="#" class="header__user">
+				<div class="header__user-icon">
+					<svg>
+						<use xlink:href="/images/sprite-svg.svg#user"></use>
+					</svg>
+				</div>
+				<div class="header__user-title">Вход</div>
+			</a>
+			<div class="header__burger-menu burger-menu js-burger-menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</header>
+	<section class="main__about-mobile about-section about-section--mobile">
+		<div class="about-section__container container">
+			<div class="about-section__info">
+				<h1 class="about-section__title">
+					Модуль бронирования для сайта
+					<!-- <span>отелей</span> -->
+					<div class="site-title__sub-wrap" id="rotate">
+						<span class="site-title__sub js-text-1 is-active">отелей</span>
+						<span class="site-title__sub js-text-2">глэмпингов</span>
+						<span class="site-title__sub js-text-3">гостевых домов</span>
+						<span class="site-title__sub js-text-4">баз отдыха</span>
+						<span class="site-title__sub js-text-5">эко-отелей</span>
+						<span class="site-title__sub js-text-6">мини-отелей</span>
+					</div>
+				</h1>
+				<div class="about-section__desc">Мотиватор роста прямых продаж</div>
+				<div class="about-section__btn">
+					<a href="#acces-popup" class="btn btn--blue js-popup-show">Получить демо-доступ</a>
+				</div>
+			</div>
+			<div class="about-section__img">
+				<img src="/images/about-mobile.png" />
+			</div>
+		</div>
+	</section>
+
+	<section class="module-about-section">
+		<div class="module-about-section__container container">
+			<div class="module-about-section__title">Модуль бронирования - это</div>
+			<div class="module-about-section__text">Главный инструмент для увеличения количества прямых продаж. <br>
+				Он представляет собой форму бронирования для сайта и социальных сетей отеля.<br class="hidden-sm">
+				Мы уделили особое внимание дизайну и удобству модуля, чтобы гость воспринимал форму поиска как сервис
+				вашего отеля и без труда смог выбрать и забронировать номер в удобное время.</div>
+		</div>
+	</section>
+
+	<section class="main__info-module info-section info-section--module">
+		<div class="info-section__container container">
+			<div class="info-section__title title-h2">
+				Как выглядит модуль онлайн-бронирования
+			</div>
+			<div class="info-section__subtitle">
+				Современный дизайн и удобство использования - основные характеристики эффективного модуля. Именно этому
+				мы уделили особое внимание в процессе разработки, чтобы ваши гости без труда смогли выбрать и
+				забронировать номер.
+			</div>
+			<div class="info-section__tabs">
+				<div class="info-section__tabs-title">Выберите цвет модуля</div>
+				<div class="info-section__tabs-list">
+					<div class="info-section__tabs-item">
+						<div class="radiobox radiobox--btn">
+							<input class="js-modules-settings" type="radio" name="color" id="color2" checked>
+							<label class="radio-switch color-blue" for="color2">
+								Светлый блюр
+							</label>
+						</div>
+					</div>
+					<div class="info-section__tabs-item">
+						<div class="radiobox radiobox--btn">
+							<input class="js-modules-settings" type="radio" name="color" id="color1">
+							<label class="radio-switch color-blue" for="color1">
+								Темный блюр
+							</label>
+						</div>
+					</div>
+					<div class="info-section__tabs-item">
+						<div class="radiobox radiobox--btn">
+							<input class="js-modules-settings" type="radio" name="color" id="color4">
+							<label class="radio-switch color-blue" for="color4">
+								Черный фон
+							</label>
+						</div>
+					</div>
+
+					<div class="info-section__tabs-item">
+						<div class="radiobox radiobox--btn">
+							<input class="js-modules-settings" type="radio" name="color" id="color3">
+							<label class="radio-switch color-blue" for="color3">
+								Белый фон
+							</label>
+						</div>
+					</div>
+
+					<div class="info-section__tabs-item">
+						<div class="radiobox radiobox--btn">
+							<input class="js-modules-settings" type="radio" name="color" id="color5">
+							<label class="radio-switch color-blue" for="color5">
+								Серый фон
+							</label>
+						</div>
+					</div>
+					<div class="info-section__tabs-item">
+						<div class="radiobox radiobox--btn">
+							<input class="js-modules-settings" type="radio" name="color" id="color6">
+							<label class="radio-switch color-blue" for="color6">
+								Прозрачный фон
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- mod-1 -->
+			<div class="info-section__slide header-example-block header-example-block--middle" id="module-color1">
+
+				<picture>
+					<source media="(max-width: 998px)" srcset="/images/module-1-xs.jpg">
+					<img class="header-example-block__bg" src="images/module-1.jpg" alt="">
+				</picture>
+
+				<div class="header-example-block__params">
+					<div class="header-example-block__params-wrap">
+						<div class="header-example-block__params-title">Бронирование номеров</div>
+						<div class="header-example-block__params-items">
+							<div class="header-example-block__params-item">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Заезд</div>
+									<div class="header-example-block__params-select"><span>23 июня 2022</span></div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="16" height="16"
+										viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g opacity="0.4">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.7777 6.60278H1.89502C1.61902 6.60278 1.39502 6.37878 1.39502 6.10278C1.39502 5.82678 1.61902 5.60278 1.89502 5.60278H13.7777C14.0537 5.60278 14.2777 5.82678 14.2777 6.10278C14.2777 6.37878 14.0537 6.60278 13.7777 6.60278Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 9.2063C10.5249 9.2063 10.2982 8.9823 10.2982 8.7063C10.2982 8.4303 10.5189 8.2063 10.7949 8.2063H10.8009C11.0769 8.2063 11.3009 8.4303 11.3009 8.7063C11.3009 8.9823 11.0769 9.2063 10.8009 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 9.2063C7.56651 9.2063 7.33984 8.9823 7.33984 8.7063C7.33984 8.4303 7.56051 8.2063 7.83651 8.2063H7.84251C8.11851 8.2063 8.34251 8.4303 8.34251 8.7063C8.34251 8.9823 8.11851 9.2063 7.84251 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 9.2063C4.60197 9.2063 4.37463 8.9823 4.37463 8.7063C4.37463 8.4303 4.59597 8.2063 4.87197 8.2063H4.87797C5.15397 8.2063 5.37797 8.4303 5.37797 8.7063C5.37797 8.9823 5.15397 9.2063 4.87797 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 11.7975C10.5249 11.7975 10.2982 11.5735 10.2982 11.2975C10.2982 11.0215 10.5189 10.7975 10.7949 10.7975H10.8009C11.0769 10.7975 11.3009 11.0215 11.3009 11.2975C11.3009 11.5735 11.0769 11.7975 10.8009 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 11.7975C7.56651 11.7975 7.33984 11.5735 7.33984 11.2975C7.33984 11.0215 7.56051 10.7975 7.83651 10.7975H7.84251C8.11851 10.7975 8.34251 11.0215 8.34251 11.2975C8.34251 11.5735 8.11851 11.7975 7.84251 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 11.7975C4.60197 11.7975 4.37463 11.5735 4.37463 11.2975C4.37463 11.0215 4.59597 10.7975 4.87197 10.7975H4.87797C5.15397 10.7975 5.37797 11.0215 5.37797 11.2975C5.37797 11.5735 5.15397 11.7975 4.87797 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.5291 3.86063C10.2531 3.86063 10.0291 3.63663 10.0291 3.36063V1.16663C10.0291 0.890626 10.2531 0.666626 10.5291 0.666626C10.8051 0.666626 11.0291 0.890626 11.0291 1.16663V3.36063C11.0291 3.63663 10.8051 3.86063 10.5291 3.86063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M5.14355 3.86063C4.86755 3.86063 4.64355 3.63663 4.64355 3.36063V1.16663C4.64355 0.890626 4.86755 0.666626 5.14355 0.666626C5.41955 0.666626 5.64355 0.890626 5.64355 1.16663V3.36063C5.64355 3.63663 5.41955 3.86063 5.14355 3.86063Z"
+												fill="#222222" />
+											<mask id="mask0_2_417" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+												x="1" y="1" width="14" height="14">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M1.33337 1.71936H14.3334V15H1.33337V1.71936Z" fill="white" />
+											</mask>
+											<g mask="url(#mask0_2_417)">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M5.01404 2.71936C3.28537 2.71936 2.33337 3.64136 2.33337 5.31536V11.348C2.33337 13.0587 3.28537 14 5.01404 14H10.6527C12.3814 14 13.3334 13.076 13.3334 11.3987V5.31536C13.336 4.49203 13.1147 3.85203 12.6754 3.41203C12.2234 2.95869 11.5267 2.71936 10.6587 2.71936H5.01404ZM10.6527 15H5.01404C2.74404 15 1.33337 13.6007 1.33337 11.348V5.31536C1.33337 3.09669 2.74404 1.71936 5.01404 1.71936H10.6587C11.798 1.71936 12.74 2.06069 13.3834 2.70536C14.008 3.33269 14.3367 4.23469 14.3334 5.31669V11.3987C14.3334 13.62 12.9227 15 10.6527 15Z"
+													fill="#222222" />
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-item">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Выезд</div>
+									<div class="header-example-block__params-select"><span>24 июня 2022</span></div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="16" height="16"
+										viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g opacity="0.4">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.7777 6.60278H1.89502C1.61902 6.60278 1.39502 6.37878 1.39502 6.10278C1.39502 5.82678 1.61902 5.60278 1.89502 5.60278H13.7777C14.0537 5.60278 14.2777 5.82678 14.2777 6.10278C14.2777 6.37878 14.0537 6.60278 13.7777 6.60278Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 9.2063C10.5249 9.2063 10.2982 8.9823 10.2982 8.7063C10.2982 8.4303 10.5189 8.2063 10.7949 8.2063H10.8009C11.0769 8.2063 11.3009 8.4303 11.3009 8.7063C11.3009 8.9823 11.0769 9.2063 10.8009 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 9.2063C7.56651 9.2063 7.33984 8.9823 7.33984 8.7063C7.33984 8.4303 7.56051 8.2063 7.83651 8.2063H7.84251C8.11851 8.2063 8.34251 8.4303 8.34251 8.7063C8.34251 8.9823 8.11851 9.2063 7.84251 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 9.2063C4.60197 9.2063 4.37463 8.9823 4.37463 8.7063C4.37463 8.4303 4.59597 8.2063 4.87197 8.2063H4.87797C5.15397 8.2063 5.37797 8.4303 5.37797 8.7063C5.37797 8.9823 5.15397 9.2063 4.87797 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 11.7975C10.5249 11.7975 10.2982 11.5735 10.2982 11.2975C10.2982 11.0215 10.5189 10.7975 10.7949 10.7975H10.8009C11.0769 10.7975 11.3009 11.0215 11.3009 11.2975C11.3009 11.5735 11.0769 11.7975 10.8009 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 11.7975C7.56651 11.7975 7.33984 11.5735 7.33984 11.2975C7.33984 11.0215 7.56051 10.7975 7.83651 10.7975H7.84251C8.11851 10.7975 8.34251 11.0215 8.34251 11.2975C8.34251 11.5735 8.11851 11.7975 7.84251 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 11.7975C4.60197 11.7975 4.37463 11.5735 4.37463 11.2975C4.37463 11.0215 4.59597 10.7975 4.87197 10.7975H4.87797C5.15397 10.7975 5.37797 11.0215 5.37797 11.2975C5.37797 11.5735 5.15397 11.7975 4.87797 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.5291 3.86063C10.2531 3.86063 10.0291 3.63663 10.0291 3.36063V1.16663C10.0291 0.890626 10.2531 0.666626 10.5291 0.666626C10.8051 0.666626 11.0291 0.890626 11.0291 1.16663V3.36063C11.0291 3.63663 10.8051 3.86063 10.5291 3.86063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M5.14355 3.86063C4.86755 3.86063 4.64355 3.63663 4.64355 3.36063V1.16663C4.64355 0.890626 4.86755 0.666626 5.14355 0.666626C5.41955 0.666626 5.64355 0.890626 5.64355 1.16663V3.36063C5.64355 3.63663 5.41955 3.86063 5.14355 3.86063Z"
+												fill="#222222" />
+											<mask id="mask0_2_417" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+												x="1" y="1" width="14" height="14">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M1.33337 1.71936H14.3334V15H1.33337V1.71936Z" fill="white" />
+											</mask>
+											<g mask="url(#mask0_2_417)">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M5.01404 2.71936C3.28537 2.71936 2.33337 3.64136 2.33337 5.31536V11.348C2.33337 13.0587 3.28537 14 5.01404 14H10.6527C12.3814 14 13.3334 13.076 13.3334 11.3987V5.31536C13.336 4.49203 13.1147 3.85203 12.6754 3.41203C12.2234 2.95869 11.5267 2.71936 10.6587 2.71936H5.01404ZM10.6527 15H5.01404C2.74404 15 1.33337 13.6007 1.33337 11.348V5.31536C1.33337 3.09669 2.74404 1.71936 5.01404 1.71936H10.6587C11.798 1.71936 12.74 2.06069 13.3834 2.70536C14.008 3.33269 14.3367 4.23469 14.3334 5.31669V11.3987C14.3334 13.62 12.9227 15 10.6527 15Z"
+													fill="#222222" />
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-item header-example-block__params-item--lg">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Гости</div>
+									<div class="header-example-block__params-select"><span>2</span> взрослых, без
+										детей</div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="12" height="14"
+										viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M9.5294 3.86074C9.5294 5.81876 7.95948 7.38878 6.00008 7.38878C4.04135 7.38878 2.47076 5.81876 2.47076 3.86074C2.47076 1.90272 4.04135 0.333374 6.00008 0.333374C7.95948 0.333374 9.5294 1.90272 9.5294 3.86074ZM6.00008 13.6667C3.10833 13.6667 0.666748 13.1967 0.666748 11.3834C0.666748 9.56933 3.12367 9.116 6.00008 9.116C8.8925 9.116 11.3334 9.586 11.3334 11.3994C11.3334 13.2134 8.87649 13.6667 6.00008 13.6667Z"
+											fill="#A7A7A7" />
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-btn">
+								Показать <span class="hidden visible-xs">цены</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- mod-2 -->
+
+			<div class="info-section__slide header-example-block header-example-block--middle header-example-block--light-blur"
+				id="module-color2">
+				<picture>
+					<source media="(max-width: 998px)" srcset="/images/module-1-xs.jpg">
+					<img class="header-example-block__bg" src="images/module-1.jpg" alt="">
+				</picture>
+
+				<div class="header-example-block__params">
+					<div class="header-example-block__params-wrap">
+						<div class="header-example-block__params-title">Бронирование номеров</div>
+						<div class="header-example-block__params-items">
+							<div class="header-example-block__params-item">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Заезд</div>
+									<div class="header-example-block__params-select"><span>23 июня 2022</span></div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="16" height="16"
+										viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g opacity="0.4">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.7777 6.60278H1.89502C1.61902 6.60278 1.39502 6.37878 1.39502 6.10278C1.39502 5.82678 1.61902 5.60278 1.89502 5.60278H13.7777C14.0537 5.60278 14.2777 5.82678 14.2777 6.10278C14.2777 6.37878 14.0537 6.60278 13.7777 6.60278Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 9.2063C10.5249 9.2063 10.2982 8.9823 10.2982 8.7063C10.2982 8.4303 10.5189 8.2063 10.7949 8.2063H10.8009C11.0769 8.2063 11.3009 8.4303 11.3009 8.7063C11.3009 8.9823 11.0769 9.2063 10.8009 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 9.2063C7.56651 9.2063 7.33984 8.9823 7.33984 8.7063C7.33984 8.4303 7.56051 8.2063 7.83651 8.2063H7.84251C8.11851 8.2063 8.34251 8.4303 8.34251 8.7063C8.34251 8.9823 8.11851 9.2063 7.84251 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 9.2063C4.60197 9.2063 4.37463 8.9823 4.37463 8.7063C4.37463 8.4303 4.59597 8.2063 4.87197 8.2063H4.87797C5.15397 8.2063 5.37797 8.4303 5.37797 8.7063C5.37797 8.9823 5.15397 9.2063 4.87797 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 11.7975C10.5249 11.7975 10.2982 11.5735 10.2982 11.2975C10.2982 11.0215 10.5189 10.7975 10.7949 10.7975H10.8009C11.0769 10.7975 11.3009 11.0215 11.3009 11.2975C11.3009 11.5735 11.0769 11.7975 10.8009 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 11.7975C7.56651 11.7975 7.33984 11.5735 7.33984 11.2975C7.33984 11.0215 7.56051 10.7975 7.83651 10.7975H7.84251C8.11851 10.7975 8.34251 11.0215 8.34251 11.2975C8.34251 11.5735 8.11851 11.7975 7.84251 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 11.7975C4.60197 11.7975 4.37463 11.5735 4.37463 11.2975C4.37463 11.0215 4.59597 10.7975 4.87197 10.7975H4.87797C5.15397 10.7975 5.37797 11.0215 5.37797 11.2975C5.37797 11.5735 5.15397 11.7975 4.87797 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.5291 3.86063C10.2531 3.86063 10.0291 3.63663 10.0291 3.36063V1.16663C10.0291 0.890626 10.2531 0.666626 10.5291 0.666626C10.8051 0.666626 11.0291 0.890626 11.0291 1.16663V3.36063C11.0291 3.63663 10.8051 3.86063 10.5291 3.86063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M5.14355 3.86063C4.86755 3.86063 4.64355 3.63663 4.64355 3.36063V1.16663C4.64355 0.890626 4.86755 0.666626 5.14355 0.666626C5.41955 0.666626 5.64355 0.890626 5.64355 1.16663V3.36063C5.64355 3.63663 5.41955 3.86063 5.14355 3.86063Z"
+												fill="#222222" />
+											<mask id="mask0_2_417" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+												x="1" y="1" width="14" height="14">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M1.33337 1.71936H14.3334V15H1.33337V1.71936Z" fill="white" />
+											</mask>
+											<g mask="url(#mask0_2_417)">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M5.01404 2.71936C3.28537 2.71936 2.33337 3.64136 2.33337 5.31536V11.348C2.33337 13.0587 3.28537 14 5.01404 14H10.6527C12.3814 14 13.3334 13.076 13.3334 11.3987V5.31536C13.336 4.49203 13.1147 3.85203 12.6754 3.41203C12.2234 2.95869 11.5267 2.71936 10.6587 2.71936H5.01404ZM10.6527 15H5.01404C2.74404 15 1.33337 13.6007 1.33337 11.348V5.31536C1.33337 3.09669 2.74404 1.71936 5.01404 1.71936H10.6587C11.798 1.71936 12.74 2.06069 13.3834 2.70536C14.008 3.33269 14.3367 4.23469 14.3334 5.31669V11.3987C14.3334 13.62 12.9227 15 10.6527 15Z"
+													fill="#222222" />
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-item">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Выезд</div>
+									<div class="header-example-block__params-select"><span>24 июня 2022</span></div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="16" height="16"
+										viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g opacity="0.4">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.7777 6.60278H1.89502C1.61902 6.60278 1.39502 6.37878 1.39502 6.10278C1.39502 5.82678 1.61902 5.60278 1.89502 5.60278H13.7777C14.0537 5.60278 14.2777 5.82678 14.2777 6.10278C14.2777 6.37878 14.0537 6.60278 13.7777 6.60278Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 9.2063C10.5249 9.2063 10.2982 8.9823 10.2982 8.7063C10.2982 8.4303 10.5189 8.2063 10.7949 8.2063H10.8009C11.0769 8.2063 11.3009 8.4303 11.3009 8.7063C11.3009 8.9823 11.0769 9.2063 10.8009 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 9.2063C7.56651 9.2063 7.33984 8.9823 7.33984 8.7063C7.33984 8.4303 7.56051 8.2063 7.83651 8.2063H7.84251C8.11851 8.2063 8.34251 8.4303 8.34251 8.7063C8.34251 8.9823 8.11851 9.2063 7.84251 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 9.2063C4.60197 9.2063 4.37463 8.9823 4.37463 8.7063C4.37463 8.4303 4.59597 8.2063 4.87197 8.2063H4.87797C5.15397 8.2063 5.37797 8.4303 5.37797 8.7063C5.37797 8.9823 5.15397 9.2063 4.87797 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 11.7975C10.5249 11.7975 10.2982 11.5735 10.2982 11.2975C10.2982 11.0215 10.5189 10.7975 10.7949 10.7975H10.8009C11.0769 10.7975 11.3009 11.0215 11.3009 11.2975C11.3009 11.5735 11.0769 11.7975 10.8009 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 11.7975C7.56651 11.7975 7.33984 11.5735 7.33984 11.2975C7.33984 11.0215 7.56051 10.7975 7.83651 10.7975H7.84251C8.11851 10.7975 8.34251 11.0215 8.34251 11.2975C8.34251 11.5735 8.11851 11.7975 7.84251 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 11.7975C4.60197 11.7975 4.37463 11.5735 4.37463 11.2975C4.37463 11.0215 4.59597 10.7975 4.87197 10.7975H4.87797C5.15397 10.7975 5.37797 11.0215 5.37797 11.2975C5.37797 11.5735 5.15397 11.7975 4.87797 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.5291 3.86063C10.2531 3.86063 10.0291 3.63663 10.0291 3.36063V1.16663C10.0291 0.890626 10.2531 0.666626 10.5291 0.666626C10.8051 0.666626 11.0291 0.890626 11.0291 1.16663V3.36063C11.0291 3.63663 10.8051 3.86063 10.5291 3.86063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M5.14355 3.86063C4.86755 3.86063 4.64355 3.63663 4.64355 3.36063V1.16663C4.64355 0.890626 4.86755 0.666626 5.14355 0.666626C5.41955 0.666626 5.64355 0.890626 5.64355 1.16663V3.36063C5.64355 3.63663 5.41955 3.86063 5.14355 3.86063Z"
+												fill="#222222" />
+											<mask id="mask0_2_417" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+												x="1" y="1" width="14" height="14">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M1.33337 1.71936H14.3334V15H1.33337V1.71936Z" fill="white" />
+											</mask>
+											<g mask="url(#mask0_2_417)">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M5.01404 2.71936C3.28537 2.71936 2.33337 3.64136 2.33337 5.31536V11.348C2.33337 13.0587 3.28537 14 5.01404 14H10.6527C12.3814 14 13.3334 13.076 13.3334 11.3987V5.31536C13.336 4.49203 13.1147 3.85203 12.6754 3.41203C12.2234 2.95869 11.5267 2.71936 10.6587 2.71936H5.01404ZM10.6527 15H5.01404C2.74404 15 1.33337 13.6007 1.33337 11.348V5.31536C1.33337 3.09669 2.74404 1.71936 5.01404 1.71936H10.6587C11.798 1.71936 12.74 2.06069 13.3834 2.70536C14.008 3.33269 14.3367 4.23469 14.3334 5.31669V11.3987C14.3334 13.62 12.9227 15 10.6527 15Z"
+													fill="#222222" />
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-item header-example-block__params-item--lg">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Гости</div>
+									<div class="header-example-block__params-select"><span>2</span> взрослых, без
+										детей</div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="12" height="14"
+										viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M9.5294 3.86074C9.5294 5.81876 7.95948 7.38878 6.00008 7.38878C4.04135 7.38878 2.47076 5.81876 2.47076 3.86074C2.47076 1.90272 4.04135 0.333374 6.00008 0.333374C7.95948 0.333374 9.5294 1.90272 9.5294 3.86074ZM6.00008 13.6667C3.10833 13.6667 0.666748 13.1967 0.666748 11.3834C0.666748 9.56933 3.12367 9.116 6.00008 9.116C8.8925 9.116 11.3334 9.586 11.3334 11.3994C11.3334 13.2134 8.87649 13.6667 6.00008 13.6667Z"
+											fill="#A7A7A7" />
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-btn">
+								Показать <span class="hidden visible-xs">цены</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- mod-3 -->
+
+			<div class="info-section__slide header-example-block header-example-block--middle header-example-block--light-bg"
+				id="module-color3">
+				<picture>
+					<source media="(max-width: 998px)" srcset="/images/module-1-xs.jpg">
+					<img class="header-example-block__bg" src="images/module-1.jpg" alt="">
+				</picture>
+
+				<div class="header-example-block__params">
+					<div class="header-example-block__params-wrap">
+						<div class="header-example-block__params-title">Бронирование номеров</div>
+						<div class="header-example-block__params-items">
+							<div class="header-example-block__params-item">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Заезд</div>
+									<div class="header-example-block__params-select"><span>23 июня 2022</span></div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="16" height="16"
+										viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g opacity="0.4">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.7777 6.60278H1.89502C1.61902 6.60278 1.39502 6.37878 1.39502 6.10278C1.39502 5.82678 1.61902 5.60278 1.89502 5.60278H13.7777C14.0537 5.60278 14.2777 5.82678 14.2777 6.10278C14.2777 6.37878 14.0537 6.60278 13.7777 6.60278Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 9.2063C10.5249 9.2063 10.2982 8.9823 10.2982 8.7063C10.2982 8.4303 10.5189 8.2063 10.7949 8.2063H10.8009C11.0769 8.2063 11.3009 8.4303 11.3009 8.7063C11.3009 8.9823 11.0769 9.2063 10.8009 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 9.2063C7.56651 9.2063 7.33984 8.9823 7.33984 8.7063C7.33984 8.4303 7.56051 8.2063 7.83651 8.2063H7.84251C8.11851 8.2063 8.34251 8.4303 8.34251 8.7063C8.34251 8.9823 8.11851 9.2063 7.84251 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 9.2063C4.60197 9.2063 4.37463 8.9823 4.37463 8.7063C4.37463 8.4303 4.59597 8.2063 4.87197 8.2063H4.87797C5.15397 8.2063 5.37797 8.4303 5.37797 8.7063C5.37797 8.9823 5.15397 9.2063 4.87797 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 11.7975C10.5249 11.7975 10.2982 11.5735 10.2982 11.2975C10.2982 11.0215 10.5189 10.7975 10.7949 10.7975H10.8009C11.0769 10.7975 11.3009 11.0215 11.3009 11.2975C11.3009 11.5735 11.0769 11.7975 10.8009 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 11.7975C7.56651 11.7975 7.33984 11.5735 7.33984 11.2975C7.33984 11.0215 7.56051 10.7975 7.83651 10.7975H7.84251C8.11851 10.7975 8.34251 11.0215 8.34251 11.2975C8.34251 11.5735 8.11851 11.7975 7.84251 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 11.7975C4.60197 11.7975 4.37463 11.5735 4.37463 11.2975C4.37463 11.0215 4.59597 10.7975 4.87197 10.7975H4.87797C5.15397 10.7975 5.37797 11.0215 5.37797 11.2975C5.37797 11.5735 5.15397 11.7975 4.87797 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.5291 3.86063C10.2531 3.86063 10.0291 3.63663 10.0291 3.36063V1.16663C10.0291 0.890626 10.2531 0.666626 10.5291 0.666626C10.8051 0.666626 11.0291 0.890626 11.0291 1.16663V3.36063C11.0291 3.63663 10.8051 3.86063 10.5291 3.86063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M5.14355 3.86063C4.86755 3.86063 4.64355 3.63663 4.64355 3.36063V1.16663C4.64355 0.890626 4.86755 0.666626 5.14355 0.666626C5.41955 0.666626 5.64355 0.890626 5.64355 1.16663V3.36063C5.64355 3.63663 5.41955 3.86063 5.14355 3.86063Z"
+												fill="#222222" />
+											<mask id="mask0_2_417" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+												x="1" y="1" width="14" height="14">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M1.33337 1.71936H14.3334V15H1.33337V1.71936Z" fill="white" />
+											</mask>
+											<g mask="url(#mask0_2_417)">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M5.01404 2.71936C3.28537 2.71936 2.33337 3.64136 2.33337 5.31536V11.348C2.33337 13.0587 3.28537 14 5.01404 14H10.6527C12.3814 14 13.3334 13.076 13.3334 11.3987V5.31536C13.336 4.49203 13.1147 3.85203 12.6754 3.41203C12.2234 2.95869 11.5267 2.71936 10.6587 2.71936H5.01404ZM10.6527 15H5.01404C2.74404 15 1.33337 13.6007 1.33337 11.348V5.31536C1.33337 3.09669 2.74404 1.71936 5.01404 1.71936H10.6587C11.798 1.71936 12.74 2.06069 13.3834 2.70536C14.008 3.33269 14.3367 4.23469 14.3334 5.31669V11.3987C14.3334 13.62 12.9227 15 10.6527 15Z"
+													fill="#222222" />
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-item">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Выезд</div>
+									<div class="header-example-block__params-select"><span>24 июня 2022</span></div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="16" height="16"
+										viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g opacity="0.4">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.7777 6.60278H1.89502C1.61902 6.60278 1.39502 6.37878 1.39502 6.10278C1.39502 5.82678 1.61902 5.60278 1.89502 5.60278H13.7777C14.0537 5.60278 14.2777 5.82678 14.2777 6.10278C14.2777 6.37878 14.0537 6.60278 13.7777 6.60278Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 9.2063C10.5249 9.2063 10.2982 8.9823 10.2982 8.7063C10.2982 8.4303 10.5189 8.2063 10.7949 8.2063H10.8009C11.0769 8.2063 11.3009 8.4303 11.3009 8.7063C11.3009 8.9823 11.0769 9.2063 10.8009 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 9.2063C7.56651 9.2063 7.33984 8.9823 7.33984 8.7063C7.33984 8.4303 7.56051 8.2063 7.83651 8.2063H7.84251C8.11851 8.2063 8.34251 8.4303 8.34251 8.7063C8.34251 8.9823 8.11851 9.2063 7.84251 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 9.2063C4.60197 9.2063 4.37463 8.9823 4.37463 8.7063C4.37463 8.4303 4.59597 8.2063 4.87197 8.2063H4.87797C5.15397 8.2063 5.37797 8.4303 5.37797 8.7063C5.37797 8.9823 5.15397 9.2063 4.87797 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 11.7975C10.5249 11.7975 10.2982 11.5735 10.2982 11.2975C10.2982 11.0215 10.5189 10.7975 10.7949 10.7975H10.8009C11.0769 10.7975 11.3009 11.0215 11.3009 11.2975C11.3009 11.5735 11.0769 11.7975 10.8009 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 11.7975C7.56651 11.7975 7.33984 11.5735 7.33984 11.2975C7.33984 11.0215 7.56051 10.7975 7.83651 10.7975H7.84251C8.11851 10.7975 8.34251 11.0215 8.34251 11.2975C8.34251 11.5735 8.11851 11.7975 7.84251 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 11.7975C4.60197 11.7975 4.37463 11.5735 4.37463 11.2975C4.37463 11.0215 4.59597 10.7975 4.87197 10.7975H4.87797C5.15397 10.7975 5.37797 11.0215 5.37797 11.2975C5.37797 11.5735 5.15397 11.7975 4.87797 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.5291 3.86063C10.2531 3.86063 10.0291 3.63663 10.0291 3.36063V1.16663C10.0291 0.890626 10.2531 0.666626 10.5291 0.666626C10.8051 0.666626 11.0291 0.890626 11.0291 1.16663V3.36063C11.0291 3.63663 10.8051 3.86063 10.5291 3.86063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M5.14355 3.86063C4.86755 3.86063 4.64355 3.63663 4.64355 3.36063V1.16663C4.64355 0.890626 4.86755 0.666626 5.14355 0.666626C5.41955 0.666626 5.64355 0.890626 5.64355 1.16663V3.36063C5.64355 3.63663 5.41955 3.86063 5.14355 3.86063Z"
+												fill="#222222" />
+											<mask id="mask0_2_417" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+												x="1" y="1" width="14" height="14">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M1.33337 1.71936H14.3334V15H1.33337V1.71936Z" fill="white" />
+											</mask>
+											<g mask="url(#mask0_2_417)">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M5.01404 2.71936C3.28537 2.71936 2.33337 3.64136 2.33337 5.31536V11.348C2.33337 13.0587 3.28537 14 5.01404 14H10.6527C12.3814 14 13.3334 13.076 13.3334 11.3987V5.31536C13.336 4.49203 13.1147 3.85203 12.6754 3.41203C12.2234 2.95869 11.5267 2.71936 10.6587 2.71936H5.01404ZM10.6527 15H5.01404C2.74404 15 1.33337 13.6007 1.33337 11.348V5.31536C1.33337 3.09669 2.74404 1.71936 5.01404 1.71936H10.6587C11.798 1.71936 12.74 2.06069 13.3834 2.70536C14.008 3.33269 14.3367 4.23469 14.3334 5.31669V11.3987C14.3334 13.62 12.9227 15 10.6527 15Z"
+													fill="#222222" />
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-item header-example-block__params-item--lg">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Гости</div>
+									<div class="header-example-block__params-select"><span>2</span> взрослых, без
+										детей</div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="12" height="14"
+										viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M9.5294 3.86074C9.5294 5.81876 7.95948 7.38878 6.00008 7.38878C4.04135 7.38878 2.47076 5.81876 2.47076 3.86074C2.47076 1.90272 4.04135 0.333374 6.00008 0.333374C7.95948 0.333374 9.5294 1.90272 9.5294 3.86074ZM6.00008 13.6667C3.10833 13.6667 0.666748 13.1967 0.666748 11.3834C0.666748 9.56933 3.12367 9.116 6.00008 9.116C8.8925 9.116 11.3334 9.586 11.3334 11.3994C11.3334 13.2134 8.87649 13.6667 6.00008 13.6667Z"
+											fill="#A7A7A7" />
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-btn">
+								Показать <span class="hidden visible-xs">цены</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- mod-4 -->
+
+			<div class="info-section__slide header-example-block header-example-block--middle header-example-block--dark-bg"
+				id="module-color4">
+				<picture>
+					<source media="(max-width: 998px)" srcset="/images/module-1-xs.jpg">
+					<img class="header-example-block__bg" src="images/module-1.jpg" alt="">
+				</picture>
+
+				<div class="header-example-block__params">
+					<div class="header-example-block__params-wrap">
+						<div class="header-example-block__params-title">Бронирование номеров</div>
+						<div class="header-example-block__params-items">
+							<div class="header-example-block__params-item">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Заезд</div>
+									<div class="header-example-block__params-select"><span>23 июня 2022</span></div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="16" height="16"
+										viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g opacity="0.4">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.7777 6.60278H1.89502C1.61902 6.60278 1.39502 6.37878 1.39502 6.10278C1.39502 5.82678 1.61902 5.60278 1.89502 5.60278H13.7777C14.0537 5.60278 14.2777 5.82678 14.2777 6.10278C14.2777 6.37878 14.0537 6.60278 13.7777 6.60278Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 9.2063C10.5249 9.2063 10.2982 8.9823 10.2982 8.7063C10.2982 8.4303 10.5189 8.2063 10.7949 8.2063H10.8009C11.0769 8.2063 11.3009 8.4303 11.3009 8.7063C11.3009 8.9823 11.0769 9.2063 10.8009 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 9.2063C7.56651 9.2063 7.33984 8.9823 7.33984 8.7063C7.33984 8.4303 7.56051 8.2063 7.83651 8.2063H7.84251C8.11851 8.2063 8.34251 8.4303 8.34251 8.7063C8.34251 8.9823 8.11851 9.2063 7.84251 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 9.2063C4.60197 9.2063 4.37463 8.9823 4.37463 8.7063C4.37463 8.4303 4.59597 8.2063 4.87197 8.2063H4.87797C5.15397 8.2063 5.37797 8.4303 5.37797 8.7063C5.37797 8.9823 5.15397 9.2063 4.87797 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 11.7975C10.5249 11.7975 10.2982 11.5735 10.2982 11.2975C10.2982 11.0215 10.5189 10.7975 10.7949 10.7975H10.8009C11.0769 10.7975 11.3009 11.0215 11.3009 11.2975C11.3009 11.5735 11.0769 11.7975 10.8009 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 11.7975C7.56651 11.7975 7.33984 11.5735 7.33984 11.2975C7.33984 11.0215 7.56051 10.7975 7.83651 10.7975H7.84251C8.11851 10.7975 8.34251 11.0215 8.34251 11.2975C8.34251 11.5735 8.11851 11.7975 7.84251 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 11.7975C4.60197 11.7975 4.37463 11.5735 4.37463 11.2975C4.37463 11.0215 4.59597 10.7975 4.87197 10.7975H4.87797C5.15397 10.7975 5.37797 11.0215 5.37797 11.2975C5.37797 11.5735 5.15397 11.7975 4.87797 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.5291 3.86063C10.2531 3.86063 10.0291 3.63663 10.0291 3.36063V1.16663C10.0291 0.890626 10.2531 0.666626 10.5291 0.666626C10.8051 0.666626 11.0291 0.890626 11.0291 1.16663V3.36063C11.0291 3.63663 10.8051 3.86063 10.5291 3.86063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M5.14355 3.86063C4.86755 3.86063 4.64355 3.63663 4.64355 3.36063V1.16663C4.64355 0.890626 4.86755 0.666626 5.14355 0.666626C5.41955 0.666626 5.64355 0.890626 5.64355 1.16663V3.36063C5.64355 3.63663 5.41955 3.86063 5.14355 3.86063Z"
+												fill="#222222" />
+											<mask id="mask0_2_417" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+												x="1" y="1" width="14" height="14">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M1.33337 1.71936H14.3334V15H1.33337V1.71936Z" fill="white" />
+											</mask>
+											<g mask="url(#mask0_2_417)">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M5.01404 2.71936C3.28537 2.71936 2.33337 3.64136 2.33337 5.31536V11.348C2.33337 13.0587 3.28537 14 5.01404 14H10.6527C12.3814 14 13.3334 13.076 13.3334 11.3987V5.31536C13.336 4.49203 13.1147 3.85203 12.6754 3.41203C12.2234 2.95869 11.5267 2.71936 10.6587 2.71936H5.01404ZM10.6527 15H5.01404C2.74404 15 1.33337 13.6007 1.33337 11.348V5.31536C1.33337 3.09669 2.74404 1.71936 5.01404 1.71936H10.6587C11.798 1.71936 12.74 2.06069 13.3834 2.70536C14.008 3.33269 14.3367 4.23469 14.3334 5.31669V11.3987C14.3334 13.62 12.9227 15 10.6527 15Z"
+													fill="#222222" />
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-item">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Выезд</div>
+									<div class="header-example-block__params-select"><span>24 июня 2022</span></div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="16" height="16"
+										viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g opacity="0.4">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.7777 6.60278H1.89502C1.61902 6.60278 1.39502 6.37878 1.39502 6.10278C1.39502 5.82678 1.61902 5.60278 1.89502 5.60278H13.7777C14.0537 5.60278 14.2777 5.82678 14.2777 6.10278C14.2777 6.37878 14.0537 6.60278 13.7777 6.60278Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 9.2063C10.5249 9.2063 10.2982 8.9823 10.2982 8.7063C10.2982 8.4303 10.5189 8.2063 10.7949 8.2063H10.8009C11.0769 8.2063 11.3009 8.4303 11.3009 8.7063C11.3009 8.9823 11.0769 9.2063 10.8009 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 9.2063C7.56651 9.2063 7.33984 8.9823 7.33984 8.7063C7.33984 8.4303 7.56051 8.2063 7.83651 8.2063H7.84251C8.11851 8.2063 8.34251 8.4303 8.34251 8.7063C8.34251 8.9823 8.11851 9.2063 7.84251 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 9.2063C4.60197 9.2063 4.37463 8.9823 4.37463 8.7063C4.37463 8.4303 4.59597 8.2063 4.87197 8.2063H4.87797C5.15397 8.2063 5.37797 8.4303 5.37797 8.7063C5.37797 8.9823 5.15397 9.2063 4.87797 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 11.7975C10.5249 11.7975 10.2982 11.5735 10.2982 11.2975C10.2982 11.0215 10.5189 10.7975 10.7949 10.7975H10.8009C11.0769 10.7975 11.3009 11.0215 11.3009 11.2975C11.3009 11.5735 11.0769 11.7975 10.8009 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 11.7975C7.56651 11.7975 7.33984 11.5735 7.33984 11.2975C7.33984 11.0215 7.56051 10.7975 7.83651 10.7975H7.84251C8.11851 10.7975 8.34251 11.0215 8.34251 11.2975C8.34251 11.5735 8.11851 11.7975 7.84251 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 11.7975C4.60197 11.7975 4.37463 11.5735 4.37463 11.2975C4.37463 11.0215 4.59597 10.7975 4.87197 10.7975H4.87797C5.15397 10.7975 5.37797 11.0215 5.37797 11.2975C5.37797 11.5735 5.15397 11.7975 4.87797 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.5291 3.86063C10.2531 3.86063 10.0291 3.63663 10.0291 3.36063V1.16663C10.0291 0.890626 10.2531 0.666626 10.5291 0.666626C10.8051 0.666626 11.0291 0.890626 11.0291 1.16663V3.36063C11.0291 3.63663 10.8051 3.86063 10.5291 3.86063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M5.14355 3.86063C4.86755 3.86063 4.64355 3.63663 4.64355 3.36063V1.16663C4.64355 0.890626 4.86755 0.666626 5.14355 0.666626C5.41955 0.666626 5.64355 0.890626 5.64355 1.16663V3.36063C5.64355 3.63663 5.41955 3.86063 5.14355 3.86063Z"
+												fill="#222222" />
+											<mask id="mask0_2_417" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+												x="1" y="1" width="14" height="14">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M1.33337 1.71936H14.3334V15H1.33337V1.71936Z" fill="white" />
+											</mask>
+											<g mask="url(#mask0_2_417)">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M5.01404 2.71936C3.28537 2.71936 2.33337 3.64136 2.33337 5.31536V11.348C2.33337 13.0587 3.28537 14 5.01404 14H10.6527C12.3814 14 13.3334 13.076 13.3334 11.3987V5.31536C13.336 4.49203 13.1147 3.85203 12.6754 3.41203C12.2234 2.95869 11.5267 2.71936 10.6587 2.71936H5.01404ZM10.6527 15H5.01404C2.74404 15 1.33337 13.6007 1.33337 11.348V5.31536C1.33337 3.09669 2.74404 1.71936 5.01404 1.71936H10.6587C11.798 1.71936 12.74 2.06069 13.3834 2.70536C14.008 3.33269 14.3367 4.23469 14.3334 5.31669V11.3987C14.3334 13.62 12.9227 15 10.6527 15Z"
+													fill="#222222" />
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-item header-example-block__params-item--lg">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Гости</div>
+									<div class="header-example-block__params-select"><span>2</span> взрослых, без
+										детей</div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="12" height="14"
+										viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M9.5294 3.86074C9.5294 5.81876 7.95948 7.38878 6.00008 7.38878C4.04135 7.38878 2.47076 5.81876 2.47076 3.86074C2.47076 1.90272 4.04135 0.333374 6.00008 0.333374C7.95948 0.333374 9.5294 1.90272 9.5294 3.86074ZM6.00008 13.6667C3.10833 13.6667 0.666748 13.1967 0.666748 11.3834C0.666748 9.56933 3.12367 9.116 6.00008 9.116C8.8925 9.116 11.3334 9.586 11.3334 11.3994C11.3334 13.2134 8.87649 13.6667 6.00008 13.6667Z"
+											fill="#A7A7A7" />
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-btn">
+								Показать <span class="hidden visible-xs">цены</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- mod-5 -->
+
+			<div class="info-section__slide header-example-block header-example-block--middle header-example-block--light-blur header-example-block--grey-bg"
+				id="module-color5">
+				<picture>
+					<source media="(max-width: 998px)" srcset="/images/module-1-xs.jpg">
+					<img class="header-example-block__bg" src="images/module-1.jpg" alt="">
+				</picture>
+
+				<div class="header-example-block__params">
+					<div class="header-example-block__params-wrap">
+						<div class="header-example-block__params-title">Бронирование номеров</div>
+						<div class="header-example-block__params-items">
+							<div class="header-example-block__params-item">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Заезд</div>
+									<div class="header-example-block__params-select"><span>23 июня 2022</span></div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="16" height="16"
+										viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g opacity="0.4">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.7777 6.60278H1.89502C1.61902 6.60278 1.39502 6.37878 1.39502 6.10278C1.39502 5.82678 1.61902 5.60278 1.89502 5.60278H13.7777C14.0537 5.60278 14.2777 5.82678 14.2777 6.10278C14.2777 6.37878 14.0537 6.60278 13.7777 6.60278Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 9.2063C10.5249 9.2063 10.2982 8.9823 10.2982 8.7063C10.2982 8.4303 10.5189 8.2063 10.7949 8.2063H10.8009C11.0769 8.2063 11.3009 8.4303 11.3009 8.7063C11.3009 8.9823 11.0769 9.2063 10.8009 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 9.2063C7.56651 9.2063 7.33984 8.9823 7.33984 8.7063C7.33984 8.4303 7.56051 8.2063 7.83651 8.2063H7.84251C8.11851 8.2063 8.34251 8.4303 8.34251 8.7063C8.34251 8.9823 8.11851 9.2063 7.84251 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 9.2063C4.60197 9.2063 4.37463 8.9823 4.37463 8.7063C4.37463 8.4303 4.59597 8.2063 4.87197 8.2063H4.87797C5.15397 8.2063 5.37797 8.4303 5.37797 8.7063C5.37797 8.9823 5.15397 9.2063 4.87797 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 11.7975C10.5249 11.7975 10.2982 11.5735 10.2982 11.2975C10.2982 11.0215 10.5189 10.7975 10.7949 10.7975H10.8009C11.0769 10.7975 11.3009 11.0215 11.3009 11.2975C11.3009 11.5735 11.0769 11.7975 10.8009 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 11.7975C7.56651 11.7975 7.33984 11.5735 7.33984 11.2975C7.33984 11.0215 7.56051 10.7975 7.83651 10.7975H7.84251C8.11851 10.7975 8.34251 11.0215 8.34251 11.2975C8.34251 11.5735 8.11851 11.7975 7.84251 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 11.7975C4.60197 11.7975 4.37463 11.5735 4.37463 11.2975C4.37463 11.0215 4.59597 10.7975 4.87197 10.7975H4.87797C5.15397 10.7975 5.37797 11.0215 5.37797 11.2975C5.37797 11.5735 5.15397 11.7975 4.87797 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.5291 3.86063C10.2531 3.86063 10.0291 3.63663 10.0291 3.36063V1.16663C10.0291 0.890626 10.2531 0.666626 10.5291 0.666626C10.8051 0.666626 11.0291 0.890626 11.0291 1.16663V3.36063C11.0291 3.63663 10.8051 3.86063 10.5291 3.86063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M5.14355 3.86063C4.86755 3.86063 4.64355 3.63663 4.64355 3.36063V1.16663C4.64355 0.890626 4.86755 0.666626 5.14355 0.666626C5.41955 0.666626 5.64355 0.890626 5.64355 1.16663V3.36063C5.64355 3.63663 5.41955 3.86063 5.14355 3.86063Z"
+												fill="#222222" />
+											<mask id="mask0_2_417" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+												x="1" y="1" width="14" height="14">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M1.33337 1.71936H14.3334V15H1.33337V1.71936Z" fill="white" />
+											</mask>
+											<g mask="url(#mask0_2_417)">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M5.01404 2.71936C3.28537 2.71936 2.33337 3.64136 2.33337 5.31536V11.348C2.33337 13.0587 3.28537 14 5.01404 14H10.6527C12.3814 14 13.3334 13.076 13.3334 11.3987V5.31536C13.336 4.49203 13.1147 3.85203 12.6754 3.41203C12.2234 2.95869 11.5267 2.71936 10.6587 2.71936H5.01404ZM10.6527 15H5.01404C2.74404 15 1.33337 13.6007 1.33337 11.348V5.31536C1.33337 3.09669 2.74404 1.71936 5.01404 1.71936H10.6587C11.798 1.71936 12.74 2.06069 13.3834 2.70536C14.008 3.33269 14.3367 4.23469 14.3334 5.31669V11.3987C14.3334 13.62 12.9227 15 10.6527 15Z"
+													fill="#222222" />
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-item">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Выезд</div>
+									<div class="header-example-block__params-select"><span>24 июня 2022</span></div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="16" height="16"
+										viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g opacity="0.4">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.7777 6.60278H1.89502C1.61902 6.60278 1.39502 6.37878 1.39502 6.10278C1.39502 5.82678 1.61902 5.60278 1.89502 5.60278H13.7777C14.0537 5.60278 14.2777 5.82678 14.2777 6.10278C14.2777 6.37878 14.0537 6.60278 13.7777 6.60278Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 9.2063C10.5249 9.2063 10.2982 8.9823 10.2982 8.7063C10.2982 8.4303 10.5189 8.2063 10.7949 8.2063H10.8009C11.0769 8.2063 11.3009 8.4303 11.3009 8.7063C11.3009 8.9823 11.0769 9.2063 10.8009 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 9.2063C7.56651 9.2063 7.33984 8.9823 7.33984 8.7063C7.33984 8.4303 7.56051 8.2063 7.83651 8.2063H7.84251C8.11851 8.2063 8.34251 8.4303 8.34251 8.7063C8.34251 8.9823 8.11851 9.2063 7.84251 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 9.2063C4.60197 9.2063 4.37463 8.9823 4.37463 8.7063C4.37463 8.4303 4.59597 8.2063 4.87197 8.2063H4.87797C5.15397 8.2063 5.37797 8.4303 5.37797 8.7063C5.37797 8.9823 5.15397 9.2063 4.87797 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 11.7975C10.5249 11.7975 10.2982 11.5735 10.2982 11.2975C10.2982 11.0215 10.5189 10.7975 10.7949 10.7975H10.8009C11.0769 10.7975 11.3009 11.0215 11.3009 11.2975C11.3009 11.5735 11.0769 11.7975 10.8009 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 11.7975C7.56651 11.7975 7.33984 11.5735 7.33984 11.2975C7.33984 11.0215 7.56051 10.7975 7.83651 10.7975H7.84251C8.11851 10.7975 8.34251 11.0215 8.34251 11.2975C8.34251 11.5735 8.11851 11.7975 7.84251 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 11.7975C4.60197 11.7975 4.37463 11.5735 4.37463 11.2975C4.37463 11.0215 4.59597 10.7975 4.87197 10.7975H4.87797C5.15397 10.7975 5.37797 11.0215 5.37797 11.2975C5.37797 11.5735 5.15397 11.7975 4.87797 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.5291 3.86063C10.2531 3.86063 10.0291 3.63663 10.0291 3.36063V1.16663C10.0291 0.890626 10.2531 0.666626 10.5291 0.666626C10.8051 0.666626 11.0291 0.890626 11.0291 1.16663V3.36063C11.0291 3.63663 10.8051 3.86063 10.5291 3.86063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M5.14355 3.86063C4.86755 3.86063 4.64355 3.63663 4.64355 3.36063V1.16663C4.64355 0.890626 4.86755 0.666626 5.14355 0.666626C5.41955 0.666626 5.64355 0.890626 5.64355 1.16663V3.36063C5.64355 3.63663 5.41955 3.86063 5.14355 3.86063Z"
+												fill="#222222" />
+											<mask id="mask0_2_417" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+												x="1" y="1" width="14" height="14">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M1.33337 1.71936H14.3334V15H1.33337V1.71936Z" fill="white" />
+											</mask>
+											<g mask="url(#mask0_2_417)">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M5.01404 2.71936C3.28537 2.71936 2.33337 3.64136 2.33337 5.31536V11.348C2.33337 13.0587 3.28537 14 5.01404 14H10.6527C12.3814 14 13.3334 13.076 13.3334 11.3987V5.31536C13.336 4.49203 13.1147 3.85203 12.6754 3.41203C12.2234 2.95869 11.5267 2.71936 10.6587 2.71936H5.01404ZM10.6527 15H5.01404C2.74404 15 1.33337 13.6007 1.33337 11.348V5.31536C1.33337 3.09669 2.74404 1.71936 5.01404 1.71936H10.6587C11.798 1.71936 12.74 2.06069 13.3834 2.70536C14.008 3.33269 14.3367 4.23469 14.3334 5.31669V11.3987C14.3334 13.62 12.9227 15 10.6527 15Z"
+													fill="#222222" />
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-item header-example-block__params-item--lg">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Гости</div>
+									<div class="header-example-block__params-select"><span>2</span> взрослых, без
+										детей</div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="12" height="14"
+										viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M9.5294 3.86074C9.5294 5.81876 7.95948 7.38878 6.00008 7.38878C4.04135 7.38878 2.47076 5.81876 2.47076 3.86074C2.47076 1.90272 4.04135 0.333374 6.00008 0.333374C7.95948 0.333374 9.5294 1.90272 9.5294 3.86074ZM6.00008 13.6667C3.10833 13.6667 0.666748 13.1967 0.666748 11.3834C0.666748 9.56933 3.12367 9.116 6.00008 9.116C8.8925 9.116 11.3334 9.586 11.3334 11.3994C11.3334 13.2134 8.87649 13.6667 6.00008 13.6667Z"
+											fill="#A7A7A7" />
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-btn">
+								Показать <span class="hidden visible-xs">цены</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- mod-6 -->
+
+			<div class="info-section__slide header-example-block header-example-block--middle header-example-block--light-bg header-example-block--opacity-bg"
+				id="module-color6">
+				<picture>
+					<source media="(max-width: 998px)" srcset="/images/module-1-xs.jpg">
+					<img class="header-example-block__bg" src="images/module-1.jpg" alt="">
+				</picture>
+
+				<div class="header-example-block__params">
+					<div class="header-example-block__params-wrap">
+						<div class="header-example-block__params-title">Бронирование номеров</div>
+						<div class="header-example-block__params-items">
+							<div class="header-example-block__params-item">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Заезд</div>
+									<div class="header-example-block__params-select"><span>23 июня 2022</span></div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="16" height="16"
+										viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g opacity="0.4">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.7777 6.60278H1.89502C1.61902 6.60278 1.39502 6.37878 1.39502 6.10278C1.39502 5.82678 1.61902 5.60278 1.89502 5.60278H13.7777C14.0537 5.60278 14.2777 5.82678 14.2777 6.10278C14.2777 6.37878 14.0537 6.60278 13.7777 6.60278Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 9.2063C10.5249 9.2063 10.2982 8.9823 10.2982 8.7063C10.2982 8.4303 10.5189 8.2063 10.7949 8.2063H10.8009C11.0769 8.2063 11.3009 8.4303 11.3009 8.7063C11.3009 8.9823 11.0769 9.2063 10.8009 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 9.2063C7.56651 9.2063 7.33984 8.9823 7.33984 8.7063C7.33984 8.4303 7.56051 8.2063 7.83651 8.2063H7.84251C8.11851 8.2063 8.34251 8.4303 8.34251 8.7063C8.34251 8.9823 8.11851 9.2063 7.84251 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 9.2063C4.60197 9.2063 4.37463 8.9823 4.37463 8.7063C4.37463 8.4303 4.59597 8.2063 4.87197 8.2063H4.87797C5.15397 8.2063 5.37797 8.4303 5.37797 8.7063C5.37797 8.9823 5.15397 9.2063 4.87797 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 11.7975C10.5249 11.7975 10.2982 11.5735 10.2982 11.2975C10.2982 11.0215 10.5189 10.7975 10.7949 10.7975H10.8009C11.0769 10.7975 11.3009 11.0215 11.3009 11.2975C11.3009 11.5735 11.0769 11.7975 10.8009 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 11.7975C7.56651 11.7975 7.33984 11.5735 7.33984 11.2975C7.33984 11.0215 7.56051 10.7975 7.83651 10.7975H7.84251C8.11851 10.7975 8.34251 11.0215 8.34251 11.2975C8.34251 11.5735 8.11851 11.7975 7.84251 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 11.7975C4.60197 11.7975 4.37463 11.5735 4.37463 11.2975C4.37463 11.0215 4.59597 10.7975 4.87197 10.7975H4.87797C5.15397 10.7975 5.37797 11.0215 5.37797 11.2975C5.37797 11.5735 5.15397 11.7975 4.87797 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.5291 3.86063C10.2531 3.86063 10.0291 3.63663 10.0291 3.36063V1.16663C10.0291 0.890626 10.2531 0.666626 10.5291 0.666626C10.8051 0.666626 11.0291 0.890626 11.0291 1.16663V3.36063C11.0291 3.63663 10.8051 3.86063 10.5291 3.86063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M5.14355 3.86063C4.86755 3.86063 4.64355 3.63663 4.64355 3.36063V1.16663C4.64355 0.890626 4.86755 0.666626 5.14355 0.666626C5.41955 0.666626 5.64355 0.890626 5.64355 1.16663V3.36063C5.64355 3.63663 5.41955 3.86063 5.14355 3.86063Z"
+												fill="#222222" />
+											<mask id="mask0_2_417" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+												x="1" y="1" width="14" height="14">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M1.33337 1.71936H14.3334V15H1.33337V1.71936Z" fill="white" />
+											</mask>
+											<g mask="url(#mask0_2_417)">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M5.01404 2.71936C3.28537 2.71936 2.33337 3.64136 2.33337 5.31536V11.348C2.33337 13.0587 3.28537 14 5.01404 14H10.6527C12.3814 14 13.3334 13.076 13.3334 11.3987V5.31536C13.336 4.49203 13.1147 3.85203 12.6754 3.41203C12.2234 2.95869 11.5267 2.71936 10.6587 2.71936H5.01404ZM10.6527 15H5.01404C2.74404 15 1.33337 13.6007 1.33337 11.348V5.31536C1.33337 3.09669 2.74404 1.71936 5.01404 1.71936H10.6587C11.798 1.71936 12.74 2.06069 13.3834 2.70536C14.008 3.33269 14.3367 4.23469 14.3334 5.31669V11.3987C14.3334 13.62 12.9227 15 10.6527 15Z"
+													fill="#222222" />
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-item">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Выезд</div>
+									<div class="header-example-block__params-select"><span>24 июня 2022</span></div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="16" height="16"
+										viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g opacity="0.4">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.7777 6.60278H1.89502C1.61902 6.60278 1.39502 6.37878 1.39502 6.10278C1.39502 5.82678 1.61902 5.60278 1.89502 5.60278H13.7777C14.0537 5.60278 14.2777 5.82678 14.2777 6.10278C14.2777 6.37878 14.0537 6.60278 13.7777 6.60278Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 9.2063C10.5249 9.2063 10.2982 8.9823 10.2982 8.7063C10.2982 8.4303 10.5189 8.2063 10.7949 8.2063H10.8009C11.0769 8.2063 11.3009 8.4303 11.3009 8.7063C11.3009 8.9823 11.0769 9.2063 10.8009 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 9.2063C7.56651 9.2063 7.33984 8.9823 7.33984 8.7063C7.33984 8.4303 7.56051 8.2063 7.83651 8.2063H7.84251C8.11851 8.2063 8.34251 8.4303 8.34251 8.7063C8.34251 8.9823 8.11851 9.2063 7.84251 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 9.2063C4.60197 9.2063 4.37463 8.9823 4.37463 8.7063C4.37463 8.4303 4.59597 8.2063 4.87197 8.2063H4.87797C5.15397 8.2063 5.37797 8.4303 5.37797 8.7063C5.37797 8.9823 5.15397 9.2063 4.87797 9.2063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.8009 11.7975C10.5249 11.7975 10.2982 11.5735 10.2982 11.2975C10.2982 11.0215 10.5189 10.7975 10.7949 10.7975H10.8009C11.0769 10.7975 11.3009 11.0215 11.3009 11.2975C11.3009 11.5735 11.0769 11.7975 10.8009 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.84251 11.7975C7.56651 11.7975 7.33984 11.5735 7.33984 11.2975C7.33984 11.0215 7.56051 10.7975 7.83651 10.7975H7.84251C8.11851 10.7975 8.34251 11.0215 8.34251 11.2975C8.34251 11.5735 8.11851 11.7975 7.84251 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M4.87797 11.7975C4.60197 11.7975 4.37463 11.5735 4.37463 11.2975C4.37463 11.0215 4.59597 10.7975 4.87197 10.7975H4.87797C5.15397 10.7975 5.37797 11.0215 5.37797 11.2975C5.37797 11.5735 5.15397 11.7975 4.87797 11.7975Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M10.5291 3.86063C10.2531 3.86063 10.0291 3.63663 10.0291 3.36063V1.16663C10.0291 0.890626 10.2531 0.666626 10.5291 0.666626C10.8051 0.666626 11.0291 0.890626 11.0291 1.16663V3.36063C11.0291 3.63663 10.8051 3.86063 10.5291 3.86063Z"
+												fill="#222222" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M5.14355 3.86063C4.86755 3.86063 4.64355 3.63663 4.64355 3.36063V1.16663C4.64355 0.890626 4.86755 0.666626 5.14355 0.666626C5.41955 0.666626 5.64355 0.890626 5.64355 1.16663V3.36063C5.64355 3.63663 5.41955 3.86063 5.14355 3.86063Z"
+												fill="#222222" />
+											<mask id="mask0_2_417" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+												x="1" y="1" width="14" height="14">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M1.33337 1.71936H14.3334V15H1.33337V1.71936Z" fill="white" />
+											</mask>
+											<g mask="url(#mask0_2_417)">
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M5.01404 2.71936C3.28537 2.71936 2.33337 3.64136 2.33337 5.31536V11.348C2.33337 13.0587 3.28537 14 5.01404 14H10.6527C12.3814 14 13.3334 13.076 13.3334 11.3987V5.31536C13.336 4.49203 13.1147 3.85203 12.6754 3.41203C12.2234 2.95869 11.5267 2.71936 10.6587 2.71936H5.01404ZM10.6527 15H5.01404C2.74404 15 1.33337 13.6007 1.33337 11.348V5.31536C1.33337 3.09669 2.74404 1.71936 5.01404 1.71936H10.6587C11.798 1.71936 12.74 2.06069 13.3834 2.70536C14.008 3.33269 14.3367 4.23469 14.3334 5.31669V11.3987C14.3334 13.62 12.9227 15 10.6527 15Z"
+													fill="#222222" />
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-item header-example-block__params-item--lg">
+								<div class="header-example-block__params-left">
+									<div class="header-example-block__params-label">Гости</div>
+									<div class="header-example-block__params-select"><span>2</span> взрослых, без
+										детей</div>
+								</div>
+								<div class="header-example-block__params-right">
+									<svg class="header-example-block__params-icon" width="12" height="14"
+										viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M9.5294 3.86074C9.5294 5.81876 7.95948 7.38878 6.00008 7.38878C4.04135 7.38878 2.47076 5.81876 2.47076 3.86074C2.47076 1.90272 4.04135 0.333374 6.00008 0.333374C7.95948 0.333374 9.5294 1.90272 9.5294 3.86074ZM6.00008 13.6667C3.10833 13.6667 0.666748 13.1967 0.666748 11.3834C0.666748 9.56933 3.12367 9.116 6.00008 9.116C8.8925 9.116 11.3334 9.586 11.3334 11.3994C11.3334 13.2134 8.87649 13.6667 6.00008 13.6667Z"
+											fill="#A7A7A7" />
+									</svg>
+								</div>
+							</div>
+
+							<div class="header-example-block__params-btn">
+								Показать <span class="hidden visible-xs">цены</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="info-section__btn">
+				<a href="#acces-popup" class="btn btn--orange js-popup-show">Попробовать 15 дней бесплатно</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="main__advantages advantages-section">
+		<div class="advantages-section__container container">
+			<div class="advantages-section__title title-h2">Преимущества использования</div>
+			<div class="advantages-section__row row row--stretch">
+				<div class="advantages-section__row-item col-6 col-sm-6 col-xs-12">
+					<div class="function-block function-block--bg">
+						<div class="function-block__icon">
+							<img src="/images/advantege-block-img-1.svg" alt="">
+						</div>
+						<div class="function-block__info">
+							<div class="function-block__title title-h4">
+								Увеличивает прямые продажи
+							</div>
+							<div class="function-block__text">
+								72% гостей посещают сайт отеля перед бронированием. Упростите процесс бронирования с
+								помощью онлайн-модуля.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="advantages-section__row-item col-6 col-sm-6 col-xs-12">
+					<div class="function-block function-block--bg">
+						<div class="function-block__icon">
+							<img src="/images/advantege-block-img-2.svg" alt="">
+						</div>
+						<div class="function-block__info">
+							<div class="function-block__title title-h4">
+								Мотивирует гостей забронировать
+							</div>
+							<div class="function-block__text">
+								Используйте маркетинговые инструменты - скидки, промокоды и мотиваторы, которые
+								подтолкнут гостя совершить бронирование.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="advantages-section__row-item col-6 col-sm-6 col-xs-12">
+					<div class="function-block function-block--bg">
+						<div class="function-block__icon">
+							<img src="/images/advantege-block-img-3.svg" alt="">
+						</div>
+						<div class="function-block__info">
+							<div class="function-block__title title-h4">
+								Упрощает процесс бронирования
+							</div>
+							<div class="function-block__text">
+								Гость бронирует на официальном на сайте — это удобно, надежно и выгодно. Вероятность,
+								что он вернется снова, растет.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="advantages-section__row-item col-6 col-sm-6 col-xs-12">
+					<div class="function-block function-block--bg">
+						<div class="function-block__icon">
+							<img src="/images/advantege-block-img-4.svg" alt="">
+						</div>
+						<div class="function-block__info">
+							<div class="function-block__title title-h4">
+								Повышает средний чек
+							</div>
+							<div class="function-block__text">
+								Предлагайте гостям дополнительные услуги на этапе бронирования и увеличивайте свой
+								доход.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="advantages-section__row-item col-6 col-sm-6 col-xs-12">
+					<div class="function-block function-block--bg">
+						<div class="function-block__icon">
+							<img src="/images/advantege-block-img-5.svg" alt="">
+						</div>
+						<div class="function-block__info">
+							<div class="function-block__title title-h4">
+								Работает на бренд отеля
+							</div>
+							<div class="function-block__text">
+								Онлайн-модуль повышает лояльность потенциальных гостей за счёт простоты
+								и удобства бронирования.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="advantages-section__row-item col-6 col-sm-6 col-xs-12">
+					<div class="function-block function-block--bg">
+						<div class="function-block__icon">
+							<img src="/images/advantege-block-img-6.svg" alt="">
+						</div>
+						<div class="function-block__info">
+							<div class="function-block__title title-h4">
+								Бронирования 24/7
+							</div>
+							<div class="function-block__text">
+								Ваши гости увидят информацию
+								о свободных датах, ценах, номерах и смогут забронировать номер в любое время.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="advantages-section__buttons">
+				<a href="#acces-popup" class="btn btn--orange js-popup-show">Бесплатный демо-доступ</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="main__quality quality-section quality-section--type-2">
+		<div class="quality-section__container container">
+			<div class="quality-section__title title-h2">
+				Установите модуль<br class="hidden visible-xs"> онлайн-бронирования
+			</div>
+			<div class="quality-section__items row row--stretch row--center">
+				<div class="quality-section__item col-4 col-sm-6 col-xs-12">
+					<div class="quality-block quality-block--default">
+						<div class="quality-block__title title-h4">
+							На сайте отеля
+						</div>
+						<div class="quality-block__text">
+							Получите до <span>30%</span> больше прямых продаж без дополнительных вложений.
+						</div>
+					</div>
+				</div>
+
+				<div class="quality-section__item col-4 col-sm-6 col-xs-12">
+					<div class="quality-block quality-block--default">
+						<div class="quality-block__title title-h4">
+							В социальных сетях
+						</div>
+						<div class="quality-block__text">
+							Встройте модуль в кнопку «Забронировать» или добавьте ссылкой в шапку профиля.
+						</div>
+					</div>
+				</div>
+
+				<div class="quality-section__item col-4 col-sm-6 col-xs-12">
+					<div class="quality-block quality-block--default">
+						<div class="quality-block__title title-h4">
+							Мессенджеры
+						</div>
+						<div class="quality-block__text">
+							Отправляйте гостям прямую ссылку на бронирование через любой из мессенджеров.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="main__banner banner-section">
+		<div class="banner-section__container container">
+			<div class="banner-section__title title-h4">С модулем бронирования работают</div>
+			<div class="banner-section__wrapper">
+				<div class="banner-section__items">
+					<div class="banner-section__item">
+						<div class="banner-section__icon">
+							<svg>
+								<use xlink:href="/images/sprite-svg.svg#banner-item-1"></use>
+							</svg>
+						</div>
+						<div class="banner-section__text">Отели<br class="hidden visible-sm"> и мини-отели</div>
+					</div>
+
+					<div class="banner-section__item">
+						<div class="banner-section__icon banner-section__icon--2">
+							<svg>
+								<use xlink:href="/images/sprite-svg.svg#banner-item-2"></use>
+							</svg>
+						</div>
+						<div class="banner-section__text">Глэмпинги, шатры <br>
+							и эко-отели</div>
+					</div>
+
+					<div class="banner-section__item">
+						<div class="banner-section__icon banner-section__icon--3">
+							<svg>
+								<use xlink:href="/images/sprite-svg.svg#banner-item-3"></use>
+							</svg>
+						</div>
+						<div class="banner-section__text">Загородные дома<br>
+							и другие объекты</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="calc-section calc-section--module-page">
+		<div class="container">
+			<h3 class="calc-section__title title-h2">Стоимость системы управления отелем</h3>
+			<div class="calc-block">
+				<div class="calc-block__row">
+					<div class="calc-block__left">
+						<div class="calc-block__input">
+							<div class="calc-block__label">Срок подключения</div>
+							<div class="calc-block__tabs js-tabs-scroll">
+								<div class="calc-block__tabs-item">
+									<div class="radiobox radiobox--btn"><input class="js-calc-sale-radio" type="radio"
+											name="sale" id="sale-1" value="0"><label for="sale-1">1
+											мес.</label></div>
+								</div>
+								<div class="calc-block__tabs-item">
+									<div class="radiobox radiobox--btn"><input class="js-calc-sale-radio" type="radio"
+											name="sale" id="sale-2" value="10"><label for="sale-2"> 3
+											мес.</label></div>
+									<div class="calc-block__tabs-label">-10%</div>
+								</div>
+								<div class="calc-block__tabs-item hidden-xs">
+									<div class="radiobox radiobox--btn"><input class="js-calc-sale-radio" type="radio"
+											name="sale" id="sale-3" value="15"><label for="sale-3">6
+											мес.</label></div>
+									<div class="calc-block__tabs-label">-15%</div>
+								</div>
+								<div class="calc-block__tabs-item">
+									<div class="radiobox radiobox--btn"><input class="js-calc-sale-radio" type="radio"
+											name="sale" id="sale-4" value="20" checked><label for="sale-4">1 год</label>
+									</div>
+									<div class="calc-block__tabs-label">-20%</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="calc-block__input">
+							<div class="calc-block__label">Количество номеров</div>
+							<div class="count-block">
+								<a href="#" class="count-block__minus js-count-minus"></a>
+								<input type="text" value="5" class="count-block__input js-calc-count-input">
+								<a href="#" class="count-block__plus js-count-plus"></a>
+							</div>
+						</div>
+
+						<div class="calc-block__desc">
+							<a href="#acces-popup" class="btn btn--orange js-popup-show">Получить 15 дней бесплатно</a>
+						</div>
+					</div>
+					<div class="calc-block__right">
+						<div class="calc-block__wrapper tabs">
+							<div class="calc-block__wrapper-title">Расчет стоимости</div>
+							<div class="calc-block__wrapper-tabs tabs__nav">
+								<div class="tabs__nav-item"><a class="js-tab-nav" href="#sale-tab-1">Система
+										управления</a>
+								</div>
+								<div class="tabs__nav-item is-active"><a class="js-tab-nav" href="#sale-tab-2">Модуль
+										бронирования</a></div>
+							</div>
+							<div class="calc-block__wrapper-body tabs__body" id="sale-tab-1">
+								<div class="calc-block__result">
+									<div class="calc-block__result-sale"><span class="js-sale-value"></span></div>
+									<div class="calc-block__result-price"><span class="js-price-value"></span>₽
+									</div>
+									<div class="calc-block__result-label">за месяц</div>
+								</div>
+							</div>
+							<div class="calc-block__wrapper-body tabs__body is-active" id="sale-tab-2">
+								<div class="calc-block__result">
+									<div class="calc-block__result-sale calc-block__result-sale--procent"><span
+											class=" is-active">
+											2%</span></div>
+									<div class="calc-block__result-price calc-block__result-price--procent">
+										<span>1%</span>
+									</div>
+								</div>
+								<div class="calc-block__wrapper-desc">При подключении модуля до 31.05.2022 плата за
+									использование составит 1% от бронирования. Акция действует до 31.08.2022.</div>
+							</div>
+							<div class="calc-block__wrapper-bottom"><a href="#acces-popup"
+									class="js-popup-show">Попробовать сейчас</a></div>
+						</div>
+
+						<div class="calc-block__desc calc-block__desc--xs">
+							<a href="#acces-popup" class="btn btn--orange js-popup-show">Получить 15 дней бесплатно</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="main__connect-2 connect-section">
+		<div class="connect-section__container container">
+			<div class="connect-section__title title-h2">Как подключить модуль бронирования</div>
+			<div class="connect-section__subtitle">Подключение не потребует много времени и знаний, поэтому с задачей
+				без труда справится любой из сотрудников. </div>
+			<div class="connect-section__items row row--stretch row--center">
+				<div class="connect-section__item col-4 col-sm-6 col-xs-12">
+					<div class="step-block">
+						<div class="step-block__icon">
+							<svg>
+								<use xlink:href="/images/sprite-svg.svg#step-1"></use>
+							</svg>
+						</div>
+						<div class="step-block__text">Оставьте заявку онлайн или свяжитесь с нами по телефону.</div>
+					</div>
+				</div>
+
+				<div class="connect-section__item col-4 col-sm-6 col-xs-12">
+					<div class="step-block">
+						<div class="step-block__icon">
+							<svg>
+								<use xlink:href="/images/sprite-svg.svg#step-2"></use>
+							</svg>
+						</div>
+						<div class="step-block__text">Заполните личный кабинет, пользуясь рекомендациями.</div>
+					</div>
+				</div>
+
+				<div class="connect-section__item col-4 col-sm-6 col-xs-12">
+					<div class="step-block">
+						<div class="step-block__icon">
+							<svg>
+								<use xlink:href="/images/sprite-svg.svg#step-3"></use>
+							</svg>
+						</div>
+						<div class="step-block__text">Установите модуль<br> на сайт и получайте новые бронирования.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="connect-section__btn">
+				<a href="#acces-popup" class="btn btn--orange js-popup-show">Бесплатный демо-доступ</a>
+			</div>
+		</div>
+	</section>
+	<section class="main__questions questions-section">
+		<div class="questions-section__container container">
+			<div class="questions-section__title title-h2">Часто задаваемые вопросы</div>
+
+			<div class="questions-section__accardion accardion-block">
+
+				<div class="accardion-block__head js-accardion-toggle">
+					<div class="accardion-block__title">Что такое система управления отелем?</div>
+					<div class="accardion-block__arrow">
+						<svg>
+							<use xlink:href="/images/sprite-svg.svg#plus">
+						</svg>
+					</div>
+				</div>
+				<div class="accardion-block__body js-accardion-body">
+					<p>Инструмент менеджер каналов автоматически обновляет
+						бронирование номеров, исключая перебронирования, а с помощью удобной шахматки вы сможете
+						контролировать загрузку в вашем комплексе.</p>
+					<p>Инструмент менеджер каналов автоматически обновляет
+						бронирование номеров, исключая перебронирования, а с помощью удобной шахматки вы сможете
+						контролировать загрузку в вашем комплексе.</p>
+					<p>Инструмент менеджер каналов автоматически обновляет
+						бронирование номеров, исключая перебронирования, а с помощью удобной шахматки вы сможете
+						контролировать загрузку в вашем комплексе.</p>
+				</div>
+
+				<div class="accardion-block__head js-accardion-toggle">
+					<div class="accardion-block__title">Что такое система управления отелем?</div>
+					<div class="accardion-block__arrow">
+						<svg>
+							<use xlink:href="/images/sprite-svg.svg#plus">
+						</svg>
+					</div>
+				</div>
+				<div class="accardion-block__body js-accardion-body">
+					<p>Инструмент менеджер каналов автоматически обновляет
+						бронирование номеров, исключая перебронирования, а с помощью удобной шахматки вы сможете
+						контролировать загрузку в вашем комплексе.</p>
+				</div>
+
+				<div class="accardion-block__head js-accardion-toggle">
+					<div class="accardion-block__title">Как с помощью системы управления повысить лояльность
+						клиентов?</div>
+					<div class="accardion-block__arrow">
+						<svg>
+							<use xlink:href="/images/sprite-svg.svg#plus">
+						</svg>
+					</div>
+				</div>
+				<div class="accardion-block__body js-accardion-body">
+					<p>Инструмент менеджер каналов автоматически обновляет
+						бронирование номеров, исключая перебронирования, а с помощью удобной шахматки вы сможете
+						контролировать загрузку в вашем комплексе.</p>
+				</div>
+
+				<div class="accardion-block__head js-accardion-toggle">
+					<div class="accardion-block__title">Контроль оплат – что это?</div>
+					<div class="accardion-block__arrow">
+						<svg>
+							<use xlink:href="/images/sprite-svg.svg#plus">
+						</svg>
+					</div>
+				</div>
+				<div class="accardion-block__body js-accardion-body">
+					<p>Инструмент менеджер каналов автоматически обновляет
+						бронирование номеров, исключая перебронирования, а с помощью удобной шахматки вы сможете
+						контролировать загрузку в вашем комплексе.</p>
+				</div>
+
+				<div class="accardion-block__head js-accardion-toggle">
+					<div class="accardion-block__title">Как происходит оплата с помощью сайта?</div>
+					<div class="accardion-block__arrow">
+						<svg>
+							<use xlink:href="/images/sprite-svg.svg#plus">
+						</svg>
+					</div>
+				</div>
+				<div class="accardion-block__body js-accardion-body">
+					<p>Инструмент менеджер каналов автоматически обновляет
+						бронирование номеров, исключая перебронирования, а с помощью удобной шахматки вы сможете
+						контролировать загрузку в вашем комплексе.</p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<section class="main__partners partners-section">
+		<div class="partners-section__contaienr container">
+			<div class="partners-section__title title-h2">Наши партнеры</div>
+			<div class="partners-section__slider">
+				<div class="js-comments-slider">
+					<div class="partners-section__slide ">
+						<div class="comment-block">
+							<div class="comment-block__img">
+								<img src="/images/comment.jpg" alt="">
+							</div>
+							<div class="comment-block__info ">
+								<div class="comment-block__title">Эко-домики Mökki & Mänty</div>
+								<div class="comment-block__name">Олеся, собственник отеля</div>
+								<div class="comment-block__text js-wrap-text">
+									Хотелось бы дать обратную связь по работе компании ЗнайМеста и модуле бронирования,
+									который нам предоставили.
+									Для меня очень важен человеческий фактор. Менеджер всегда
+									на связи, очень доступно и терпеливо все объясняет, максимально вежливо и
+									профессионально! Это огромное преимущество, т.к после ухода из РФ основных каналов
+									бронирования стали появляться площадки для размещения,
+									НО! В 90% я даже не смогла разобраться, как можно добавить свой объект. И телефонов
+									для связи нет. И никто тебе не поможет.
+									Стоимость услуг и условия очень комфортные. Гость оплачивает напрямую и комиссия
+									минимальная.
+									Есть площадки, которые берут 20-30% и выплаты только через месяц. Максимально
+									неудобно и невыгодно.
+									Я полностью довольна сервисом и рекомендую коллегам!
+								</div>
+								<div class="comment-block__link js-more-text">Читать дальше</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="partners-section__slide ">
+						<div class="comment-block">
+							<div class="comment-block__img">
+								<img src="/images/comment.jpg" alt="">
+							</div>
+							<div class="comment-block__info ">
+								<div class="comment-block__title">Эко-домики Mökki & Mänty</div>
+								<div class="comment-block__name">Олеся, собственник отеля</div>
+								<div class="comment-block__text js-wrap-text">
+									Хотелось бы дать обратную связь по работе компании ЗнайМеста и модуле бронирования,
+									который нам предоставили.
+									Для меня очень важен человеческий фактор. Менеджер всегда
+									на связи, очень доступно и терпеливо все объясняет, максимально вежливо и
+									профессионально! Это огромное преимущество, т.к после ухода из РФ основных каналов
+									бронирования стали появляться площадки для размещения,
+									НО! В 90% я даже не смогла разобраться, как можно добавить свой объект. И телефонов
+									для связи нет. И никто тебе не поможет.
+									Стоимость услуг и условия очень комфортные. Гость оплачивает напрямую и комиссия
+									минимальная.
+									Есть площадки, которые берут 20-30% и выплаты только через месяц. Максимально
+									неудобно и невыгодно.
+									Я полностью довольна сервисом и рекомендую коллегам!
+								</div>
+								<div class="comment-block__link js-more-text">Читать дальше</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="main__request request-section">
+		<div class="request-section__container container">
+			<div class="request-section__title title-h2">Получите до <span>30%</span> больше бронирований!</div>
+			<div class="request-section__subtitle">Оставьте заявку, и всего за <span>10 минут</span> мы поможем вам
+				<span>увеличить количество бронирований.</span>
+			</div>
+			<form action="/final-page.html" class="request-section__form form-block">
+				<div class="form-block__input form-group">
+					<span class="form-group__label">Контактное лицо</span>
+					<input type="text" class="form-control form-block__input js-required" placeholder="Введите имя"
+						name="name" required>
+				</div>
+				<div class="form-block__input form-group">
+					<span class="form-group__label">Номер телефона</span>
+					<input type="tel" class="form-control js-required" placeholder="+7 (999) 999 99 99" name="phone"
+						required>
+				</div>
+				<div class="form-block__input form-group">
+					<span class="form-group__label">Сайт</span>
+					<input type="text" class="form-control js-required" placeholder="Введите ссылку на сайт" name="site"
+						required>
+				</div>
+				<div class="form-block__btn">
+					<button type="submit" class="btn btn--orange js-submit">Оставить
+						заявку</button>
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<footer class="main__footer footer">
+		<div class="footer__container container">
+			<div class="footer__info">
+				<a href="/" class="footer__logo">
+					<img src="/images//logo.svg" alt="logo">
+				</a>
+				<a href="tel:+7 (999) 999-99-99" class="footer__item">+7 (999) 999-99-99</a>
+				<a href="mailto::mail@mail.ru" class="footer__item">mail@mail.ru</a>
+				<div class="footer__about">Сервис управления бронированиями Бронируй Онлайн</div>
+			</div>
+			<div class="footer__links">
+				<a href="#" class="footer__link">Контакты</a>
+				<a href="#" class="footer__link">Оферта</a>
+				<a href="#" class="footer__link">Способы оплаты</a>
+				<a href="#" class="footer__link">Условия возврата</a>
+				<a href="#" class="footer__link">Согласие на обработку персональных данных</a>
+			</div>
+		</div>
+	</footer>
+
+	<div class="popup" id="acces-popup">
+		<div class="popup__overflow js-popup-hide"></div>
+		<div class="popup__wrapper"><a class="popup__close js-popup-hide">
+				<svg class="icon icon_close">
+					<use xlink:href="images/sprite-svg.svg#close"></use>
+				</svg></a>
+			<div class="popup__title">Доступ на 15 дней бесплатно!</div>
+			<div class="popup__subtitle">Заполните форму ниже и получите доступ к полному функционалу облачной системы
+			</div>
+			<form action="" class="popup__form form-block form-block--popup-mod">
+				<div class="form-block__wrap">
+					<div class="form-block__input form-group">
+						<span class="form-group__label form-group__label--white">Контактное лицо</span>
+						<input type="text" class="form-control form-block__input js-required" placeholder="Введите имя"
+							name="name" required>
+					</div>
+					<div class="form-block__input form-group">
+						<span class="form-group__label form-group__label--white">Номер телефона</span>
+						<input type="tel" class="form-control js-required" placeholder="+7 (999) 999 99 99" name="phone"
+							required>
+					</div>
+					<div class="form-block__input form-group">
+						<span class="form-group__label form-group__label--white">Сайт</span>
+						<input type="text" class="form-control js-required" placeholder="Введите ссылку на сайт"
+							name="site" required>
+					</div>
+				</div>
+				<div class="form-block__btn">
+					<!-- <a href="#acces-send" class="btn btn--orange js-popup-show">Оставить заявку</a> -->
+					<button data-href="#acces-send" class="btn btn--orange js-submit" type="submit">Оставить
+						заявку</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="popup popup--send" id="acces-send">
+		<div class="popup__overflow js-popup-hide"></div>
+		<div class="popup__wrapper"><a class="popup__close js-popup-hide">
+				<svg class="icon icon_close">
+					<use xlink:href="images/sprite-svg.svg#close"></use>
+				</svg></a>
+			<div class="popup__title">Ваша заявка успешно отправлена!</div>
+			<div class="popup__subtitle">В ближайшее время с вами свяжется наш специалист, чтобы обсудить детали.</div>
+			<div class="popup__btn">
+				<a href="#" class="btn btn--orange js-popup-hide">Отлично</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup" id="support-popup">
+		<div class="popup__overflow js-popup-hide"></div>
+		<div class="popup__wrapper"><a class="popup__close js-popup-hide">
+				<svg class="icon icon_close">
+					<use xlink:href="images/sprite-svg.svg#close"></use>
+				</svg></a>
+			<div class="popup__title">Поддержка</div>
+			<div class="popup__subtitle">Вы можете отправить нам сообщение, и мы обязательно с вами свяжемся.</div>
+			<form action="" class="popup__form form-block form-block--popup-mod">
+				<div class="form-block__wrap">
+					<div class="form-block__input form-group">
+						<span class="form-group__label form-group__label--white">Контактное лицо</span>
+						<input type="text" class="form-control form-block__input js-required" placeholder="Введите имя"
+							name="name" required>
+					</div>
+					<div class="form-block__input form-group">
+						<span class="form-group__label form-group__label--white">Номер телефона</span>
+						<input type="tel" class="form-control js-required" placeholder="+7 (999) 999 99 99" name="phone"
+							required>
+					</div>
+					<div class="form-block__input form-group">
+						<span class="form-group__label form-group__label--white">Сообщение</span>
+						<input type="text" class="form-control js-required" placeholder="Введите сообщение" name="site"
+							required>
+					</div>
+				</div>
+				<div class="form-block__btn">
+					<!-- <a href="#acces-send" class="btn btn--orange js-popup-show">Оставить заявку</a> -->
+					<button type="submit" data-href="#acces-send" class="btn btn--orange js-submit">Оставить
+						заявку</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>

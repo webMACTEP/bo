@@ -1,0 +1,105 @@
+.intro {
+  padding: 90px 0px 0px 0px;
+  background: #1c306f;
+}
+
+.intro .img {
+  margin: 0px 40px -3px 0px;
+}
+
+.intro .info {
+  margin: 0px 0px 90px 0px;
+}
+
+.intro .btn {
+  padding: 13px 26px;
+  color: #1c306f;
+}
+
+.intro ul {
+  margin: 0px 0px 50px 0px;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.intro ul li {
+  position: relative;
+  margin: 0px 0px 18px 24px;
+  list-style-type: none;
+}
+
+.intro ul li::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  position: absolute;
+  left: -24px;
+  top: 3px;
+  -webkit-clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+          clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+}
+
+.intro h2 {
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 7px 0px 7px 0px;
+}
+
+.intro .alternation {
+  opacity: 0.6;
+}
+
+.intro h1 {
+  color: #fff;
+  margin: 0px 0px 0px 0px;
+}
+
+.intro .img {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.intro .wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shahmatka {
+  padding: 170px 0px;
+  background: #fff;
+}
+
+.shahmatka p {
+  max-width: 525px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+}
+
+.shahmatka h2 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+}
+
+.shahmatka h2 span {
+  color: #fc6733;
+}
+
+.shahmatka .wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}

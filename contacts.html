@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Бронируй онлайн - Контакты</title>
+
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body class="agreement">
+	<header class="header agreement__header">
+		<div class="header__container container">
+			<div class="header__logo">
+				<a href="/">
+					<img src="/images/logo.svg" alt="logo-img" />
+				</a>
+			</div>
+			<ul class="header__menu menu-block js-nav-menu">
+
+				<li class="menu-block__link"><a href="#acces-popup" class="js-popup-show">Демо-доступ</a></li>
+
+				<li class="menu-block__link"><a class="js-popup-show" href="#support-popup">Поддержка</a></li>
+
+				<li class="menu-block__link"><a href="tel:8 800 999 99 99">8 800 999 99 99</a></li>
+			</ul>
+			<a href="#" class="header__user">
+				<div class="header__user-icon">
+					<svg>
+						<use xlink:href="/images/sprite-svg.svg#user"></use>
+					</svg>
+				</div>
+				<div class="header__user-title">Вход</div>
+			</a>
+			<div class="header__burger-menu burger-menu js-burger-menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</header>
+
+	<main class="contacts-page">
+		<div class="contacts-page__container container">
+			<div class="contacts-page__wrapper">
+				<h1 class="contacts-page__title title-h2">Контакты</h1>
+				<div class="contacts-page__desc">Вы можете отправить нам сообщение, и мы обязательно свяжемся с вами
+				</div>
+				<div class="contacts-page__row row">
+					<div class="contacts-page__form col-auto col-md-6 col-sm-12">
+						<form action="">
+							<div class="contacts-page__input form-group">
+								<span class="form-group__label form-group__label--white">Контактное лицо</span>
+								<input type="text" class="form-control form-block__input js-required"
+									placeholder="Введите имя" name="name" required>
+							</div>
+							<div class="contacts-page__input form-group">
+								<span class="form-group__label form-group__label--white">Номер телефона</span>
+								<input type="tel" class="form-control js-required" placeholder="+7 (999) 999 99 99"
+									name="phone" required>
+							</div>
+							<div class="contacts-page__input form-group">
+								<span class="form-group__label form-group__label--white">Сообщение</span>
+								<input type="text" class="form-control js-required" placeholder="Введите сообщение"
+									name="site" required>
+							</div>
+							<div class="contacts-page__police">Продолжая, Вы соглашаетесь с нашими <a href="#">Условиями
+									использования</a> и<br> подтверждаете, что прочли нашу <a href="#">Политику
+									конфиденциальности</a>.
+							</div>
+							<div class="contacts-page__buttons">
+								<button data-href="#acces-send" class="btn btn--orange js-submit"
+									type="submit">Отправить</button>
+							</div>
+						</form>
+					</div>
+					<div class="contacts-page__info col-auto col-md-6 col-sm-12">
+						<div class="contacts-page__info-wrap">
+							<div class="contacts-page__info-row">
+								<div class="contacts-page__info-label">Фактический адрес:</div>
+								<div class="contacts-page__info-value">350000, Краснодар, ул. Карасунская 89</div>
+							</div>
+							<div class="contacts-page__info-row">
+								<div class="contacts-page__info-label">Электронная почта:</div>
+								<div class="contacts-page__info-value">info@znaimesta.ru</div>
+							</div>
+							<div class="contacts-page__info-row">
+								<div class="contacts-page__info-label">Телефоны:</div>
+								<div class="contacts-page__info-value">+7 (495) 150-88-35.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<hr class="contacts-page__hr">
+
+				<div class="contacts-page__bottom">
+					<div class="contacts-page__subtitle">Реквизиты</div>
+					<p>ИП Арнаут Дмитрий Константинович.<br>
+						ИНН 668605051497 / ОГРНИП 317505300077627.<br>
+						Юридический адрес: 143907, Московская область, город Балашиха, проспект Ленина 32А, кв. 287<br>
+						Тел.: +7 (495) 150-88-35.</p>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="agreement__footer footer">
+		<div class="footer__container container">
+			<div class="footer__info">
+				<a href="/" class="footer__logo">
+					<img src="/images//logo.svg" alt="logo">
+				</a>
+				<a href="tel:+7 (999) 999-99-99" class="footer__item">+7 (999) 999-99-99</a>
+				<a href="mailto::mail@mail.ru" class="footer__item">mail@mail.ru</a>
+				<div class="footer__about">Сервис управления бронированиями Бронируй Онлайн</div>
+			</div>
+			<div class="footer__links">
+				<a href="#" class="footer__link">Контакты</a>
+				<a href="#" class="footer__link">Оферта</a>
+				<a href="#" class="footer__link">Способы оплаты</a>
+				<a href="#" class="footer__link">Условия возврата</a>
+				<a href="#" class="footer__link">Согласие на обработку персональных данных</a>
+			</div>
+		</div>
+	</footer>
+
+	<div class="popup" id="acces-popup">
+		<div class="popup__overflow js-popup-hide"></div>
+		<div class="popup__wrapper"><a class="popup__close js-popup-hide">
+				<svg class="icon icon_close">
+					<use xlink:href="images/sprite-svg.svg#close"></use>
+				</svg></a>
+			<div class="popup__title">Доступ на 15 дней бесплатно!</div>
+			<div class="popup__subtitle">Заполните форму ниже и получите доступ к полному функционалу облачной системы
+			</div>
+			<form action="" class="popup__form form-block form-block--popup-mod">
+				<div class="form-block__wrap">
+					<div class="form-block__input form-group">
+						<span class="form-group__label form-group__label--white">Контактное лицо</span>
+						<input type="text" class="form-control form-block__input js-required" placeholder="Введите имя"
+							name="name" required>
+					</div>
+					<div class="form-block__input form-group">
+						<span class="form-group__label form-group__label--white">Номер телефона</span>
+						<input type="tel" class="form-control js-required" placeholder="+7 (999) 999 99 99" name="phone"
+							required>
+					</div>
+					<div class="form-block__input form-group">
+						<span class="form-group__label form-group__label--white">Сайт</span>
+						<input type="text" class="form-control js-required" placeholder="Введите ссылку на сайт"
+							name="site" required>
+					</div>
+				</div>
+				<div class="form-block__btn">
+					<!-- <a href="#acces-send" class="btn btn--orange js-popup-show">Оставить заявку</a> -->
+					<button data-href="#acces-send" class="btn btn--orange js-submit" type="submit">Оставить
+						заявку</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="popup popup--send" id="acces-send">
+		<div class="popup__overflow js-popup-hide"></div>
+		<div class="popup__wrapper"><a class="popup__close js-popup-hide">
+				<svg class="icon icon_close">
+					<use xlink:href="images/sprite-svg.svg#close"></use>
+				</svg></a>
+			<div class="popup__title">Ваша заявка успешно отправлена!</div>
+			<div class="popup__subtitle">В ближайшее время с вами свяжется наш специалист, чтобы обсудить детали.</div>
+			<div class="popup__btn">
+				<a href="#" class="btn btn--orange js-popup-hide">Отлично</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup" id="support-popup">
+		<div class="popup__overflow js-popup-hide"></div>
+		<div class="popup__wrapper"><a class="popup__close js-popup-hide">
+				<svg class="icon icon_close">
+					<use xlink:href="images/sprite-svg.svg#close"></use>
+				</svg></a>
+			<div class="popup__title">Поддержка</div>
+			<div class="popup__subtitle">Вы можете отправить нам сообщение, и мы обязательно с вами свяжемся.</div>
+			<form action="" class="popup__form form-block form-block--popup-mod">
+				<div class="form-block__wrap">
+					<div class="form-block__input form-group">
+						<span class="form-group__label form-group__label--white">Контактное лицо</span>
+						<input type="text" class="form-control form-block__input js-required" placeholder="Введите имя"
+							name="name" required>
+					</div>
+					<div class="form-block__input form-group">
+						<span class="form-group__label form-group__label--white">Номер телефона</span>
+						<input type="tel" class="form-control js-required" placeholder="+7 (999) 999 99 99" name="phone"
+							required>
+					</div>
+					<div class="form-block__input form-group">
+						<span class="form-group__label form-group__label--white">Сообщение</span>
+						<input type="text" class="form-control js-required" placeholder="Введите сообщение" name="site"
+							required>
+					</div>
+				</div>
+				<div class="form-block__btn">
+					<!-- <a href="#acces-send" class="btn btn--orange js-popup-show">Оставить заявку</a> -->
+					<button data-href="#acces-send" type="submit" class="btn btn--orange js-submit">Оставить
+						заявку</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
