@@ -1,3 +1,25 @@
+.menu-reviews {
+  margin: 0px 40px 0px 0px;
+}
+
+.calc-block__result-price span {
+  margin-right: 30px;
+}
+
+.js-price-value {
+  position: relative;
+}
+
+.js-price-value::after {
+  content: "";
+  position: absolute;
+  right: -28px;
+  bottom: 15px;
+  width: 16px;
+  height: 21px;
+  background: url("/svg/rub.svg") no-repeat;
+}
+
 .intro {
   padding: 90px 0px 0px 0px;
   background: #1c306f;
@@ -404,6 +426,7 @@
 
 .capabilities .first {
   line-height: 24px;
+  min-width: 580px;
 }
 
 .capabilities p {
@@ -529,6 +552,33 @@
   display: none;
 }
 
+.count-block input[type="text"].count-block__input {
+  border: 2px solid #2655ff;
+}
+
+.irs--flat .irs-handle::after,
+.calc-block__result-sale span:before,
+.count-block__minus::after,
+.count-block__plus::after,
+.count-block__plus::before,
+.irs--flat .irs-grid-pol.is-active,
+.irs--flat .irs-bar:after {
+  background-color: #2655ff;
+}
+
+.tabs__nav-item.is-active a,
+.tabs__nav-item:hover a {
+  background: #2655ff;
+}
+
+.calc-block__result-price,
+.irs--flat .irs-grid .irs-grid-text.is-active,
+.tabs__nav-item a,
+.calc-block__wrapper-bottom,
+.calc-block__wrapper-bottom a {
+  color: #2655ff;
+}
+
 @media (max-width: 992px) {
   .comment-block__link {
     margin-top: 13px;
@@ -597,6 +647,7 @@
     min-height: auto;
   }
   .capabilities .first {
+    min-width: 100%;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
