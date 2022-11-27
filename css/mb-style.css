@@ -4,3 +4,7 @@
   background-position-x: right;
   background-size: contain;
 }
+
+.intro.modul-br .img {
+  margin: 0px 10px -5px 0px;
+}
