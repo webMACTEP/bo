@@ -18,6 +18,35 @@
   background: #deefff;
 }
 
+.characteristics h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  position: relative;
+  margin: 0px 0px 25px 24px;
+}
+
+.characteristics h3::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: #fc6733;
+  position: absolute;
+  left: -22px;
+  top: 4px;
+  -webkit-clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+          clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+}
+
+.characteristics .list {
+  max-width: 570px;
+  padding: 50px 0px 0px 0px;
+}
+
+.characteristics .list p {
+  margin: 0px 0px 59px 0px;
+}
+
 .characteristics p {
   font-weight: 400;
   font-size: 16px;
@@ -42,4 +71,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.characteristics .wrapp:nth-child(1) {
+  margin-bottom: 243px;
 }

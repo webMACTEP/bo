@@ -13,6 +13,30 @@
    }
 }
 .characteristics {
+   h3 {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      position: relative;
+      margin: 0px 0px 25px 24px;
+      &::before {
+         content: "";
+         width: 14px;
+         height: 14px;
+         background: #fc6733;
+         position: absolute;
+         left: -22px;
+         top: 4px;
+         clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+      }
+   }
+   .list {
+      max-width: 570px;
+      padding: 50px 0px 0px 0px;
+      p {
+         margin: 0px 0px 59px 0px;
+      }
+   }
    p {
       font-weight: 400;
       font-size: 16px;
@@ -30,6 +54,9 @@
    .wrapp {
       display: flex;
       justify-content: space-between;
+      &:nth-child(1) {
+         margin-bottom: 243px;
+      }
    }
    padding: 152px 0px;
    background: #deefff;
