@@ -12,3 +12,25 @@
       max-width: 390px;
    }
 }
+.characteristics {
+   p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+   }
+   h2 {
+      margin: 78px 0px 32px 0px;
+      font-weight: 500;
+      font-size: 35px;
+      line-height: 45px;
+   }
+   .info {
+      max-width: 450px;
+   }
+   .wrapp {
+      display: flex;
+      justify-content: space-between;
+   }
+   padding: 152px 0px;
+   background: #deefff;
+}
