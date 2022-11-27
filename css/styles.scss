@@ -3285,7 +3285,7 @@ textarea.form-control {
    display: block;
    width: 18px;
    height: 12px;
-   background: url(../images/menu-parent-bg.svg) no-repeat;
+   background: url("../images/menu-parent-bg.svg") no-repeat;
    position: absolute;
    top: calc(50% + 2px);
    right: 0;
@@ -3377,11 +3377,11 @@ textarea.form-control {
    padding: 20px 16px 20px 46px;
    font: 18px/20px Stolzl, sans-serif;
    color: rgba(0, 0, 0, 0.8);
-   background: url(../images/menu-sub-item-bg.svg) 16px 50% no-repeat;
+   background: url("../images/menu-sub-item-bg.svg") 16px 50% no-repeat;
 }
 .menu-block__sub-item.is-active a,
 .menu-block__sub-item:hover a {
-   background: url(../images/menu-sub-item-bg-active.svg) 16px 50% no-repeat;
+   background: url("../images/menu-sub-item-bg-active.svg") 16px 50% no-repeat;
    color: #fc6733;
 }
 .menu-block--bo .menu-block__link {
@@ -3415,7 +3415,7 @@ textarea.form-control {
       font: 18px/20px Stolzl, sans-serif;
       color: rgba(0, 0, 0, 0.8);
       white-space: normal;
-      background: url(../images/menu-sub-item-bg.svg) 16px 50% no-repeat;
+      background: url("../images/menu-sub-item-bg.svg") 16px 50% no-repeat;
    }
 }
 .burger-menu {
@@ -6074,7 +6074,7 @@ input[type="number"] {
 .capabilities-block__value span {
    padding-left: 32px;
    display: inline-block;
-   background: url(../images/capabilities-block-value-bg.svg) 0 50% no-repeat;
+   background: url("../images/capabilities-block-value-bg.svg") 0 50% no-repeat;
 }
 .header__container,
 .header__user {
@@ -6965,7 +6965,7 @@ input[type="number"] {
 .about-section--bo .about-section__list-item {
    margin-bottom: 18px;
    padding-left: 24px;
-   background: url(../images/about-section-list-bg.svg) 0 50% no-repeat;
+   background: url("../images/about-section-list-bg.svg") 0 50% no-repeat;
    color: rgba(255, 255, 255, 0.8);
    font: 20px/1 Stolzl, sans-serif;
 }
@@ -7018,7 +7018,7 @@ input[type="number"] {
 }
 .about-section--bo-white .about-section__list-item {
    color: rgba(34, 34, 34, 0.8);
-   background: url(../images/about-section-list-bg-blue.svg) 0 50% no-repeat;
+   background: url("../images/about-section-list-bg-blue.svg") 0 50% no-repeat;
 }
 .about-section--bo-white .about-section__btn .btn {
    background: #2655ff;
@@ -7553,7 +7553,7 @@ input[type="number"] {
    }
 }
 .banner-section--bo .banner-section__list-item {
-   background: url(../images/menu-sub-item-bg-active.svg) 0 3px no-repeat;
+   background: url("../images/menu-sub-item-bg-active.svg") 0 3px no-repeat;
    padding: 0 0 0 20px;
    margin-bottom: 16px;
    color: #222;
@@ -8218,7 +8218,7 @@ input[type="number"] {
    align-items: stretch;
    -ms-flex-line-pack: stretch;
    align-content: stretch;
-   background: url(../images/calc-section-title-bg.svg) 75% 50% no-repeat;
+   background: url("../images/calc-section-title-bg.svg") 75% 50% no-repeat;
 }
 .calc-section--type-2 .calc-section__form {
    -webkit-box-flex: 0;
@@ -8495,7 +8495,7 @@ input[type="number"] {
    align-items: stretch;
    -ms-flex-line-pack: stretch;
    align-content: stretch;
-   background: url(../images/advantages-section-title-bg.svg) 25% 50% no-repeat;
+   background: url("../images/advantages-section-title-bg.svg") 25% 50% no-repeat;
 }
 .advantages-section--bo {
    padding: 60px 0;
@@ -8519,7 +8519,7 @@ input[type="number"] {
 }
 @media (max-width: 992px) {
    .advantages-section--checkerboard .advantages-section__right-wrap {
-      background: url(../images/advantages-section-title-bg-xs.svg) 155px 50% / auto 100px no-repeat;
+      background: url("../images/advantages-section-title-bg-xs.svg") 155px 50% / auto 100px no-repeat;
       min-height: 140px;
    }
    .advantages-section--bo {
@@ -8588,7 +8588,7 @@ input[type="number"] {
    align-items: stretch;
    -ms-flex-line-pack: stretch;
    align-content: stretch;
-   background: url(../images/advantages-section-title-bg-blue.svg) 66% calc(50% - 16px) no-repeat;
+   background: url("../images/advantages-section-title-bg-blue.svg") 66% calc(50% - 16px) no-repeat;
 }
 @media (max-width: 992px) {
    .advantages-section--bo .advantages-section__right {
@@ -8739,7 +8739,7 @@ input[type="number"] {
 }
 .instruments-section__nav-item.is-active {
    color: #0085ff;
-   background: url(../images/nav-li-active.svg) 0 3px no-repeat;
+   background: url("../images/nav-li-active.svg") 0 3px no-repeat;
 }
 .instruments-section__nav--xs {
    display: none;
@@ -8761,10 +8761,10 @@ input[type="number"] {
       margin-bottom: 20px;
    }
    .instruments-section__nav--xs .instruments-section__nav-item {
-      background: url(../images/nav-li.svg) 0 3px no-repeat;
+      background: url("../images/nav-li.svg") 0 3px no-repeat;
    }
    .instruments-section__nav--xs .instruments-section__nav-item.is-active {
-      background: url(../images/nav-li-active.svg) 0 3px no-repeat;
+      background: url("../images/nav-li-active.svg") 0 3px no-repeat;
    }
 }
 .instruments-section__body {
