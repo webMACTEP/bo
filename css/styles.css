@@ -246,16 +246,16 @@ th {
 }
 
 @font-face {
-  font-family: Stolzl;
-  src: url(../fonts/Stolzl-Regular.woff) format("woff");
+  font-family: "Stolzl";
+  src: url("../fonts/Stolzl-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: Stolzl;
-  src: url(../fonts/Stolzl-Medium.woff) format("woff");
+  font-family: "Stolzl";
+  src: url("../fonts/Stolzl-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -301,13 +301,13 @@ th {
 }
 
 .slick-dots-button {
-  font: 400 18px/29px Stolzl, sans-serif;
+  font: 400 18px/29px "Stolzl", sans-serif;
   padding: 0;
 }
 
 @media (max-width: 640px) {
   .slick-dots-button {
-    font: 400 15px/24px Stolzl, sans-serif;
+    font: 400 15px/24px "Stolzl", sans-serif;
   }
 }
 
@@ -435,7 +435,7 @@ th {
 
 .btn {
   border: 0;
-  font: 400 16px/26px Stolzl, sans-serif;
+  font: 400 16px/26px "Stolzl", sans-serif;
   background: #0085ff;
   padding: 13px 45px;
   cursor: pointer;
@@ -466,7 +466,7 @@ html.overflow body:after {
 @media (max-width: 640px) {
   .btn {
     padding: 15px 22px;
-    font: 400 16px/20px Stolzl, sans-serif;
+    font: 400 16px/20px "Stolzl", sans-serif;
     width: 100%;
   }
 }
@@ -570,21 +570,21 @@ body {
 
 .title-h1,
 h1 {
-  font: 500 60px/80px Stolzl, sans-serif;
+  font: 500 60px/80px "Stolzl", sans-serif;
   margin: 0 0 36px;
 }
 
 @media (max-width: 1200px) {
   .title-h1,
   h1 {
-    font: 500 50px/70px Stolzl, sans-serif;
+    font: 500 50px/70px "Stolzl", sans-serif;
   }
 }
 
 @media (max-width: 992px) {
   .title-h1,
   h1 {
-    font: 500 37px/48px Stolzl, sans-serif;
+    font: 500 37px/48px "Stolzl", sans-serif;
   }
 }
 
@@ -597,14 +597,14 @@ h1 {
 
 .title-h2,
 h2 {
-  font: 500 40px/70px Stolzl, sans-serif;
+  font: 500 40px/70px "Stolzl", sans-serif;
   margin: 0 0 50px;
 }
 
 @media (max-width: 1200px) {
   .title-h2,
   h2 {
-    font: 500 30px/35px Stolzl, sans-serif;
+    font: 500 30px/35px "Stolzl", sans-serif;
     margin: 0 0 30px;
   }
 }
@@ -613,27 +613,27 @@ h2 {
   .title-h2,
   h2 {
     margin: 0 0 32px;
-    font: 500 22px/28px Stolzl, sans-serif;
+    font: 500 22px/28px "Stolzl", sans-serif;
   }
 }
 
 @media (max-width: 640px) {
   .title-h2,
   h2 {
-    font: 500 22px/28px Stolzl, sans-serif;
+    font: 500 22px/28px "Stolzl", sans-serif;
   }
 }
 
 .title-h4,
 h4 {
-  font: 500 20px/24px Stolzl, sans-serif;
+  font: 500 20px/24px "Stolzl", sans-serif;
   margin: 0 0 26px;
 }
 
 @media (max-width: 1200px) {
   .title-h4,
   h4 {
-    font: 500 18px/22px Stolzl, sans-serif;
+    font: 500 18px/22px "Stolzl", sans-serif;
   }
 }
 
@@ -662,7 +662,7 @@ html.is-show-popup {
   .title-h4,
   h4 {
     margin: 0 0 16px;
-    font: 500 16px/20px Stolzl, sans-serif;
+    font: 500 16px/20px "Stolzl", sans-serif;
   }
   html.is-show-popup {
     height: 100%;
@@ -676,7 +676,7 @@ html.is-show-popup {
 }
 
 body {
-  font: 400 16px/20px Stolzl, sans-serif;
+  font: 400 16px/20px "Stolzl", sans-serif;
   min-height: 100%;
   position: relative;
   background-color: #f6f6f6;
@@ -688,7 +688,7 @@ body {
     margin: 0 0 16px;
   }
   body {
-    font: 400 14px/20px Stolzl, sans-serif;
+    font: 400 14px/20px "Stolzl", sans-serif;
   }
 }
 
@@ -873,7 +873,7 @@ ul {
   background-color: #f9f9f9;
   padding: 0 4px;
   color: #a7a7a7;
-  font: 400 10px/14px Stolzl, sans-serif;
+  font: 400 10px/14px "Stolzl", sans-serif;
   border-radius: 8px;
 }
 
@@ -883,7 +883,7 @@ ul {
 
 .form-group__error {
   margin-top: 8px;
-  font: 700 12px/16px Stolzl, sans-serif;
+  font: 700 12px/16px "Stolzl", sans-serif;
   color: #ea0000;
   display: none;
 }
@@ -949,27 +949,27 @@ textarea {
 .form-control {
   border: 1px solid rgba(34, 34, 34, 0.2);
   border-radius: 0;
-  font: 14px/16px Stolzl, sans-serif;
+  font: 14px/16px "Stolzl", sans-serif;
 }
 
 .form-control::-webkit-input-placeholder {
   color: #a7a7a7;
-  font: 400 14px/16px Stolzl, sans-serif;
+  font: 400 14px/16px "Stolzl", sans-serif;
 }
 
 .form-control:-ms-input-placeholder {
   color: #a7a7a7;
-  font: 400 14px/16px Stolzl, sans-serif;
+  font: 400 14px/16px "Stolzl", sans-serif;
 }
 
 .form-control::-ms-input-placeholder {
   color: #a7a7a7;
-  font: 400 14px/16px Stolzl, sans-serif;
+  font: 400 14px/16px "Stolzl", sans-serif;
 }
 
 .form-control::placeholder {
   color: #a7a7a7;
-  font: 400 14px/16px Stolzl, sans-serif;
+  font: 400 14px/16px "Stolzl", sans-serif;
 }
 
 .form-control.is-error {
@@ -984,22 +984,22 @@ textarea {
 
 textarea::-webkit-input-placeholder {
   color: #a7a7a7;
-  font: 400 14px/16px Stolzl, sans-serif;
+  font: 400 14px/16px "Stolzl", sans-serif;
 }
 
 textarea:-ms-input-placeholder {
   color: #a7a7a7;
-  font: 400 14px/16px Stolzl, sans-serif;
+  font: 400 14px/16px "Stolzl", sans-serif;
 }
 
 textarea::-ms-input-placeholder {
   color: #a7a7a7;
-  font: 400 14px/16px Stolzl, sans-serif;
+  font: 400 14px/16px "Stolzl", sans-serif;
 }
 
 textarea::placeholder {
   color: #a7a7a7;
-  font: 400 14px/16px Stolzl, sans-serif;
+  font: 400 14px/16px "Stolzl", sans-serif;
 }
 
 textarea.form-control {
@@ -1018,7 +1018,7 @@ textarea.form-control {
   padding-left: 32px;
   display: inline-block;
   cursor: pointer;
-  font: 16px/24px Stolzl, sans-serif;
+  font: 16px/24px "Stolzl", sans-serif;
 }
 
 .radiobox label:before {
@@ -1067,14 +1067,14 @@ textarea.form-control {
   border: 2px solid #0085ff;
   border-radius: 100px;
   background: #fff;
-  font: 16px/28px Stolzl, sans-serif;
+  font: 16px/28px "Stolzl", sans-serif;
   color: #222;
   display: block;
 }
 
 .radiobox--btn label.color-blue,
 .tabs__nav-item a {
-  font: 14px/28px Stolzl, sans-serif;
+  font: 14px/28px "Stolzl", sans-serif;
 }
 
 .radiobox--btn input[type="radio"]:checked + label:after,
@@ -1102,7 +1102,7 @@ textarea.form-control {
 
 .radiobox--scroller label {
   padding: 25px 0 0;
-  font: 16px/28px Stolzl, sans-serif;
+  font: 16px/28px "Stolzl", sans-serif;
   color: #222;
   display: block;
   position: relative;
@@ -1188,7 +1188,7 @@ textarea.form-control {
 
 @media (max-width: 640px) {
   .radiobox label {
-    font: 14px/20px Stolzl, sans-serif;
+    font: 14px/20px "Stolzl", sans-serif;
     line-height: 28px;
   }
   .checkbox--subscribe label {
@@ -1204,7 +1204,7 @@ textarea.form-control {
   padding-top: 0;
   display: inline-block;
   cursor: pointer;
-  font: 12px/18px Stolzl, sans-serif;
+  font: 12px/18px "Stolzl", sans-serif;
 }
 
 .checkbox label:after,
@@ -1400,7 +1400,7 @@ textarea.form-control {
     border-radius: 100px;
     display: inline-block;
     padding: 4px 16px;
-    font: 14px/28px Stolzl, sans-serif;
+    font: 14px/28px "Stolzl", sans-serif;
   }
 }
 
@@ -1774,7 +1774,7 @@ textarea.form-control {
 
 .irs--flat .irs-grid .irs-grid-text,
 .step-block__text {
-  font: 16px/22px Stolzl, sans-serif;
+  font: 16px/22px "Stolzl", sans-serif;
 }
 
 .irs--flat .irs-from:before,
@@ -1808,7 +1808,7 @@ textarea.form-control {
 }
 
 .irs--flat .irs-grid .irs-grid-text span {
-  font: 12px/18px Stolzl, sans-serif;
+  font: 12px/18px "Stolzl", sans-serif;
   color: rgba(0, 0, 0, 0.6);
   display: block;
 }
@@ -3626,7 +3626,7 @@ textarea.form-control {
 
 .menu-block__link {
   display: block;
-  font: 400 16px/19px Stolzl, sans-serif;
+  font: 400 16px/19px "Stolzl", sans-serif;
   margin-right: 45px;
   position: relative;
   white-space: nowrap;
@@ -3665,7 +3665,7 @@ textarea.form-control {
 
 @media (max-width: 992px) {
   .menu-block__link {
-    font: 400 16px/19px Stolzl, sans-serif;
+    font: 400 16px/19px "Stolzl", sans-serif;
   }
   .menu-block__link.visible-sm {
     display: block;
@@ -3750,7 +3750,7 @@ textarea.form-control {
 .menu-block__sub-item a {
   display: block;
   padding: 20px 16px 20px 46px;
-  font: 18px/20px Stolzl, sans-serif;
+  font: 18px/20px "Stolzl", sans-serif;
   color: rgba(0, 0, 0, 0.8);
   background: url("../images/menu-sub-item-bg.svg") 16px 50% no-repeat;
 }
@@ -3791,7 +3791,7 @@ textarea.form-control {
   .menu-block--bo .menu-block__link a {
     display: block;
     padding: 20px 16px 20px 46px;
-    font: 18px/20px Stolzl, sans-serif;
+    font: 18px/20px "Stolzl", sans-serif;
     color: rgba(0, 0, 0, 0.8);
     white-space: normal;
     background: url("../images/menu-sub-item-bg.svg") 16px 50% no-repeat;
@@ -3925,7 +3925,7 @@ textarea.form-control {
     min-height: 0;
   }
   .quality-block__text {
-    font: 400 14px/20px Stolzl, sans-serif;
+    font: 400 14px/20px "Stolzl", sans-serif;
   }
   .quality-block--default {
     padding: 24px 30px;
@@ -3947,7 +3947,7 @@ textarea.form-control {
     margin-bottom: 12px;
   }
   .quality-block--default .quality-block__text {
-    font: 14px/22px Stolzl, sans-serif;
+    font: 14px/22px "Stolzl", sans-serif;
   }
 }
 
@@ -4023,7 +4023,7 @@ textarea.form-control {
 
 .function-block__title {
   margin-bottom: 10px;
-  font: 500 16px/20px Stolzl, sans-serif;
+  font: 500 16px/20px "Stolzl", sans-serif;
 }
 
 @media (max-width: 992px) {
@@ -4042,7 +4042,7 @@ textarea.form-control {
   }
   .function-block__title {
     margin-bottom: 7px;
-    font: 500 14px/20px Stolzl, sans-serif;
+    font: 500 14px/20px "Stolzl", sans-serif;
   }
 }
 
@@ -4163,26 +4163,26 @@ textarea.form-control {
 }
 
 .function-block--bg .function-block__title {
-  font: 500 18px/24px Stolzl, sans-serif;
+  font: 500 18px/24px "Stolzl", sans-serif;
   margin-bottom: 16px;
   color: #222;
 }
 
 @media (max-width: 640px) {
   .function-block--bg .function-block__title {
-    font: 500 14px/24px Stolzl, sans-serif;
+    font: 500 14px/24px "Stolzl", sans-serif;
     margin-bottom: 6px;
   }
 }
 
 .function-block--bg .function-block__text {
-  font: 16px/24px Stolzl, sans-serif;
+  font: 16px/24px "Stolzl", sans-serif;
   color: rgba(0, 0, 0, 0.8);
 }
 
 @media (max-width: 640px) {
   .function-block--bg .function-block__text {
-    font: 14px/22px Stolzl, sans-serif;
+    font: 14px/22px "Stolzl", sans-serif;
   }
 }
 
@@ -4199,7 +4199,7 @@ textarea.form-control {
 
 .function-block--bg-cube .function-block__title {
   margin-bottom: 16px;
-  font: 500 20px/24px Stolzl, sans-serif;
+  font: 500 20px/24px "Stolzl", sans-serif;
 }
 
 @media (max-width: 992px) {
@@ -4208,7 +4208,7 @@ textarea.form-control {
   }
   .function-block--bg-cube .function-block__title {
     margin-bottom: 12px;
-    font: 500 16px/24px Stolzl, sans-serif;
+    font: 500 16px/24px "Stolzl", sans-serif;
   }
 }
 
@@ -4232,7 +4232,7 @@ textarea.form-control {
 .function-block--bg-cube .function-block__more {
   margin-top: 24px;
   color: #2655ff;
-  font: 16px/24px Stolzl, sans-serif;
+  font: 16px/24px "Stolzl", sans-serif;
 }
 
 @media (max-width: 1200px) {
@@ -4312,7 +4312,7 @@ textarea.form-control {
 }
 
 .accardion-block__title {
-  font: 400 18px/28px Stolzl, sans-serif;
+  font: 400 18px/28px "Stolzl", sans-serif;
 }
 
 @media (max-width: 992px) {
@@ -4320,7 +4320,7 @@ textarea.form-control {
     padding: 16px 0;
   }
   .accardion-block__title {
-    font: 400 16px/28px Stolzl, sans-serif;
+    font: 400 16px/28px "Stolzl", sans-serif;
   }
 }
 
@@ -4337,7 +4337,7 @@ textarea.form-control {
   opacity: 1;
   pointer-events: none;
   overflow: hidden;
-  font: 400 16px/28px Stolzl, sans-serif;
+  font: 400 16px/28px "Stolzl", sans-serif;
   border-bottom: 1px solid rgba(38, 112, 202, 0.2);
   color: rgba(34, 34, 34, 0.8);
   -webkit-transition: all 0.4s;
@@ -4413,7 +4413,7 @@ textarea.form-control {
 
 @media (max-width: 640px) {
   .accardion-block__body {
-    font: 400 14px/22px Stolzl, sans-serif;
+    font: 400 14px/22px "Stolzl", sans-serif;
   }
   .accardion-block__body p {
     max-width: 100%;
@@ -4604,12 +4604,12 @@ textarea.form-control {
 }
 
 .comment-block__name {
-  font: 14px/26px Stolzl, sans-serif;
+  font: 14px/26px "Stolzl", sans-serif;
   margin-bottom: 16px;
 }
 
 .comment-block__title {
-  font: 500 18px/24px Stolzl, sans-serif;
+  font: 500 18px/24px "Stolzl", sans-serif;
   margin-bottom: 10px;
 }
 
@@ -4618,13 +4618,13 @@ textarea.form-control {
     margin-left: 0;
   }
   .comment-block__title {
-    font: 500 16px/24px Stolzl, sans-serif;
+    font: 500 16px/24px "Stolzl", sans-serif;
     margin-bottom: 12px;
   }
 }
 
 .comment-block__text {
-  font: 16px/24px Stolzl, sans-serif;
+  font: 16px/24px "Stolzl", sans-serif;
   max-height: 216px;
   overflow: hidden;
   -webkit-transition: all 0.3s;
@@ -4634,7 +4634,7 @@ textarea.form-control {
 
 @media (max-width: 992px) {
   .comment-block__text {
-    font: 400 14px/22px Stolzl, sans-serif;
+    font: 400 14px/22px "Stolzl", sans-serif;
     max-height: 197px;
   }
 }
@@ -4647,7 +4647,7 @@ textarea.form-control {
 }
 
 .comment-block__link {
-  font: 500 16px/19px Stolzl, sans-serif;
+  font: 500 16px/19px "Stolzl", sans-serif;
   margin-top: 16px;
   color: #0085ff;
   display: inline-block;
@@ -4684,7 +4684,7 @@ textarea.form-control {
 
 @media (max-width: 992px) {
   .comment-block__link {
-    font: 500 14px/16px Stolzl, sans-serif;
+    font: 500 14px/16px "Stolzl", sans-serif;
   }
   .comment-block--checkerboard .comment-block__img {
     margin: 0 auto 24px;
@@ -4724,7 +4724,7 @@ textarea.form-control {
 }
 
 .comment-block--checkerboard .comment-block__name {
-  font: 14px/18px Stolzl, sans-serif;
+  font: 14px/18px "Stolzl", sans-serif;
   color: rgba(34, 34, 34, 0.6);
   margin-bottom: 24px;
 }
@@ -4737,19 +4737,19 @@ textarea.form-control {
 }
 
 .comment-block--checkerboard .comment-block__title {
-  font: 500 20px/24px Stolzl, sans-serif;
+  font: 500 20px/24px "Stolzl", sans-serif;
   margin-bottom: 16px;
 }
 
 @media (max-width: 640px) {
   .comment-block--checkerboard .comment-block__title {
-    font: 500 18px/24px Stolzl, sans-serif;
+    font: 500 18px/24px "Stolzl", sans-serif;
     margin-bottom: 10px;
   }
 }
 
 .comment-block--checkerboard .comment-block__text {
-  font: 16px/24px Stolzl, sans-serif;
+  font: 16px/24px "Stolzl", sans-serif;
   max-height: 160px;
   color: rgba(34, 34, 34, 0.8);
 }
@@ -4773,7 +4773,7 @@ textarea.form-control {
 
 @media (max-width: 640px) {
   .comment-block--checkerboard .comment-block__text {
-    font: 400 14px/22px Stolzl, sans-serif;
+    font: 400 14px/22px "Stolzl", sans-serif;
     max-height: 197px;
   }
 }
@@ -4950,7 +4950,7 @@ textarea.form-control {
     overflow-y: auto;
   }
   .popup__title {
-    font: 500 28px/34px Stolzl, sans-serif;
+    font: 500 28px/34px "Stolzl", sans-serif;
   }
 }
 
@@ -5020,13 +5020,13 @@ textarea.form-control {
 
 .popup__title {
   text-align: center;
-  font: 500 28px/34px Stolzl, sans-serif;
+  font: 500 28px/34px "Stolzl", sans-serif;
   margin-bottom: 16px;
 }
 
 .popup__subtitle {
   text-align: center;
-  font: 400 14px/17px Stolzl, sans-serif;
+  font: 400 14px/17px "Stolzl", sans-serif;
   opacity: 0.6;
   margin-bottom: 48px;
 }
@@ -5171,7 +5171,7 @@ textarea.form-control {
 
 .calc-block__label {
   color: #222;
-  font: 20px/28px Stolzl, sans-serif;
+  font: 20px/28px "Stolzl", sans-serif;
   margin-bottom: 25px;
 }
 
@@ -5192,14 +5192,14 @@ textarea.form-control {
 
 .calc-block__desc {
   color: rgba(0, 0, 0, 0.8);
-  font: 16px/22px Stolzl, sans-serif;
+  font: 16px/22px "Stolzl", sans-serif;
   max-width: 424px;
   margin-top: 67px;
 }
 
 @media (max-width: 1200px) {
   .calc-block__desc {
-    font: 14px/20px Stolzl, sans-serif;
+    font: 14px/20px "Stolzl", sans-serif;
   }
 }
 
@@ -5210,7 +5210,7 @@ textarea.form-control {
 @media (max-width: 640px) {
   .calc-block__desc {
     display: none;
-    font: 12px/18px Stolzl, sans-serif;
+    font: 12px/18px "Stolzl", sans-serif;
     margin-top: 32px;
   }
   .calc-block__desc--xs {
@@ -5280,7 +5280,7 @@ textarea.form-control {
 .calc-block__tabs-label {
   margin-top: 6px;
   text-align: center;
-  font: 14px/28px Stolzl, sans-serif;
+  font: 14px/28px "Stolzl", sans-serif;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -5357,14 +5357,14 @@ textarea.form-control {
 
 .calc-block__wrapper-title {
   margin-bottom: 20px;
-  font: 500 20px/28px Stolzl, sans-serif;
+  font: 500 20px/28px "Stolzl", sans-serif;
   color: #222;
 }
 
 .calc-block__wrapper-bottom,
 .calc-block__wrapper-bottom a {
   color: #0085ff;
-  font: 16px/22px Stolzl, sans-serif;
+  font: 16px/22px "Stolzl", sans-serif;
 }
 
 .calc-block__wrapper-body {
@@ -5406,7 +5406,7 @@ textarea.form-control {
 .calc-block__wrapper-desc {
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
-  font: 12px/18px Stolzl, sans-serif;
+  font: 12px/18px "Stolzl", sans-serif;
   margin: 16px 0 0;
 }
 
@@ -5424,19 +5424,19 @@ textarea.form-control {
     min-height: 340px;
   }
   .calc-block__wrapper-title {
-    font: 500 18px Stolzl, sans-serif;
+    font: 500 18px "Stolzl", sans-serif;
     text-align: left;
     margin-bottom: 16px;
   }
   .calc-block__wrapper-bottom,
   .calc-block__wrapper-bottom a {
-    font: 14px/22px Stolzl, sans-serif;
+    font: 14px/22px "Stolzl", sans-serif;
   }
   .calc-block__wrapper-bottom {
     margin-top: 16px;
   }
   .calc-block__wrapper-desc {
-    font: 10px/16px Stolzl, sans-serif;
+    font: 10px/16px "Stolzl", sans-serif;
     margin: 16px 0 0;
   }
 }
@@ -5462,14 +5462,14 @@ textarea.form-control {
 }
 
 .calc-block__result-label {
-  font: 16px/22px Stolzl, sans-serif;
+  font: 16px/22px "Stolzl", sans-serif;
   color: #222;
   margin-left: 15px;
   margin-bottom: 5px;
 }
 
 .calc-block__result-sale {
-  font: 24px/28px Stolzl, sans-serif;
+  font: 24px/28px "Stolzl", sans-serif;
   color: #222;
   margin-right: 10px;
   margin-bottom: 5px;
@@ -5505,11 +5505,11 @@ textarea.form-control {
 
 .calc-block__result-price {
   color: #0085ff;
-  font: 500 40px/48px Stolzl, sans-serif;
+  font: 500 40px/48px "Stolzl", sans-serif;
 }
 
 .calc-block__result-price span {
-  font: 500 60px/1 Stolzl, sans-serif;
+  font: 500 60px/1 "Stolzl", sans-serif;
   margin-right: 7px;
 }
 
@@ -5519,10 +5519,10 @@ textarea.form-control {
 
 @media (max-width: 640px) {
   .calc-block__result-label {
-    font: 16px/17px Stolzl, sans-serif;
+    font: 16px/17px "Stolzl", sans-serif;
   }
   .calc-block__result-sale {
-    font: 20px/1 Stolzl, sans-serif;
+    font: 20px/1 "Stolzl", sans-serif;
     padding: 0;
     margin-right: 15px;
   }
@@ -5535,10 +5535,10 @@ textarea.form-control {
     margin-bottom: 5px;
   }
   .calc-block__result-price {
-    font: 600 28px/34px Stolzl, sans-serif;
+    font: 600 28px/34px "Stolzl", sans-serif;
   }
   .calc-block__result-price span {
-    font: 500 40px/1 Stolzl, sans-serif;
+    font: 500 40px/1 "Stolzl", sans-serif;
   }
   .calc-block__result-price--procent {
     -webkit-box-flex: 0;
@@ -5602,7 +5602,7 @@ textarea.form-control {
 
 .calc-block__scroller-label {
   color: rgba(0, 0, 0, 0.6);
-  font: 12px/18px Stolzl, sans-serif;
+  font: 12px/18px "Stolzl", sans-serif;
   text-align: center;
   display: block;
 }
@@ -5688,7 +5688,7 @@ input[type="number"] {
 .count-block input[type="text"].count-block__input,
 .count-block input[type="tel"].count-block__input,
 .count-block input[type="number"].count-block__input {
-  font: 20px/28px Stolzl, sans-serif;
+  font: 20px/28px "Stolzl", sans-serif;
   color: #222;
   border: 2px solid #0085ff;
   width: 100%;
@@ -5800,7 +5800,7 @@ input[type="number"] {
 .count-block--cube input[type="text"].count-block__input,
 .count-block--cube input[type="tel"].count-block__input,
 .count-block--cube input[type="number"].count-block__input {
-  font: 16px/24px Stolzl, sans-serif;
+  font: 16px/24px "Stolzl", sans-serif;
   padding: 0;
   background: #fff;
   border-radius: 0;
@@ -5977,7 +5977,7 @@ input[type="number"] {
 }
 
 .header-example-block__params-title {
-  font: 500 22px/26px Stolzl, sans-serif;
+  font: 500 22px/26px "Stolzl", sans-serif;
   color: #fff;
   margin-right: 43px;
   -webkit-box-flex: 0;
@@ -5998,7 +5998,7 @@ input[type="number"] {
 @media (max-width: 640px) {
   .header-example-block__params-title {
     margin: 0 auto 24px;
-    font: 500 18px/1.2 Stolzl, sans-serif;
+    font: 500 18px/1.2 "Stolzl", sans-serif;
     text-align: center;
   }
 }
@@ -6083,7 +6083,7 @@ input[type="number"] {
 }
 
 .header-example-block__params-item-title {
-  font: 500 20px/24px Stolzl, sans-serif;
+  font: 500 20px/24px "Stolzl", sans-serif;
   color: #fff;
   margin-right: 31px;
 }
@@ -6153,13 +6153,13 @@ input[type="number"] {
 }
 
 .header-example-block__params-item-label {
-  font: 400 10px/12px Stolzl, sans-serif;
+  font: 400 10px/12px "Stolzl", sans-serif;
   margin-bottom: 4px;
   color: rgba(34, 34, 34, 0.4);
 }
 
 .header-example-block__params-item-select {
-  font: 400 14px/16px Stolzl, sans-serif;
+  font: 400 14px/16px "Stolzl", sans-serif;
   color: #7a7a7a;
 }
 
@@ -6194,13 +6194,13 @@ input[type="number"] {
 }
 
 .header-example-block__params-label {
-  font: 400 10px/12px Stolzl, sans-serif;
+  font: 400 10px/12px "Stolzl", sans-serif;
   margin-bottom: 4px;
   color: rgba(34, 34, 34, 0.4);
 }
 
 .header-example-block__params-select {
-  font: 400 14px/16px Stolzl, sans-serif;
+  font: 400 14px/16px "Stolzl", sans-serif;
   color: #7a7a7a;
 }
 
@@ -6210,7 +6210,7 @@ input[type="number"] {
 
 .header-example-block__params-btn,
 .header-example-block__params-icon-btn {
-  font: 500 14px/16px Stolzl, sans-serif;
+  font: 500 14px/16px "Stolzl", sans-serif;
   background-color: #fc6733;
   border-radius: 8px;
   color: #fff;
@@ -6537,7 +6537,7 @@ input[type="number"] {
   display: none;
   background-color: #000;
   color: #fff;
-  font: 400 10px/10px Stolzl, sans-serif;
+  font: 400 10px/10px "Stolzl", sans-serif;
   height: 35px;
   width: 68px;
   -webkit-box-align: center;
@@ -6600,7 +6600,7 @@ input[type="number"] {
 }
 
 .header-example-block--light-bg .header-example-block__value {
-  font: 500 14px/16px Stolzl, sans-serif;
+  font: 500 14px/16px "Stolzl", sans-serif;
 }
 
 .header-example-block--light-bg .header-example-block__value span {
@@ -6624,7 +6624,7 @@ input[type="number"] {
 
 @media (max-width: 992px) {
   .header-example-block--light-bg .header-example-block__value {
-    font: 500 12px/14px Stolzl, sans-serif;
+    font: 500 12px/14px "Stolzl", sans-serif;
   }
   .header-example-block--light-bg .header-example-block__earth svg {
     width: 15px;
@@ -6668,7 +6668,7 @@ input[type="number"] {
 
 .header-example-block--light-bg .header-example-block__functional p {
   margin-right: 18px;
-  font: 500 14px/16px Stolzl, sans-serif;
+  font: 500 14px/16px "Stolzl", sans-serif;
 }
 
 .header-example-block--light-bg .header-example-block__functional p:last-child {
@@ -6700,7 +6700,7 @@ input[type="number"] {
 
 @media (max-width: 992px) {
   .header-example-block--light-bg .header-example-block__link {
-    font: 500 13px/14px Stolzl, sans-serif;
+    font: 500 13px/14px "Stolzl", sans-serif;
     margin-right: 10px;
   }
 }
@@ -6793,7 +6793,7 @@ input[type="number"] {
 
 .capabilities-block__title {
   margin-bottom: 32px;
-  font: 500 30px/35px Stolzl, sans-serif;
+  font: 500 30px/35px "Stolzl", sans-serif;
   color: #222;
 }
 
@@ -6813,7 +6813,7 @@ input[type="number"] {
 }
 
 .capabilities-block__desc {
-  font: 16px/22px Stolzl, sans-serif;
+  font: 16px/22px "Stolzl", sans-serif;
   color: rgba(34, 34, 34, 0.8);
   margin: 0 auto 26px;
   max-width: 250px;
@@ -6843,7 +6843,7 @@ input[type="number"] {
 
 .capabilities-block__value {
   color: #2655ff;
-  font: 500 57px/1 Stolzl, sans-serif;
+  font: 500 57px/1 "Stolzl", sans-serif;
   letter-spacing: 3.5px;
 }
 
@@ -6999,7 +6999,7 @@ input[type="number"] {
 }
 
 .header__user-title {
-  font: 400 16px/19px Stolzl, sans-serif;
+  font: 400 16px/19px "Stolzl", sans-serif;
   position: relative;
 }
 
@@ -7156,7 +7156,7 @@ input[type="number"] {
   }
   .header--bo .header__buttons .btn {
     padding: 10px 16px;
-    font: 14px/1 Stolzl, sans-serif;
+    font: 14px/1 "Stolzl", sans-serif;
   }
   .header--bo .header__user {
     display: none;
@@ -7253,7 +7253,7 @@ input[type="number"] {
 }
 
 .footer__item {
-  font: 500 16px/28px Stolzl, sans-serif;
+  font: 500 16px/28px "Stolzl", sans-serif;
   margin-bottom: 8px;
   color: #222;
 }
@@ -7283,7 +7283,7 @@ input[type="number"] {
 
 .footer__about {
   margin-top: 40px;
-  font: 400 14px/14px Stolzl, sans-serif;
+  font: 400 14px/14px "Stolzl", sans-serif;
   color: rgba(34, 34, 34, 0.6);
 }
 
@@ -7325,7 +7325,7 @@ input[type="number"] {
 }
 
 .footer__links a {
-  font: 14px Stolzl, sans-serif;
+  font: 14px "Stolzl", sans-serif;
   color: #222;
   text-decoration: underline;
   margin-bottom: 18px;
@@ -7346,7 +7346,7 @@ input[type="number"] {
 
 .footer__soc-label {
   margin-bottom: 14px;
-  font: 14px/28px Stolzl, sans-serif;
+  font: 14px/28px "Stolzl", sans-serif;
   color: #222;
 }
 
@@ -7481,7 +7481,7 @@ input[type="number"] {
 
 .about-section__desc {
   max-width: 410px;
-  font: 400 20px/28px Stolzl, sans-serif;
+  font: 400 20px/28px "Stolzl", sans-serif;
 }
 
 @media (max-width: 992px) {
@@ -7598,7 +7598,7 @@ input[type="number"] {
 
 .about-section--mobile .about-section__desc {
   max-width: 100%;
-  font: 24px/24px Stolzl, sans-serif;
+  font: 24px/24px "Stolzl", sans-serif;
 }
 
 .about-section--mobile .about-section__btn {
@@ -7697,7 +7697,7 @@ input[type="number"] {
 .about-section--slider-img .about-section__title {
   color: #fff;
   margin-bottom: 50px;
-  font: 500 60px/80px Stolzl, sans-serif;
+  font: 500 60px/80px "Stolzl", sans-serif;
 }
 
 .about-section--slider-img .about-section__title span {
@@ -7786,16 +7786,16 @@ input[type="number"] {
 
 @media (max-width: 1200px) {
   .about-section--slider-img .about-section__title {
-    font: 500 45px/60px Stolzl, sans-serif;
+    font: 500 45px/60px "Stolzl", sans-serif;
   }
   .about-section--bo .about-section__title {
-    font: 500 36px/44px Stolzl, sans-serif;
+    font: 500 36px/44px "Stolzl", sans-serif;
   }
 }
 
 @media (max-width: 640px) {
   .about-section--slider-img .about-section__title {
-    font: 500 36px/44px Stolzl, sans-serif;
+    font: 500 36px/44px "Stolzl", sans-serif;
   }
   .about-section--bo {
     padding: 0;
@@ -7846,7 +7846,7 @@ input[type="number"] {
 .about-section--bo .about-section__desc {
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 32px;
-  font: 20px/1 Stolzl, sans-serif;
+  font: 20px/1 "Stolzl", sans-serif;
 }
 
 @media (max-width: 1200px) {
@@ -7858,7 +7858,7 @@ input[type="number"] {
 @media (max-width: 640px) {
   .about-section--bo .about-section__desc {
     text-align: left;
-    font: 16px/20px Stolzl, sans-serif;
+    font: 16px/20px "Stolzl", sans-serif;
     margin: 0 0 24px;
     padding: 0;
   }
@@ -7873,7 +7873,7 @@ input[type="number"] {
   padding-left: 24px;
   background: url("../images/about-section-list-bg.svg") 0 50% no-repeat;
   color: rgba(255, 255, 255, 0.8);
-  font: 20px/1 Stolzl, sans-serif;
+  font: 20px/1 "Stolzl", sans-serif;
 }
 
 .about-section--bo .about-section__list-item:last-child {
@@ -7906,7 +7906,7 @@ input[type="number"] {
 
 @media (max-width: 640px) {
   .about-section--bo .about-section__list-item {
-    font: 16px/20px Stolzl, sans-serif;
+    font: 16px/20px "Stolzl", sans-serif;
     margin-bottom: 18px;
   }
   .about-section--bo .about-section__btn {
@@ -8018,7 +8018,7 @@ input[type="number"] {
 }
 
 .info-section {
-  font: 400 16px/24px Stolzl, sans-serif;
+  font: 400 16px/24px "Stolzl", sans-serif;
 }
 
 .info-section__title {
@@ -8041,7 +8041,7 @@ input[type="number"] {
 
 @media (max-width: 640px) {
   .info-section {
-    font: 400 14px/22px Stolzl, sans-serif;
+    font: 400 14px/22px "Stolzl", sans-serif;
   }
   .info-section__title {
     margin-bottom: 24px;
@@ -8223,13 +8223,13 @@ input[type="number"] {
 }
 
 .info-section--module .info-section__tabs-title {
-  font: 500 16px/24px Stolzl, sans-serif;
+  font: 500 16px/24px "Stolzl", sans-serif;
   margin-bottom: 24px;
 }
 
 @media (max-width: 992px) {
   .info-section--module .info-section__tabs-title {
-    font: 500 14px/22px Stolzl, sans-serif;
+    font: 500 14px/22px "Stolzl", sans-serif;
     margin-bottom: 16px;
   }
 }
@@ -8382,7 +8382,7 @@ input[type="number"] {
 
 .banner-section__text {
   min-width: 109px;
-  font: 400 16px/20px Stolzl, sans-serif;
+  font: 400 16px/20px "Stolzl", sans-serif;
   color: #000;
   white-space: nowrap;
 }
@@ -8392,7 +8392,7 @@ input[type="number"] {
     max-width: 57px;
   }
   .banner-section__text {
-    font: 400 14px/18px Stolzl, sans-serif;
+    font: 400 14px/18px "Stolzl", sans-serif;
   }
 }
 
@@ -8404,7 +8404,7 @@ input[type="number"] {
 .banner-section--bo .banner-section__title {
   margin-bottom: 48px;
   text-align: center;
-  font: 500 40px/70px Stolzl, sans-serif;
+  font: 500 40px/70px "Stolzl", sans-serif;
   color: #222;
 }
 
@@ -8413,7 +8413,7 @@ input[type="number"] {
     padding-bottom: 100px;
   }
   .banner-section--bo .banner-section__title {
-    font: 500 30px/55px Stolzl, sans-serif;
+    font: 500 30px/55px "Stolzl", sans-serif;
   }
 }
 
@@ -8422,7 +8422,7 @@ input[type="number"] {
     padding: 35px 0 60px;
   }
   .banner-section--bo .banner-section__title {
-    font: 500 25px/32px Stolzl, sans-serif;
+    font: 500 25px/32px "Stolzl", sans-serif;
     margin-bottom: 40px;
   }
 }
@@ -8542,7 +8542,7 @@ input[type="number"] {
   min-width: 0;
   text-align: center;
   margin-bottom: 24px;
-  font: 500 18px/20px Stolzl, sans-serif;
+  font: 500 18px/20px "Stolzl", sans-serif;
   color: #222;
   white-space: normal;
 }
@@ -8574,7 +8574,7 @@ input[type="number"] {
   padding: 0 0 0 20px;
   margin-bottom: 16px;
   color: #222;
-  font: 16px/22px Stolzl, sans-serif;
+  font: 16px/22px "Stolzl", sans-serif;
 }
 
 .banner-section--bo .banner-section__list-item:last-child {
@@ -8583,7 +8583,7 @@ input[type="number"] {
 
 @media (max-width: 1200px) {
   .banner-section--bo .banner-section__list-item {
-    font: 14px/20px Stolzl, sans-serif;
+    font: 14px/20px "Stolzl", sans-serif;
   }
 }
 
@@ -8604,13 +8604,13 @@ input[type="number"] {
 
 .connect-section__subtitle {
   text-align: center;
-  font: 400 16px/26px Stolzl, sans-serif;
+  font: 400 16px/26px "Stolzl", sans-serif;
   margin-bottom: 40px;
 }
 
 @media (max-width: 640px) {
   .connect-section__subtitle {
-    font: 14px/22px Stolzl, sans-serif;
+    font: 14px/22px "Stolzl", sans-serif;
     margin-bottom: 32px;
   }
 }
@@ -8697,7 +8697,7 @@ input[type="number"] {
   margin-bottom: 32px;
   text-align: center;
   color: #222;
-  font: 500 45px/60px Stolzl, sans-serif;
+  font: 500 45px/60px "Stolzl", sans-serif;
 }
 
 @media (max-width: 1200px) {
@@ -8705,7 +8705,7 @@ input[type="number"] {
     padding: 100px 0 50px;
   }
   .connect-section--bo .connect-section__title {
-    font: 500 40px/50px Stolzl, sans-serif;
+    font: 500 40px/50px "Stolzl", sans-serif;
   }
 }
 
@@ -8722,7 +8722,7 @@ input[type="number"] {
   }
   .connect-section--bo .connect-section__title {
     margin-bottom: 16px;
-    font: 500 26px/32px Stolzl, sans-serif;
+    font: 500 26px/32px "Stolzl", sans-serif;
   }
 }
 
@@ -8745,7 +8745,7 @@ input[type="number"] {
 @media (max-width: 640px) {
   .connect-section--bo .connect-section__subtitle {
     margin-bottom: 32px;
-    font: 14px/22px Stolzl, sans-serif;
+    font: 14px/22px "Stolzl", sans-serif;
   }
   .connect-section--bo .connect-section__bg {
     background: 0 0;
@@ -8827,7 +8827,7 @@ input[type="number"] {
 
 .questions-section--checkerboard .questions-section__title {
   margin-bottom: 42px;
-  font: 500 40px/70px Stolzl, sans-serif;
+  font: 500 40px/70px "Stolzl", sans-serif;
   text-align: left;
 }
 
@@ -8839,7 +8839,7 @@ input[type="number"] {
     padding: 100px 0;
   }
   .questions-section--checkerboard .questions-section__title {
-    font: 500 35px/55px Stolzl, sans-serif;
+    font: 500 35px/55px "Stolzl", sans-serif;
   }
 }
 
@@ -8848,13 +8848,13 @@ input[type="number"] {
     padding: 70px 0;
   }
   .questions-section--checkerboard .questions-section__title {
-    font: 500 30px/40px Stolzl, sans-serif;
+    font: 500 30px/40px "Stolzl", sans-serif;
   }
 }
 
 @media (max-width: 640px) {
   .questions-section--checkerboard .questions-section__title {
-    font: 500 26px/32px Stolzl, sans-serif;
+    font: 500 26px/32px "Stolzl", sans-serif;
     margin-bottom: 40px;
   }
 }
@@ -8974,7 +8974,7 @@ input[type="number"] {
 }
 
 .partners-section--checkerboard .partners-section__title {
-  font: 500 50px/70px Stolzl, sans-serif;
+  font: 500 50px/70px "Stolzl", sans-serif;
   margin-bottom: 40px;
 }
 
@@ -8990,7 +8990,7 @@ input[type="number"] {
 
 @media (max-width: 992px) {
   .partners-section--checkerboard .partners-section__title {
-    font: 500 30px/40px Stolzl, sans-serif;
+    font: 500 30px/40px "Stolzl", sans-serif;
   }
   .partners-section--checkerboard .partners-section__arrow-prev {
     left: 0;
@@ -9002,7 +9002,7 @@ input[type="number"] {
 
 @media (max-width: 640px) {
   .partners-section--checkerboard .partners-section__title {
-    font: 500 26px/28px Stolzl, sans-serif;
+    font: 500 26px/28px "Stolzl", sans-serif;
     text-align: left;
     margin-bottom: 40px;
     padding: 0 16px;
@@ -9044,7 +9044,7 @@ input[type="number"] {
 }
 
 .partners-section--bo .partners-section__title {
-  font: 500 40px/55px Stolzl, sans-serif;
+  font: 500 40px/55px "Stolzl", sans-serif;
   color: #000;
   margin-bottom: 60px;
   padding-left: 64px;
@@ -9061,7 +9061,7 @@ input[type="number"] {
 
 @media (max-width: 1200px) {
   .partners-section--bo .partners-section__title {
-    font: 500 35px/50px Stolzl, sans-serif;
+    font: 500 35px/50px "Stolzl", sans-serif;
     padding-left: 0;
     margin-bottom: 40px;
   }
@@ -9074,14 +9074,14 @@ input[type="number"] {
     top: 149px;
   }
   .partners-section--bo .partners-section__title {
-    font: 500 30px/40px Stolzl, sans-serif;
+    font: 500 30px/40px "Stolzl", sans-serif;
     margin-bottom: 32px;
   }
 }
 
 @media (max-width: 640px) {
   .partners-section--bo .partners-section__title {
-    font: 500 26px/32px Stolzl, sans-serif;
+    font: 500 26px/32px "Stolzl", sans-serif;
     text-align: center;
     padding: 0 32px;
   }
@@ -9105,13 +9105,13 @@ input[type="number"] {
 
 .request-section__title {
   margin-bottom: 32px;
-  font: 500 40px/70px Stolzl, sans-serif;
+  font: 500 40px/70px "Stolzl", sans-serif;
   text-align: center;
 }
 
 @media (max-width: 1200px) {
   .request-section__title {
-    font: 500 35px/55px Stolzl, sans-serif;
+    font: 500 35px/55px "Stolzl", sans-serif;
   }
   .request-section--checkerboard {
     padding-top: 60px;
@@ -9120,13 +9120,13 @@ input[type="number"] {
 
 @media (max-width: 992px) {
   .request-section__title {
-    font: 500 22px/28px Stolzl, sans-serif;
+    font: 500 22px/28px "Stolzl", sans-serif;
   }
 }
 
 .request-section__subtitle {
   text-align: center;
-  font: 400 16px/24px Stolzl, sans-serif;
+  font: 400 16px/24px "Stolzl", sans-serif;
   margin-bottom: 35px;
 }
 
@@ -9150,7 +9150,7 @@ input[type="number"] {
 
 @media (max-width: 992px) {
   .request-section__subtitle {
-    font: 400 14px/24px Stolzl, sans-serif;
+    font: 400 14px/24px "Stolzl", sans-serif;
   }
   .request-section--checkerboard {
     padding-top: 35px;
@@ -9200,18 +9200,18 @@ input[type="number"] {
 }
 
 .text-section__subtitle {
-  font: 500 24px/15px Stolzl, sans-serif;
+  font: 500 24px/15px "Stolzl", sans-serif;
   margin-bottom: 16px;
 }
 
 @media (max-width: 992px) {
   .text-section__subtitle {
-    font: 500 16px/24px Stolzl, sans-serif;
+    font: 500 16px/24px "Stolzl", sans-serif;
   }
 }
 
 .text-section__text {
-  font: 16px/24px Stolzl, sans-serif;
+  font: 16px/24px "Stolzl", sans-serif;
 }
 
 .text-section__text p {
@@ -9230,7 +9230,7 @@ input[type="number"] {
     border-radius: 10px;
   }
   .text-section__text {
-    font: 14px/22px Stolzl, sans-serif;
+    font: 14px/22px "Stolzl", sans-serif;
   }
   .text-section__text p {
     line-height: 22px;
@@ -9380,7 +9380,7 @@ input[type="number"] {
   }
   .calc-section--type-2 .calc-section__title {
     max-width: 390px;
-    font: 500 30px/35px Stolzl, sans-serif;
+    font: 500 30px/35px "Stolzl", sans-serif;
   }
 }
 
@@ -9397,20 +9397,20 @@ input[type="number"] {
   }
   .calc-section--type-2 .calc-section__title {
     max-width: 290px;
-    font: 500 26px/32px Stolzl, sans-serif;
+    font: 500 26px/32px "Stolzl", sans-serif;
   }
 }
 
 .calc-section--type-2 .calc-section__desc {
   text-align: left;
-  font: 16px/22px Stolzl, sans-serif;
+  font: 16px/22px "Stolzl", sans-serif;
   color: rgba(0, 0, 0, 0.8);
   max-width: 490px;
 }
 
 .calc-section--type-2 .calc-section__desc-sm {
   display: none;
-  font: 14px/20px Stolzl, sans-serif;
+  font: 14px/20px "Stolzl", sans-serif;
 }
 
 .calc-section--bo {
@@ -9423,7 +9423,7 @@ input[type="number"] {
 
 .calc-section--bo .calc-section__title {
   color: #222;
-  font: 500 45px/60px Stolzl, sans-serif;
+  font: 500 45px/60px "Stolzl", sans-serif;
 }
 
 .calc-section--bo .calc-section__title span {
@@ -9435,7 +9435,7 @@ input[type="number"] {
     background-position: 100% 50%;
   }
   .calc-section--bo .calc-section__title {
-    font: 500 40px/50px Stolzl, sans-serif;
+    font: 500 40px/50px "Stolzl", sans-serif;
   }
 }
 
@@ -9451,7 +9451,7 @@ input[type="number"] {
     background-position: 67% 50%;
   }
   .calc-section--bo .calc-section__title {
-    font: 500 35px/40px Stolzl, sans-serif;
+    font: 500 35px/40px "Stolzl", sans-serif;
   }
 }
 
@@ -9465,7 +9465,7 @@ input[type="number"] {
     margin-bottom: 48px;
   }
   .calc-section--bo .calc-section__title {
-    font: 500 26px/32px Stolzl, sans-serif;
+    font: 500 26px/32px "Stolzl", sans-serif;
   }
 }
 
@@ -9483,13 +9483,13 @@ input[type="number"] {
 }
 
 .module-about-section__title {
-  font: 500 28px/32px Stolzl, sans-serif;
+  font: 500 28px/32px "Stolzl", sans-serif;
   margin-bottom: 24px;
   color: #222;
 }
 
 .module-about-section__text {
-  font: 16px/26px Stolzl, sans-serif;
+  font: 16px/26px "Stolzl", sans-serif;
   color: rgba(34, 34, 34, 0.8);
   max-width: 868px;
 }
@@ -9499,11 +9499,11 @@ input[type="number"] {
     padding: 32px 0 24px;
   }
   .module-about-section__title {
-    font: 500 18px/32px Stolzl, sans-serif;
+    font: 500 18px/32px "Stolzl", sans-serif;
     margin-bottom: 16px;
   }
   .module-about-section__text {
-    font: 14px/22px Stolzl, sans-serif;
+    font: 14px/22px "Stolzl", sans-serif;
   }
 }
 
@@ -9594,20 +9594,20 @@ input[type="number"] {
   text-align: left;
   padding-left: 180px;
   margin-bottom: 0;
-  font: 500 50px/60px Stolzl, sans-serif;
+  font: 500 50px/60px "Stolzl", sans-serif;
 }
 
 @media (max-width: 1200px) {
   .advantages-section--checkerboard .advantages-section__title {
     padding-left: 100px;
-    font: 500 35px/50px Stolzl, sans-serif;
+    font: 500 35px/50px "Stolzl", sans-serif;
   }
 }
 
 @media (max-width: 992px) {
   .advantages-section--checkerboard .advantages-section__title {
     padding-left: 0;
-    font: 500 30px/40px Stolzl, sans-serif;
+    font: 500 30px/40px "Stolzl", sans-serif;
   }
   .advantages-section--checkerboard .advantages-section__right {
     margin-bottom: 40px;
@@ -9617,7 +9617,7 @@ input[type="number"] {
 @media (max-width: 640px) {
   .advantages-section--checkerboard .advantages-section__title {
     padding-left: 0;
-    font: 500 26px/32px Stolzl, sans-serif;
+    font: 500 26px/32px "Stolzl", sans-serif;
   }
 }
 
@@ -9672,7 +9672,7 @@ input[type="number"] {
 .advantages-section--bo .advantages-section__title {
   text-align: left;
   margin-bottom: 0;
-  font: 500 50px/60px Stolzl, sans-serif;
+  font: 500 50px/60px "Stolzl", sans-serif;
   margin-top: -42px;
 }
 
@@ -9684,7 +9684,7 @@ input[type="number"] {
     padding: 50px 0;
   }
   .advantages-section--bo .advantages-section__title {
-    font: 500 35px/50px Stolzl, sans-serif;
+    font: 500 35px/50px "Stolzl", sans-serif;
   }
 }
 
@@ -9697,14 +9697,14 @@ input[type="number"] {
     padding: 35px 0;
   }
   .advantages-section--bo .advantages-section__title {
-    font: 500 25px/32px Stolzl, sans-serif;
+    font: 500 25px/32px "Stolzl", sans-serif;
     margin-top: 0;
   }
 }
 
 @media (max-width: 640px) {
   .advantages-section--bo .advantages-section__title {
-    font: 500 25px/32px Stolzl, sans-serif;
+    font: 500 25px/32px "Stolzl", sans-serif;
   }
   .advantages-section--bo .advantages-section__title br {
     display: none;
@@ -9818,20 +9818,20 @@ input[type="number"] {
 }
 
 .default-section__title {
-  font: 500 45px/60px Stolzl, sans-serif;
+  font: 500 45px/60px "Stolzl", sans-serif;
   margin-bottom: 26px;
   color: #222;
 }
 
 @media (max-width: 1200px) {
   .default-section__title {
-    font: 500 35px/50px Stolzl, sans-serif;
+    font: 500 35px/50px "Stolzl", sans-serif;
   }
 }
 
 @media (max-width: 640px) {
   .default-section__title {
-    font: 500 26px/32px Stolzl, sans-serif;
+    font: 500 26px/32px "Stolzl", sans-serif;
     margin-bottom: 16px;
   }
 }
@@ -9861,7 +9861,7 @@ input[type="number"] {
 }
 
 .instruments-section__title {
-  font: 500 35px/50px Stolzl, sans-serif;
+  font: 500 35px/50px "Stolzl", sans-serif;
   color: #222;
   margin-bottom: 60px;
 }
@@ -9897,7 +9897,7 @@ input[type="number"] {
     padding: 70px 0;
   }
   .instruments-section__title {
-    font: 500 30px/40px Stolzl, sans-serif;
+    font: 500 30px/40px "Stolzl", sans-serif;
     margin-bottom: 40px;
   }
 }
@@ -9907,7 +9907,7 @@ input[type="number"] {
     padding: 70px 0;
   }
   .instruments-section__title {
-    font: 500 22px/30px Stolzl, sans-serif;
+    font: 500 22px/30px "Stolzl", sans-serif;
     margin-bottom: 20px;
   }
 }
@@ -9926,7 +9926,7 @@ input[type="number"] {
 
 .instruments-section__nav-item {
   margin-bottom: 16px;
-  font: 16px/28px Stolzl, sans-serif;
+  font: 16px/28px "Stolzl", sans-serif;
   color: rgba(34, 34, 34, 0.8);
   padding: 0 0 0 25px;
   display: block;
@@ -9947,7 +9947,7 @@ input[type="number"] {
 
 @media (max-width: 640px) {
   .instruments-section__nav-item {
-    font: 14px/20px Stolzl, sans-serif;
+    font: 14px/20px "Stolzl", sans-serif;
     padding-left: 22px;
     margin-bottom: 20px;
   }
@@ -9981,13 +9981,13 @@ input[type="number"] {
 
 .instruments-section__body-title {
   margin-bottom: 16px;
-  font: 500 18px/22px Stolzl, sans-serif;
+  font: 500 18px/22px "Stolzl", sans-serif;
   color: #222;
 }
 
 .instruments-section__body-text {
   color: rgba(34, 34, 34, 0.8);
-  font: 14px/22px Stolzl, sans-serif;
+  font: 14px/22px "Stolzl", sans-serif;
   margin-bottom: 32px;
 }
 
@@ -10001,10 +10001,10 @@ input[type="number"] {
     margin: 0 -15px 20px;
   }
   .instruments-section__body-title {
-    font: 500 14px/22px Stolzl, sans-serif;
+    font: 500 14px/22px "Stolzl", sans-serif;
   }
   .instruments-section__body-text {
-    font: 14px/20px Stolzl, sans-serif;
+    font: 14px/20px "Stolzl", sans-serif;
     margin-bottom: 24px;
   }
   .instruments-section__body-text:last-child {
@@ -10033,7 +10033,7 @@ input[type="number"] {
   }
   .capabilities-section__title {
     margin-bottom: 40px;
-    font: 500 25px/32px Stolzl, sans-serif;
+    font: 500 25px/32px "Stolzl", sans-serif;
   }
 }
 
@@ -10127,32 +10127,32 @@ input[type="number"] {
 
 .support-section__title {
   margin-bottom: 24px;
-  font: 500 45px/60px Stolzl, sans-serif;
+  font: 500 45px/60px "Stolzl", sans-serif;
   color: #000;
 }
 
 @media (max-width: 1200px) {
   .support-section__title {
-    font: 500 35px/50px Stolzl, sans-serif;
+    font: 500 35px/50px "Stolzl", sans-serif;
   }
 }
 
 @media (max-width: 992px) {
   .support-section__title {
-    font: 500 28px/36px Stolzl, sans-serif;
+    font: 500 28px/36px "Stolzl", sans-serif;
     margin-bottom: 16px;
   }
 }
 
 @media (max-width: 640px) {
   .support-section__title {
-    font: 500 25px/32px Stolzl, sans-serif;
+    font: 500 25px/32px "Stolzl", sans-serif;
   }
 }
 
 .support-section__text {
   color: rgba(0, 0, 0, 0.8);
-  font: 16px/24px Stolzl, sans-serif;
+  font: 16px/24px "Stolzl", sans-serif;
   margin-bottom: 50px;
 }
 
@@ -10174,7 +10174,7 @@ input[type="number"] {
 
 @media (max-width: 1200px) {
   .support-section__text {
-    font: 14px/22px Stolzl, sans-serif;
+    font: 14px/22px "Stolzl", sans-serif;
     letter-spacing: 0.5px;
     margin-bottom: 34px;
   }
@@ -10208,14 +10208,14 @@ input[type="number"] {
 
 .support-section__advantages-title {
   margin-bottom: 32px;
-  font: 500 16px/24px Stolzl, sans-serif;
+  font: 500 16px/24px "Stolzl", sans-serif;
   color: #222;
 }
 
 @media (max-width: 1200px) {
   .support-section__advantages-title {
     margin-bottom: 24px;
-    font: 500 14px/22px Stolzl, sans-serif;
+    font: 500 14px/22px "Stolzl", sans-serif;
   }
 }
 
@@ -10386,7 +10386,7 @@ input[type="number"] {
 .contacts-page__title {
   margin-bottom: 10px;
   color: #222;
-  font: 500 40px/48px Stolzl, sans-serif;
+  font: 500 40px/48px "Stolzl", sans-serif;
 }
 
 @media (max-width: 640px) {
@@ -10395,26 +10395,26 @@ input[type="number"] {
     border-radius: 12px;
   }
   .contacts-page__title {
-    font: 500 26px/40px Stolzl, sans-serif;
+    font: 500 26px/40px "Stolzl", sans-serif;
   }
 }
 
 .contacts-page__subtitle {
   margin-bottom: 16px;
   color: #222;
-  font: 500 18px/22px Stolzl, sans-serif;
+  font: 500 18px/22px "Stolzl", sans-serif;
 }
 
 .contacts-page__desc {
   margin-bottom: 32px;
   color: rgba(34, 34, 34, 0.5);
-  font: 16px/22px Stolzl, sans-serif;
+  font: 16px/22px "Stolzl", sans-serif;
   max-width: 457px;
 }
 
 @media (max-width: 640px) {
   .contacts-page__desc {
-    font: 14px/18px Stolzl, sans-serif;
+    font: 14px/18px "Stolzl", sans-serif;
     margin-bottom: 24px;
   }
 }
@@ -10460,7 +10460,7 @@ input[type="number"] {
 .contacts-page__police {
   margin: 24px 0 16px;
   color: #a7a7a7;
-  font: 12px/18px Stolzl, sans-serif;
+  font: 12px/18px "Stolzl", sans-serif;
 }
 
 .contacts-page__police a {
@@ -10514,7 +10514,7 @@ input[type="number"] {
   flex-direction: row;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  font: 14px/17px Stolzl, sans-serif;
+  font: 14px/17px "Stolzl", sans-serif;
   margin-bottom: 16px;
 }
 
@@ -10547,7 +10547,7 @@ input[type="number"] {
 
 .contacts-page__bottom {
   color: rgba(34, 34, 34, 0.6);
-  font: 14px/22px Stolzl, sans-serif;
+  font: 14px/22px "Stolzl", sans-serif;
 }
 
 @media (max-width: 640px) {
@@ -10558,6 +10558,6 @@ input[type="number"] {
     flex: 0 0 100%;
   }
   .contacts-page__bottom {
-    font: 12px/18px Stolzl, sans-serif;
+    font: 12px/18px "Stolzl", sans-serif;
   }
 }
