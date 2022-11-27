@@ -13,7 +13,7 @@
       bottom: 15px;
       width: 16px;
       height: 21px;
-      background: url("svg/rub.svg") no-repeat;
+      background: url("../svg/rub.svg") no-repeat;
    }
 }
 .capabilities-section {
@@ -348,7 +348,7 @@
    }
    color: #ffffff;
    padding: 35px 0px 0px 0px;
-   background: url("svg/modul-bg.svg"), linear-gradient(97.27deg, #1c306f 49.09%, rgba(20, 51, 163, 0.7) 88.39%);
+   background: url("../svg/modul-bg.svg"), linear-gradient(97.27deg, #1c306f 49.09%, rgba(20, 51, 163, 0.7) 88.39%);
    background-repeat: no-repeat;
    background-position-x: right;
    background-size: contain;
@@ -412,13 +412,13 @@
       width: 500px;
       height: 218px;
       &.img01 {
-         background: url("svg/cap01.png");
+         background: url("../svg/cap01.png");
       }
       &.img02 {
-         background: url("svg/cap02.png");
+         background: url("../svg/cap02.png");
       }
       &.img03 {
-         background: url("svg/cap03.png");
+         background: url("../svg/cap03.png");
       }
    }
    .first {
