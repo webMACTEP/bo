@@ -136,7 +136,7 @@ var uikit = {
 
 		$(".js-comments-slider").slick({
 			focusOnSelect: true,
-			infinite: true,
+			infinite: false,
 			variableWidth: false,
 			slidesToShow: 1,
 			slidesToScroll: 1,
@@ -155,12 +155,12 @@ var uikit = {
 
 		$(".js-comments-slider-2").slick({
 			focusOnSelect: true,
-			infinite: true,
+			infinite: false,
 			variableWidth: false,
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			centerMode: false,
-			arrows: true,
+			arrows: false,
 			fade: false,
 			dots: false,
 			nextArrow: '<button type="button" class="partners-section__arrow-next slick-next slick-arrow"><svg class="icon"><use xlink:href="images/sprite-svg.svg#arrow-left-2"></svg></button>',
