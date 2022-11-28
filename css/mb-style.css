@@ -252,7 +252,7 @@
 }
 
 .marketing-modul {
-  padding: 90px 0px 110px 0px;
+  padding: 90px 0px 111px 0px;
   background: #ffffff;
 }
 
@@ -303,4 +303,38 @@
   font-weight: 500;
   font-size: 35px;
   line-height: 45px;
+}
+
+.safety-modul {
+  padding: 31px 0px;
+  color: #fff;
+  background: #1c306f;
+}
+
+.safety-modul .info {
+  max-width: 780px;
+}
+
+.safety-modul p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.8;
+}
+
+.safety-modul h2 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+  margin: 0px 0px 16px 0px;
+}
+
+.safety-modul .wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 85px;
 }
