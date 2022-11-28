@@ -365,6 +365,80 @@
    }
 }
 @media (max-width: 992px) {
+   .over-comments {
+      display: flex;
+   }
+   .banner-section--bo.modul-br .banner-section__text {
+      margin-bottom: 26px;
+   }
+   .banner-section--bo.modul-br .banner-section__title {
+      margin-bottom: 40px;
+   }
+   .banner-section--bo.modul-br {
+      padding: 58px 0 54px;
+   }
+   .benefits.modul-br .row {
+      margin: 0px 0px 33px 0px;
+   }
+   .benefits.modul-br h3::before {
+      left: -22px;
+   }
+   .benefits.modul-br h3 {
+      margin: 0px 0px 16px 22px;
+   }
+   .benefits.modul-br {
+      padding: 40px 0px 1px 0px;
+   }
+   .where-modul .item {
+      margin: 0px 0px 23px 0px;
+      padding: 20px 10px 20px 16px;
+   }
+   .where-modul .wrapp {
+      gap: 65px;
+   }
+   .where-modul p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      br {
+         display: none;
+      }
+   }
+   .where-modul h3 {
+      margin: 0px 0px 12px 0px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+   }
+   .where-modul {
+      padding: 108px 0px 15px 0px;
+   }
+   .where-modul h2 {
+      padding: 15px 0px;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 32px;
+   }
+   .safety-modul p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+   }
+   .safety-modul .wrapp {
+      gap: 18px;
+   }
+   .safety-modul {
+      h2 {
+         text-align: center;
+         font-weight: 500;
+         font-size: 20px;
+         line-height: 28px;
+      }
+      padding: 40px 0px 40px 0px;
+      .img {
+         max-width: 64px;
+      }
+   }
    .marketing-modul .wrapp {
       gap: 35px;
    }
@@ -566,9 +640,6 @@
    }
    .intro.modul-br {
       background: #1c306f;
-   }
-   .where-modul h2 {
-      padding: 0px 0px 0px 0px;
    }
    .where-modul .icon {
       display: none;
