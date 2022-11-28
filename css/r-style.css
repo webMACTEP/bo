@@ -735,7 +735,7 @@
     background: linear-gradient(180deg, #1c306f 60.22%, rgba(20, 51, 163, 0.7) 100%);
   }
   .modul .img {
-    margin: 41px 30px -16px 23px;
+    margin: 41px 30px -6px 23px;
   }
   .statistics ul {
     margin: 23px 0px 41px 5px;
@@ -899,6 +899,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .js-price-value::after {
+    width: 12px;
+    height: 15px;
+    bottom: 10px;
+    right: -20px;
+    background-size: cover;
   }
 }
 
