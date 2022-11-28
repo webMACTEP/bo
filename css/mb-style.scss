@@ -365,6 +365,11 @@
    }
 }
 @media (max-width: 992px) {
+   .sales-modul .butt {
+      justify-content: center;
+      margin: 27px 0px 0px 0px;
+      max-width: 100%;
+   }
    .sales-modul .column.right .item h4 {
       min-width: 145px;
    }
