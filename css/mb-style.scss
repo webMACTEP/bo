@@ -356,11 +356,99 @@
 .characteristics-modul .list-mob {
    display: none;
 }
+.demo-modul .widget-mob {
+   display: none;
+}
 @media (max-width: 992px) {
+   .sales-modul .title span {
+      margin: 0px 0px 0px 0px;
+   }
+   .sales-modul .title p {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      /* or 150% */
+
+      text-align: center;
+   }
+   .sales-modul .column {
+      max-width: 50%;
+   }
+   .sales-modul .column.right {
+      min-width: auto;
+   }
+   .sales-modul .item h4 {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #fc6733;
+      margin: 0px 0px 10px 0px;
+      &::before {
+         display: none;
+      }
+   }
+   .sales-modul .info p {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      margin: 0px 0px 0px 0px;
+   }
+   .sales-modul .info {
+      padding: 10px;
+   }
+   .sales-modul .title {
+      padding: 20px;
+      span {
+         display: block;
+         text-align: center;
+      }
+   }
+   .sales-modul .title h3 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+   }
+   .sales-modul .wrapp {
+      max-width: 100%;
+      gap: 15px;
+   }
+   .sales-modul {
+      padding: 70px 0px 120px 0px;
+   }
+   .sales-modul h2 {
+      margin: 0px 0px 31px 0px;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 32px;
+      text-align: center;
+   }
+   .demo-modul .widget-mob {
+      display: block;
+   }
+
+   .demo-modul h2 {
+      max-width: 270px;
+      margin: 0px auto 25px auto;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+   }
    .demo-modul .img {
       display: none;
    }
    .demo-modul {
+      padding: 58px 0px 54px 0px;
+      p {
+         margin-bottom: 39px;
+         font-weight: 300;
+         font-size: 14px;
+         line-height: 20px;
+      }
+      .widget {
+         display: none;
+      }
       margin-top: -6px;
    }
    .characteristics-modul .list p {
@@ -415,10 +503,7 @@
    .where-modul .icon {
       display: none;
    }
-   .sales-modul .column.right {
-      min-width: 100%;
-   }
-   .sales-modul .wrapp,
+
    .safety-modul .wrapp,
    .where-modul .wrapp,
    .characteristics-modul .wrapp,
