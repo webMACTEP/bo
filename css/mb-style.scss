@@ -359,9 +359,48 @@
 .demo-modul .widget-mob {
    display: none;
 }
+.sales-modul .title {
+   .mob {
+      display: none;
+   }
+}
 @media (max-width: 992px) {
+   .sales-modul .column.right .item h4 {
+      min-width: 145px;
+   }
+   .sales-modul .title h3 {
+      margin: 0px 0px 10px 0px;
+   }
+   .sales-modul .item {
+      margin: 0px 0px 16px 0px;
+      height: 204px;
+      padding: 18px 10px 10px 10px;
+      background: #ffffff;
+   }
+   .sales-modul .column.right .item {
+      h4 {
+         color: #4f4f4f;
+      }
+      background: #ebebeb;
+   }
+   .sales-modul .info,
+   .sales-modul .column.right .info {
+      background: none;
+   }
+   .sales-modul .title {
+      margin: 0px 0px 16px 0px;
+      .mob {
+         display: block;
+      }
+      .dt {
+         display: none;
+      }
+   }
    .sales-modul .title span {
-      margin: 0px 0px 0px 0px;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 55px;
+      margin: 0px 0px 5px 10px;
    }
    .sales-modul .title p {
       font-weight: 400;
@@ -372,7 +411,7 @@
       text-align: center;
    }
    .sales-modul .column {
-      max-width: 50%;
+      max-width: 47%;
    }
    .sales-modul .column.right {
       min-width: auto;
@@ -394,10 +433,11 @@
       margin: 0px 0px 0px 0px;
    }
    .sales-modul .info {
-      padding: 10px;
+      padding: 0px;
    }
    .sales-modul .title {
-      padding: 20px;
+      height: 190px;
+      padding: 22px 18px 0px 18px;
       span {
          display: block;
          text-align: center;
@@ -411,6 +451,7 @@
    }
    .sales-modul .wrapp {
       max-width: 100%;
+      justify-content: space-between;
       gap: 15px;
    }
    .sales-modul {
