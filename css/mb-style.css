@@ -9,8 +9,21 @@
   margin: 0px 10px -5px 0px;
 }
 
+.benefits.modul-br {
+  padding: 87px 0px 26px 0px;
+}
+
+.benefits.modul-br .row {
+  margin: 0px 0px 45px 0px;
+}
+
 .benefits.modul-br h3 {
   max-width: 390px;
+  margin: 0px 0px 0px 54px;
+}
+
+.benefits.modul-br h3::before {
+  left: -54px;
 }
 
 .characteristics-modul {
@@ -337,4 +350,79 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 85px;
+}
+
+.where-modul {
+  padding: 120px 0px 86px 0px;
+}
+
+.where-modul p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+}
+
+.where-modul h3 {
+  color: #222;
+  margin: 0px 0px 16px 0px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.where-modul .icon {
+  margin: 0px 45px 0px 0px;
+  text-align: center;
+  width: 85px;
+  height: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.where-modul .info {
+  max-width: 410px;
+}
+
+.where-modul .item {
+  margin: 0px 0px 34px 0px;
+  padding: 20px 48px 20px 40px;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.where-modul h2 {
+  margin: -44px 0px 0px 0px;
+  padding: 0px 45px 0px 0px;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 60px;
+  max-width: 444px;
+  background: url("../svg/wh-bg.svg") no-repeat;
+  background-position-x: right;
+  background-size: contain;
+}
+
+.where-modul .wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 126px;
+}
+
+.banner-section--bo.modul-br {
+  padding: 120px 0 120px;
+}
+
+.banner-section--bo.modul-br .banner-section__title {
+  margin-bottom: 50px;
 }
