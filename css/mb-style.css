@@ -112,3 +112,121 @@
 .demo-modul .container {
   position: relative;
 }
+
+.sales-modul {
+  padding: 121px 0px 236px 0px;
+}
+
+.sales-modul .item {
+  margin: 0px 0px 38px 0px;
+}
+
+.sales-modul .item p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.sales-modul .item h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0px 0px 16px 24px;
+  position: relative;
+}
+
+.sales-modul .item h4::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: #fc6733;
+  position: absolute;
+  left: -24px;
+  top: 2px;
+  -webkit-clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+          clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+}
+
+.sales-modul .info {
+  background: #ffffff;
+  padding: 55px 40px 40px 40px;
+}
+
+.sales-modul .info p {
+  margin: 0px 0px 0px 26px;
+}
+
+.sales-modul .title {
+  margin: 0px 0px 26px 0px;
+  padding: 40px 40px 16px 40px;
+  background: #ffffff;
+}
+
+.sales-modul .title span {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 100px;
+  margin: 0px 21px 0px 0px;
+  position: relative;
+}
+
+.sales-modul .title span::after {
+  content: "%";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  margin-left: 7px;
+}
+
+.sales-modul .title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.sales-modul .title h3 {
+  margin: 0px 0px 25px 0px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.sales-modul .wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 24px;
+}
+
+.sales-modul .column {
+  max-width: 588px;
+}
+
+.sales-modul .column.left span {
+  color: #fc6733;
+}
+
+.sales-modul .column.right h4::before {
+  background: #bdbdbd;
+}
+
+.sales-modul .column.right span {
+  color: #4f4f4f;
+}
+
+.sales-modul .column.right .title,
+.sales-modul .column.right .info {
+  background: #ebebeb;
+  color: #4f4f4f;
+}
+
+.sales-modul h2 {
+  margin: 0px 0px 69px 0px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 45px;
+}

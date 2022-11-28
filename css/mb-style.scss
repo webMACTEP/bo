@@ -91,3 +91,105 @@
    padding: 70px 0px 63px 0px;
    background: #1c306f;
 }
+.sales-modul {
+   .item {
+      p {
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 22px;
+      }
+      h4 {
+         font-weight: 500;
+         font-size: 20px;
+         line-height: 24px;
+         margin: 0px 0px 16px 24px;
+         position: relative;
+         &::before {
+            content: "";
+            width: 14px;
+            height: 14px;
+            background: #fc6733;
+            position: absolute;
+            left: -24px;
+            top: 2px;
+            clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
+         }
+      }
+      margin: 0px 0px 38px 0px;
+   }
+   .info {
+      background: #ffffff;
+      padding: 55px 40px 40px 40px;
+      p {
+         margin: 0px 0px 0px 26px;
+         //max-width: 460px;
+      }
+   }
+
+   .title {
+      span {
+         font-weight: 500;
+         font-size: 64px;
+         line-height: 100px;
+         margin: 0px 21px 0px 0px;
+         position: relative;
+         &::after {
+            content: "%";
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 35px;
+            margin-left: 7px;
+         }
+      }
+      p {
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 24px;
+      }
+      h3 {
+         margin: 0px 0px 25px 0px;
+         font-weight: 500;
+         font-size: 30px;
+         line-height: 35px;
+      }
+      margin: 0px 0px 26px 0px;
+      padding: 40px 40px 16px 40px;
+      background: #ffffff;
+   }
+   .wrapp {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+   }
+   .column {
+      max-width: 588px;
+      &.left {
+         span {
+            color: #fc6733;
+         }
+      }
+      &.right {
+         h4 {
+            &::before {
+               background: #bdbdbd;
+            }
+         }
+         span {
+            color: #4f4f4f;
+         }
+         .title,
+         .info {
+            background: #ebebeb;
+            color: #4f4f4f;
+         }
+      }
+   }
+   h2 {
+      margin: 0px 0px 69px 0px;
+      text-align: center;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 45px;
+   }
+   padding: 121px 0px 236px 0px;
+}
