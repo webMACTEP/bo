@@ -431,3 +431,25 @@
 .banner-section--bo.modul-br .banner-section__title {
   margin-bottom: 50px;
 }
+
+@media (max-width: 992px) {
+  .where-modul h2 {
+    padding: 0px 0px 0px 0px;
+  }
+  .where-modul .icon {
+    display: none;
+  }
+  .sales-modul .column.right {
+    min-width: 100%;
+  }
+  .sales-modul .wrapp,
+  .safety-modul .wrapp,
+  .where-modul .wrapp,
+  .characteristics-modul .wrapp,
+  .marketing-modul .wrapp {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
