@@ -13,12 +13,12 @@
   max-width: 390px;
 }
 
-.characteristics {
+.characteristics-modul {
   padding: 152px 0px 84px 0px;
   background: #deefff;
 }
 
-.characteristics h3 {
+.characteristics-modul h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -26,7 +26,7 @@
   margin: 0px 0px 25px 24px;
 }
 
-.characteristics h3::before {
+.characteristics-modul h3::before {
   content: "";
   width: 14px;
   height: 14px;
@@ -38,33 +38,33 @@
           clip-path: polygon(48% 0, 100% 50%, 50% 100%, 0% 100%, 45% 51%, 0% 0%);
 }
 
-.characteristics .list {
+.characteristics-modul .list {
   max-width: 570px;
   padding: 50px 0px 0px 0px;
 }
 
-.characteristics .list p {
+.characteristics-modul .list p {
   margin: 0px 0px 59px 0px;
 }
 
-.characteristics p {
+.characteristics-modul p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
 
-.characteristics h2 {
+.characteristics-modul h2 {
   margin: 78px 0px 32px 0px;
   font-weight: 500;
   font-size: 35px;
   line-height: 45px;
 }
 
-.characteristics .info {
+.characteristics-modul .info {
   max-width: 450px;
 }
 
-.characteristics .wrapp {
+.characteristics-modul .wrapp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,7 +73,7 @@
           justify-content: space-between;
 }
 
-.characteristics .wrapp:nth-child(1) {
+.characteristics-modul .wrapp:nth-child(1) {
   margin-bottom: 243px;
 }
 
