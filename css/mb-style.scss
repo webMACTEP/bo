@@ -365,6 +365,30 @@
    }
 }
 @media (max-width: 992px) {
+   .marketing-modul .wrapp {
+      gap: 35px;
+   }
+   .marketing-modul {
+      padding: 40px 0px 32px 0px;
+   }
+   .marketing-modul p {
+      margin-bottom: 23px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+   }
+   .marketing-modul h3 {
+      margin: 0px 0px 10px 22px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+   }
+   .marketing-modul h2 {
+      margin: 0px 0px 33px 0px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+   }
    .sales-modul .butt {
       justify-content: center;
       margin: 27px 0px 0px 0px;
