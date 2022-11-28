@@ -31,7 +31,7 @@
          content: "";
          width: 14px;
          height: 14px;
-         background: #fc6733;
+         background: #2655ff;
          position: absolute;
          left: -22px;
          top: 4px;
@@ -72,13 +72,14 @@
 .demo-modul {
    p {
       max-width: 990px;
-      font-weight: 400;
+      font-weight: 300;
       font-size: 16px;
       line-height: 24px;
       color: rgba(255, 255, 255, 0.8);
       margin-bottom: 50px;
       span {
          font-weight: 500;
+         color: #fff;
       }
    }
    h2 {
@@ -270,7 +271,7 @@
       max-width: 780px;
    }
    p {
-      font-weight: 400;
+      font-weight: 300;
       font-size: 16px;
       line-height: 24px;
       opacity: 0.8;
