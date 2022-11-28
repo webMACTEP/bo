@@ -433,6 +433,33 @@
 }
 
 @media (max-width: 992px) {
+  .characteristics-modul .wrapp:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  .characteristics-modul .forma {
+    display: none;
+  }
+  .characteristics-modul .img {
+    max-width: 255px;
+    margin: 39px auto 0px auto;
+  }
+  .characteristics-modul p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .characteristics-modul p br {
+    display: none;
+  }
+  .characteristics-modul h2 {
+    margin: -93px 0px 25px 0px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .intro.modul-br {
+    background: #1c306f;
+  }
   .where-modul h2 {
     padding: 0px 0px 0px 0px;
   }
