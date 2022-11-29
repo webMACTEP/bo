@@ -8,11 +8,19 @@
    }
 }
 .benefits.modul-br {
+   p {
+      margin: 0px 0px 0px 0px;
+      max-width: 688px;
+   }
    .row {
+      justify-content: flex-start;
       margin: 0px 0px 45px 0px;
+      gap: 66px;
    }
    h3 {
+      min-width: 390px;
       max-width: 390px;
+
       margin: 0px 0px 0px 54px;
       &::before {
          left: -54px;

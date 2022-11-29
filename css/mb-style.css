@@ -13,11 +13,21 @@
   padding: 87px 0px 26px 0px;
 }
 
+.benefits.modul-br p {
+  margin: 0px 0px 0px 0px;
+  max-width: 688px;
+}
+
 .benefits.modul-br .row {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   margin: 0px 0px 45px 0px;
+  gap: 66px;
 }
 
 .benefits.modul-br h3 {
+  min-width: 390px;
   max-width: 390px;
   margin: 0px 0px 0px 54px;
 }

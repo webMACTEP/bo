@@ -509,6 +509,10 @@
   background: linear-gradient(180deg, #deefff 0%, rgba(222, 239, 255, 0) 100%);
 }
 
+.capabilities .mob {
+  display: none;
+}
+
 .capabilities h4 {
   margin: 0px 0px 25px 0px;
   padding: 6px 0px 6px 25px;
@@ -580,6 +584,18 @@
 }
 
 @media (max-width: 992px) {
+  .capabilities .img {
+    background-size: cover;
+  }
+  .capabilities .img {
+    background-size: cover;
+  }
+  .capabilities .mob {
+    display: block;
+  }
+  .capabilities .dt {
+    display: none;
+  }
   .comment-block__link {
     margin-top: 13px;
   }
@@ -893,6 +909,15 @@
   .capabilities .img {
     width: 100%;
     max-width: 500px;
+  }
+  .capabilities .img.img01 {
+    background-size: cover;
+  }
+  .capabilities .img.img02 {
+    background-size: cover;
+  }
+  .capabilities .img.img03 {
+    background-size: cover;
   }
   .capabilities .wrapp {
     -webkit-box-orient: vertical;
