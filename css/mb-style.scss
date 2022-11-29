@@ -372,6 +372,11 @@
       display: none;
    }
 }
+.footer.modul-br {
+   .footer__links {
+      margin: 43px 0px 0px 0px;
+   }
+}
 @media (max-width: 992px) {
    .over-comments {
       display: flex;
