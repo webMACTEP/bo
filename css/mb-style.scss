@@ -378,8 +378,18 @@
    }
 }
 @media (max-width: 992px) {
+   .request-section h4 {
+      max-width: 300px;
+   }
+   .benefits.modul-br h3 {
+      min-width: auto;
+   }
+   .benefits.modul-br .row {
+      gap: 0px;
+   }
    .over-comments {
       display: flex;
+      max-width: 100%;
    }
    .banner-section--bo.modul-br .banner-section__text {
       margin-bottom: 26px;
