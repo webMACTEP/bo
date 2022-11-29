@@ -459,6 +459,9 @@
 }
 
 @media (max-width: 992px) {
+  .footer.modul-br .footer__links {
+    margin: 0px 0px 0px 0px;
+  }
   .request-section h4 {
     max-width: 300px;
   }
